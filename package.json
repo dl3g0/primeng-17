@@ -1,6 +1,6 @@
 {
     "name": "primeng",
-    "version": "17.18.15",
+    "version": "17.19.0",
     "license": "SEE LICENSE IN LICENSE.md",
     "scripts": {
         "setup": "npm run clean && npm run init",
