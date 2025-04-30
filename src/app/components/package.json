@@ -1,16 +1,16 @@
 {
-    "name": "primeng",
-    "version": "17.18.15",
+    "name": "@jacobg213/primeng-17",
+    "version": "17.19.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primeng"
+        "url": "https://github.com/jacobg213/primeng.git"
     },
     "keywords": [
         "angular"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/primeng/issues"
+        "url": "https://github.com/jacobg213/primeng/issues"
     },
     "exports": {
         "./resources/": "./resources/"
@@ -18,9 +18,9 @@
     "module": "primeng.js",
     "typings": "primeng.d.ts",
     "peerDependencies": {
-        "@angular/core": "^17.0.0 || ^19.0.0",
-        "@angular/common": "^17.0.0 || ^19.0.0",
-        "@angular/forms": "^17.0.0 || ^19.0.0",
+        "@angular/core": "^17.0.0 || ^18.0.0 || ^19.0.0",
+        "@angular/common": "^17.0.0 || ^18.0.0 || ^19.0.0",
+        "@angular/forms": "^17.0.0 || ^18.0.0 || ^19.0.0",
         "rxjs": "^6.0.0 || ^7.8.1",
         "zone.js": "~0.15.0"
     }
