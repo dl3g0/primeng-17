@@ -1,6 +1,6 @@
 {
     "name": "@jacobg213/primeng-17",
-    "version": "17.19.0",
+    "version": "17.19.1",
     "license": "SEE LICENSE IN LICENSE.md",
     "scripts": {
         "setup": "npm run clean && npm run init",
