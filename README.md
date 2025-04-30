@@ -1,3 +1,7 @@
+# PrimeNG 17 with Angular 19 support
+
+The PrimeNG team does not seem to be interested in supporting v17 anymore. This fork was first created to add Angular 19 support to PrimeNG v17 in the official repository. Unfortunately, [the PR](https://github.com/primefaces/primeng/pull/18058) was rejected. That is why this is published as a separate package.
+
 [![npm version](https://badge.fury.io/js/primeng.svg)](https://badge.fury.io/js/primeng)
 [![npm downloads](https://img.shields.io/npm/dm/primeng.svg)](https://www.npmjs.com/package/primeng)
 [![Actions CI](https://github.com/primefaces/primeng/workflows/NodeJS%20CI/badge.svg)](https://github.com/primefaces/primeng/actions/workflows/node.js.yml)
