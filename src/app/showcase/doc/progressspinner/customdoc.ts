@@ -20,20 +20,20 @@ export class CustomDoc {
     @Input() title: string;
 
     code: Code = {
-        basic: `<p-progressSpinner 
-    styleClass="w-4rem h-4rem" 
-    strokeWidth="8" 
-    fill="var(--surface-ground)" 
+        basic: `<p-progressSpinner
+    styleClass="w-4rem h-4rem"
+    strokeWidth="8"
+    fill="var(--surface-ground)"
     animationDuration=".5s" />`,
         html: `<div class="card flex justify-content-center">
-    <p-progressSpinner 
-        styleClass="w-4rem h-4rem" 
-        strokeWidth="8" 
-        fill="var(--surface-ground)" 
+    <p-progressSpinner
+        styleClass="w-4rem h-4rem"
+        strokeWidth="8"
+        fill="var(--surface-ground)"
         animationDuration=".5s" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { ProgressSpinnerModule } from '@jacobg213/primeng-17/progressspinner';
 
 @Component({
     selector: 'progress-spinner-custom-demo',

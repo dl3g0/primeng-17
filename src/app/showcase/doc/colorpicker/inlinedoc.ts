@@ -18,19 +18,19 @@ export class InlineDoc {
     color: string | undefined;
 
     code: Code = {
-        basic: `<p-colorPicker 
-    [(ngModel)]="color1" 
+        basic: `<p-colorPicker
+    [(ngModel)]="color1"
     [inline]="true" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-colorPicker 
-        [(ngModel)]="color" 
+    <p-colorPicker
+        [(ngModel)]="color"
         [inline]="true" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@jacobg213/primeng-17/colorpicker';
 
 @Component({
     selector: 'color-picker-inline-demo',

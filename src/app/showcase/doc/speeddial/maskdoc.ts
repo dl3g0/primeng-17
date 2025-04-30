@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -57,25 +57,25 @@ export class MaskDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-speedDial 
-    [model]="items" 
-    direction="up" 
+        basic: `<p-speedDial
+    [model]="items"
+    direction="up"
     [mask]="true" />`,
 
         html: `<div class="card">
     <div style="height: 350px; position: relative;" class="speeddial-mask-demo">
         <p-toast />
-        <p-speedDial 
-            [model]="items" 
-            direction="up" 
+        <p-speedDial
+            [model]="items"
+            direction="up"
             [mask]="true" />
     </div>
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SpeedDialModule } from '@jacobg213/primeng-17/speeddial';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'speed-dial-mask-demo',

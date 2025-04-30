@@ -47,23 +47,23 @@ export class ControlledDoc {
 
     code: Code = {
         basic: `<div class="flex mb-3 gap-2 justify-content-end">
-    <p-button 
-        (click)="activeIndex = 0" 
-        rounded="true" 
-        label="1" 
-        styleClass="w-2rem h-2rem p-0" 
+    <p-button
+        (click)="activeIndex = 0"
+        rounded="true"
+        label="1"
+        styleClass="w-2rem h-2rem p-0"
         [outlined]="activeIndex !== 0" />
-    <p-button 
-        (click)="activeIndex = 1" 
-        rounded="true" 
-        label="2" 
-        styleClass="w-2rem h-2rem p-0" 
+    <p-button
+        (click)="activeIndex = 1"
+        rounded="true"
+        label="2"
+        styleClass="w-2rem h-2rem p-0"
         [outlined]="activeIndex !== 1" />
-    <p-button 
-        (click)="activeIndex = 2" 
-        rounded="true" 
-        label="3" 
-        styleClass="w-2rem h-2rem p-0" 
+    <p-button
+        (click)="activeIndex = 2"
+        rounded="true"
+        label="3"
+        styleClass="w-2rem h-2rem p-0"
         [outlined]="activeIndex !== 2" />
     </div>
     <p-accordion (activeIndexChange)="activeIndexChange($event)" [activeIndex]="activeIndex">
@@ -86,23 +86,23 @@ export class ControlledDoc {
 
         html: `<div class="card">
     <div class="flex mb-3 gap-2 justify-content-end">
-        <p-button 
-            (click)="activeIndex = 0" 
-            rounded="true" 
-            label="1" 
-            styleClass="w-2rem h-2rem p-0" 
+        <p-button
+            (click)="activeIndex = 0"
+            rounded="true"
+            label="1"
+            styleClass="w-2rem h-2rem p-0"
             [outlined]="activeIndex !== 0" />
-        <p-button 
-            (click)="activeIndex = 1" 
-            rounded="true" 
-            label="2" 
-            styleClass="w-2rem h-2rem p-0" 
+        <p-button
+            (click)="activeIndex = 1"
+            rounded="true"
+            label="2"
+            styleClass="w-2rem h-2rem p-0"
             [outlined]="activeIndex !== 1" />
-        <p-button 
-            (click)="activeIndex = 2" 
-            rounded="true" 
-            label="3" 
-            styleClass="w-2rem h-2rem p-0" 
+        <p-button
+            (click)="activeIndex = 2"
+            rounded="true"
+            label="3"
+            styleClass="w-2rem h-2rem p-0"
             [outlined]="activeIndex !== 2" />
     </div>
     <p-accordion (activeIndexChange)="activeIndexChange($event)" [activeIndex]="activeIndex">
@@ -128,8 +128,8 @@ export class ControlledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
-import { ButtonModule } from 'primeng/button';
+import { AccordionModule } from '@jacobg213/primeng-17/accordion';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'accordion-controlled-demo',

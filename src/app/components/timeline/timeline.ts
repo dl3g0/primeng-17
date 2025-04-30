@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, Component, ContentChildren, ElementRef, Input, NgModule, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { BlockableUI, PrimeTemplate, SharedModule } from 'primeng/api';
-import { Nullable } from 'primeng/ts-helpers';
+import { BlockableUI, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
 /**
  * Timeline visualizes a series of chained events.
  * @group Components

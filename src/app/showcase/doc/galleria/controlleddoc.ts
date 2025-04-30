@@ -74,22 +74,22 @@ export class ControlledDoc implements OnInit {
 
     code: Code = {
         basic: `<div class="py-2">
-    <p-button 
-        type="button" 
-        icon="pi pi-minus" 
-        (onClick)="prev()" 
-        severity="secondary" 
+    <p-button
+        type="button"
+        icon="pi pi-minus"
+        (onClick)="prev()"
+        severity="secondary"
         styleClass="mr-2" />
-    <p-button 
-        type="button" 
-        icon="pi pi-plus" 
+    <p-button
+        type="button"
+        icon="pi pi-plus"
         (onClick)="next()" />
 </div>
-<p-galleria 
-    [(value)]="images" 
-    [responsiveOptions]="responsiveOptions" 
-    [containerStyle]="{ 'max-width': '640px' }" 
-    [numVisible]="5" 
+<p-galleria
+    [(value)]="images"
+    [responsiveOptions]="responsiveOptions"
+    [containerStyle]="{ 'max-width': '640px' }"
+    [numVisible]="5"
     [(activeIndex)]="activeIndex">
         <ng-template pTemplate="item" let-item>
             <img [src]="item.itemImageSrc" style="width: 100%;" />
@@ -102,22 +102,22 @@ export class ControlledDoc implements OnInit {
 </p-galleria>`,
         html: `<div class="card">
     <div class="py-2">
-        <p-button 
-            type="button" 
-            icon="pi pi-minus" 
-            (onClick)="prev()" 
-            severity="secondary" 
+        <p-button
+            type="button"
+            icon="pi pi-minus"
+            (onClick)="prev()"
+            severity="secondary"
             styleClass="mr-2" />
-        <p-button 
-            type="button" 
-            icon="pi pi-plus" 
+        <p-button
+            type="button"
+            icon="pi pi-plus"
             (onClick)="next()" />
     </div>
-    <p-galleria 
-        [(value)]="images" 
-        [responsiveOptions]="responsiveOptions" 
-        [containerStyle]="{ 'max-width': '640px' }" 
-        [numVisible]="5" 
+    <p-galleria
+        [(value)]="images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }"
+        [numVisible]="5"
         [(activeIndex)]="activeIndex">
             <ng-template pTemplate="item" let-item>
                 <img [src]="item.itemImageSrc" style="width: 100%;" />
@@ -131,8 +131,8 @@ export class ControlledDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
-import { ButtonModule } from 'primeng/button';
+import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'galleria-controlled-demo',

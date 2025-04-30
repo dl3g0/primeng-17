@@ -27,16 +27,16 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { Footer, Header, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { FocusTrapModule } from 'primeng/focustrap';
-import { TimesIcon } from 'primeng/icons/times';
-import { WindowMaximizeIcon } from 'primeng/icons/windowmaximize';
-import { WindowMinimizeIcon } from 'primeng/icons/windowminimize';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from 'primeng/utils';
-import { ButtonModule } from 'primeng/button';
+import { Footer, Header, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { FocusTrapModule } from '@jacobg213/primeng-17/focustrap';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { WindowMaximizeIcon } from '@jacobg213/primeng-17/icons/windowmaximize';
+import { WindowMinimizeIcon } from '@jacobg213/primeng-17/icons/windowminimize';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}')]);
 

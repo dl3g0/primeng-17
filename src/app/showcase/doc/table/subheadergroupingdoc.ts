@@ -112,14 +112,14 @@ export class SubheaderGroupingDoc {
     }
 
     code: Code = {
-        basic: `<p-table 
-    [value]="customers" 
-    sortField="representative.name" 
-    sortMode="single" 
-    [scrollable]="true" 
-    scrollHeight="400px" 
-    rowGroupMode="subheader" 
-    groupRowsBy="representative.name" 
+        basic: `<p-table
+    [value]="customers"
+    sortField="representative.name"
+    sortMode="single"
+    [scrollable]="true"
+    scrollHeight="400px"
+    rowGroupMode="subheader"
+    groupRowsBy="representative.name"
     [tableStyle]="{'min-width': '60rem'}">
         <ng-template pTemplate="header">
             <tr>
@@ -133,10 +133,10 @@ export class SubheaderGroupingDoc {
         <ng-template pTemplate="groupheader" let-customer>
             <tr pRowGroupHeader>
                 <td colspan="5">
-                    <img 
-                        [alt]="customer.representative.name" 
-                        src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{customer.representative.image}}" 
-                        width="32" 
+                    <img
+                        [alt]="customer.representative.name"
+                        src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{customer.representative.image}}"
+                        width="32"
                         style="vertical-align: middle" />
                     <span class="font-bold ml-2">{{customer.representative.name}}</span>
                 </td>
@@ -155,9 +155,9 @@ export class SubheaderGroupingDoc {
                     {{customer.name}}
                 </td>
                 <td>
-                    <img 
-                        src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" 
-                        [class]="'flag flag-' + customer.country.code" 
+                    <img
+                        src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png"
+                        [class]="'flag flag-' + customer.country.code"
                         style="width: 20px">
                     <span class="ml-1 vertical-align-middle">{{customer.country.name}}</span>
                 </td>
@@ -174,14 +174,14 @@ export class SubheaderGroupingDoc {
         </ng-template>
 </p-table>`,
         html: `<div class="card">
-    <p-table 
+    <p-table
         [value]="customers"
-        sortField="representative.name" 
-        sortMode="single" 
-        [scrollable]="true" 
-        scrollHeight="400px" 
-        rowGroupMode="subheader" 
-        groupRowsBy="representative.name" 
+        sortField="representative.name"
+        sortMode="single"
+        [scrollable]="true"
+        scrollHeight="400px"
+        rowGroupMode="subheader"
+        groupRowsBy="representative.name"
         [tableStyle]="{'min-width': '60rem'}">
             <ng-template pTemplate="header">
                 <tr>
@@ -195,10 +195,10 @@ export class SubheaderGroupingDoc {
             <ng-template pTemplate="groupheader" let-customer>
                 <tr pRowGroupHeader>
                     <td colspan="5">
-                        <img 
-                            [alt]="customer.representative.name" 
-                            src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{customer.representative.image}}" 
-                            width="32" 
+                        <img
+                            [alt]="customer.representative.name"
+                            src="https://primefaces.org/cdn/primeng/images/demo/avatar/{{customer.representative.image}}"
+                            width="32"
                             style="vertical-align: middle" />
                         <span class="font-bold ml-2">{{customer.representative.name}}</span>
                     </td>
@@ -217,9 +217,9 @@ export class SubheaderGroupingDoc {
                         {{customer.name}}
                     </td>
                     <td>
-                        <img 
-                            src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" 
-                            [class]="'flag-' + customer.country.code" 
+                        <img
+                            src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png"
+                            [class]="'flag-' + customer.country.code"
                             style="width: 20px">
                         <span class="ml-1 vertical-align-middle">{{customer.country.name}}</span>
                     </td>
@@ -239,9 +239,9 @@ export class SubheaderGroupingDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Customer } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { HttpClientModule } from '@angular/common/http';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@jacobg213/primeng-17/tag';
 
 @Component({
     selector: 'table-subheader-grouping-demo',

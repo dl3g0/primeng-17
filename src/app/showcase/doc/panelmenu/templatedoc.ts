@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -121,7 +121,7 @@ export class TemplateDoc implements OnInit {
                 {{ item.label }}
             </span>
             <p-badge *ngIf="item.badge" class="ml-auto" [value]="item.badge" />
-            <span *ngIf="item.shortcut" class="ml-auto border-1 surface-border 
+            <span *ngIf="item.shortcut" class="ml-auto border-1 surface-border
             border-round surface-100 text-xs p-1">
                 {{ item.shortcut }}
             </span>
@@ -138,7 +138,7 @@ export class TemplateDoc implements OnInit {
                     {{ item.label }}
                 </span>
                 <p-badge *ngIf="item.badge" class="ml-auto" [value]="item.badge" />
-                <span *ngIf="item.shortcut" class="ml-auto border-1 surface-border 
+                <span *ngIf="item.shortcut" class="ml-auto border-1 surface-border
                 border-round surface-100 text-xs p-1">
                     {{ item.shortcut }}
                 </span>
@@ -148,10 +148,10 @@ export class TemplateDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { PanelMenuModule } from 'primeng/panelmenu';
-import { BadgeModule } from 'primeng/badge';
-import { RippleModule } from 'primeng/ripple';
+import { MenuItem } from '@jacobg213/primeng-17/api';
+import { PanelMenuModule } from '@jacobg213/primeng-17/panelmenu';
+import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 import { CommonModule } from '@angular/common';
 
 @Component({

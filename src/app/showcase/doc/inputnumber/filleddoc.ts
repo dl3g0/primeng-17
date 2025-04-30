@@ -25,7 +25,7 @@ export class FilledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
 import { FormsModule } from '@angular/forms';
 
 @Component({

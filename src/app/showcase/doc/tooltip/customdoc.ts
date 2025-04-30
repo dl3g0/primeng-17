@@ -21,10 +21,10 @@ import { Code } from '@domain/code';
 })
 export class CustomDoc {
     code: Code = {
-        basic: `<p-button 
-    [pTooltip]="tooltipContent" 
-    severity="secondary" 
-    tooltipPosition="bottom" 
+        basic: `<p-button
+    [pTooltip]="tooltipContent"
+    severity="secondary"
+    tooltipPosition="bottom"
     label="Button" />
 <ng-template #tooltipContent>
     <div class="flex align-items-center">
@@ -33,10 +33,10 @@ export class CustomDoc {
 </ng-template>`,
 
         html: `<div class="card flex justify-content-center">
-    <p-button 
+    <p-button
         [pTooltip]="tooltipContent"
-        severity="secondary" 
-        tooltipPosition="bottom" 
+        severity="secondary"
+        tooltipPosition="bottom"
         label="Button" />
             <ng-template #tooltipContent>
                 <div class="flex align-items-center">
@@ -45,8 +45,8 @@ export class CustomDoc {
             </ng-template>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { TooltipModule } from 'primeng/tooltip';
-import { ButtonModule } from 'primeng/button';
+import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'tooltip-custom-demo',
@@ -55,7 +55,7 @@ import { ButtonModule } from 'primeng/button';
     imports: [TooltipModule, ButtonModule]
 })
 export class TooltipCustomDemo {
-  
+
 }`
     };
 }

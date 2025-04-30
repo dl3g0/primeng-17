@@ -115,7 +115,7 @@ export class StackedBarDoc implements OnInit {
     <p-chart type="bar" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@jacobg213/primeng-17/chart';
 
 @Component({
     selector: 'chart-stacked-bar-demo',

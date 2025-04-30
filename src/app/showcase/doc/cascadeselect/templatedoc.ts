@@ -109,19 +109,19 @@ export class TemplateDoc {
     }
 
     code: Code = {
-        basic: `<p-cascadeSelect 
-    [(ngModel)]="selectedCity" 
+        basic: `<p-cascadeSelect
+    [(ngModel)]="selectedCity"
     [options]="countries"
     optionLabel="cname"
     optionGroupLabel="name"
     [optionGroupChildren]="['states', 'cities']"
-    [style]="{ minWidth: '14rem' }" 
+    [style]="{ minWidth: '14rem' }"
     placeholder="Select a City">
     <ng-template pTemplate="option" let-option>
         <div class="flex align-items-center gap-2">
-            <img 
+            <img
                 src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png"
-                *ngIf="option.states" 
+                *ngIf="option.states"
                 [class]="'flag flag-' + option.code.toLowerCase()"/>
             <i class="pi pi-compass mr-2" *ngIf="option.cities"></i>
             <i class="pi pi-map-marker mr-2" *ngIf="option.cname"></i>
@@ -131,17 +131,17 @@ export class TemplateDoc {
 </p-cascadeSelect>`,
 
         html: `<div class="card flex justify-content-center">
-    <p-cascadeSelect 
-        [(ngModel)]="selectedCity" 
+    <p-cascadeSelect
+        [(ngModel)]="selectedCity"
         [options]="countries"
-        optionLabel="cname" 
+        optionLabel="cname"
         optionGroupLabel="name"
         [optionGroupChildren]="['states', 'cities']"
         [style]="{ minWidth: '14rem' }"
         placeholder="Select a City">
             <ng-template pTemplate="option" let-option>
                 <div class="flex align-items-center gap-2">
-                    <img 
+                    <img
                         src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png"
                         *ngIf="option.states"
                         [class]="'flag flag-' + option.code.toLowerCase()"/>
@@ -155,7 +155,7 @@ export class TemplateDoc {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CascadeSelectModule } from 'primeng/cascadeselect';
+import { CascadeSelectModule } from '@jacobg213/primeng-17/cascadeselect';
 
 @Component({
     selector: 'cascade-select-template-demo',
@@ -167,7 +167,7 @@ export class CascadeSelectTemplateDemo implements OnInit {
     countries: any[] | undefined;
 
     selectedCity: any;
-    
+
     ngOnInit() {
         this.countries = [
             {

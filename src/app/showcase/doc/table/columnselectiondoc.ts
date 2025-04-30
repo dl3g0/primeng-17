@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -82,11 +82,11 @@ export class ColumnSelectionDoc {
             <td>{{ product.category }}</td>
             <td>{{ product.quantity }}</td>
             <td>
-                <button 
-                    type="button" 
-                    pButton 
-                    pRipple 
-                    icon="pi pi-plus" 
+                <button
+                    type="button"
+                    pButton
+                    pRipple
+                    icon="pi pi-plus"
                     (click)="selectProduct(product)">
                 </button>
             </td>
@@ -112,11 +112,11 @@ export class ColumnSelectionDoc {
                 <td>{{ product.category }}</td>
                 <td>{{ product.quantity }}</td>
                 <td>
-                    <button 
-                        type="button" 
-                        pButton 
-                        pRipple 
-                        icon="pi pi-plus" 
+                    <button
+                        type="button"
+                        pButton
+                        pRipple
+                        icon="pi pi-plus"
                         (click)="selectProduct(product)">
                     </button>
                 </td>
@@ -127,11 +127,11 @@ export class ColumnSelectionDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { MessageService } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
-import { ToastModule } from 'primeng/toast';
-import { TableModule } from 'primeng/table';
+import { MessageService } from '@jacobg213/primeng-17/api';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { TableModule } from '@jacobg213/primeng-17/table';
 
 @Component({
     selector: 'table-column-selection-demo',

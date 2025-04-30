@@ -25,7 +25,7 @@ export class BasicDoc {
     <p-scrollTop />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollTopModule } from '@jacobg213/primeng-17/scrolltop';
 
 @Component({
     selector: 'scroll-top-basic-demo',

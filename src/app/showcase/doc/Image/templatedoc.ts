@@ -20,10 +20,10 @@ import { Code } from '@domain/code';
 })
 export class TemplateDoc {
     code: Code = {
-        basic: `<p-image 
-    src="https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg" 
-    [preview]="true" 
-    alt="Image" 
+        basic: `<p-image
+    src="https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg"
+    [preview]="true"
+    alt="Image"
     width="250">
         <ng-template pTemplate="indicator">
             <i class="pi pi-check"></i>
@@ -31,10 +31,10 @@ export class TemplateDoc {
 </p-image>`,
 
         html: `<div class="card flex justify-content-center">
-    <p-image 
-        src="https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg" 
-        [preview]="true" 
-        alt="Image" 
+    <p-image
+        src="https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg"
+        [preview]="true"
+        alt="Image"
         width="250">
             <ng-template pTemplate="indicator">
                 <i class="pi pi-check"></i>
@@ -43,7 +43,7 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ImageModule } from 'primeng/image';
+import { ImageModule } from '@jacobg213/primeng-17/image';
 
 @Component({
     selector: 'image-template-demo',

@@ -25,10 +25,10 @@ import { Code } from '@domain/code';
 })
 export class ElementDoc {
     code: Code = {
-        basic: `<p-scrollTop 
-    target="parent" 
-    styleClass="custom-scrolltop" 
-    [threshold]="100" 
+        basic: `<p-scrollTop
+    target="parent"
+    styleClass="custom-scrolltop"
+    [threshold]="100"
     icon="pi pi-arrow-up" />`,
         html: `<div class="card">
     <div style="width: 250px; height: 200px; overflow: auto">
@@ -43,7 +43,7 @@ export class ElementDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollTopModule } from '@jacobg213/primeng-17/scrolltop';
 
 @Component({
     selector: 'scroll-top-element-demo',

@@ -23,10 +23,22 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayModeType, OverlayOnBeforeHideEvent, OverlayOnBeforeShowEvent, OverlayOnHideEvent, OverlayOnShowEvent, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ResponsiveOverlayOptions, SharedModule } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { ObjectUtils, ZIndexUtils } from 'primeng/utils';
-import { VoidListener } from 'primeng/ts-helpers';
+import {
+    OverlayModeType,
+    OverlayOnBeforeHideEvent,
+    OverlayOnBeforeShowEvent,
+    OverlayOnHideEvent,
+    OverlayOnShowEvent,
+    OverlayOptions,
+    OverlayService,
+    PrimeNGConfig,
+    PrimeTemplate,
+    ResponsiveOverlayOptions,
+    SharedModule
+} from '@jacobg213/primeng-17/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
+import { ObjectUtils, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';
 
 export const OVERLAY_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

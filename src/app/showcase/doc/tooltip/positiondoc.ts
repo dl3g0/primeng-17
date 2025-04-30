@@ -19,61 +19,61 @@ import { Code } from '@domain/code';
 })
 export class PositionDoc {
     code: Code = {
-        basic: `<input 
-    type="text" 
-    pInputText 
-    pTooltip="Enter your username" 
-    tooltipPosition="right" 
+        basic: `<input
+    type="text"
+    pInputText
+    pTooltip="Enter your username"
+    tooltipPosition="right"
     placeholder="Right" />
-<input 
-    type="text" 
-    pInputText 
-    pTooltip="Enter your username" 
-    tooltipPosition="left" 
+<input
+    type="text"
+    pInputText
+    pTooltip="Enter your username"
+    tooltipPosition="left"
     placeholder="Left" />
-<input 
-    type="text" 
-    pInputText 
-    pTooltip="Enter your username" 
-    tooltipPosition="top" 
+<input
+    type="text"
+    pInputText
+    pTooltip="Enter your username"
+    tooltipPosition="top"
     placeholder="Top" />
-<input 
-    type="text" 
-    pInputText 
-    pTooltip="Enter your username" 
-    tooltipPosition="bottom" 
+<input
+    type="text"
+    pInputText
+    pTooltip="Enter your username"
+    tooltipPosition="bottom"
     placeholder="Bottom" />`,
 
         html: `<div class="card flex flex-wrap justify-content-center gap-2">
-    <input 
-        type="text" 
-        pInputText 
+    <input
+        type="text"
+        pInputText
         pTooltip="Enter your username"
-        tooltipPosition="right" 
+        tooltipPosition="right"
         placeholder="Right" />
-    <input 
-        type="text" 
-        pInputText 
-        pTooltip="Enter your username" 
-        tooltipPosition="left" 
+    <input
+        type="text"
+        pInputText
+        pTooltip="Enter your username"
+        tooltipPosition="left"
         placeholder="Left">
-    <input 
-        type="text" 
-        pInputText 
-        pTooltip="Enter your username" 
-        tooltipPosition="top" 
+    <input
+        type="text"
+        pInputText
+        pTooltip="Enter your username"
+        tooltipPosition="top"
         placeholder="Top">
-    <input 
-        type="text" 
-        pInputText 
-        pTooltip="Enter your username" 
-        tooltipPosition="bottom" 
+    <input
+        type="text"
+        pInputText
+        pTooltip="Enter your username"
+        tooltipPosition="bottom"
         placeholder="Bottom">
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TooltipModule } from 'primeng/tooltip';
-import { InputTextModule } from 'primeng/inputtext';
+import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
 
 @Component({
     selector: 'tooltip-position-demo',

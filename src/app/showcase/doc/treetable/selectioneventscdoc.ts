@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MessageService, TreeNode } from 'primeng/api';
+import { MessageService, TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -88,15 +88,15 @@ export class SelectionEventsDoc {
     }
 
     code: Code = {
-        basic: `<p-treeTable 
-    [value]="files" 
-    [columns]="cols" 
-    selectionMode="single" 
-    [(selection)]="selectedNode" 
-    dataKey="name" 
-    (onNodeSelect)="nodeSelect($event)" 
-    (onNodeUnselect)="nodeUnselect($event)" 
-    [scrollable]="true" 
+        basic: `<p-treeTable
+    [value]="files"
+    [columns]="cols"
+    selectionMode="single"
+    [(selection)]="selectedNode"
+    dataKey="name"
+    (onNodeSelect)="nodeSelect($event)"
+    (onNodeUnselect)="nodeUnselect($event)"
+    [scrollable]="true"
     [tableStyle]="{'min-width':'50rem'}">
         <ng-template pTemplate="header" let-columns>
             <tr>
@@ -117,15 +117,15 @@ export class SelectionEventsDoc {
 
         html: `<div class="card">
     <p-toast />
-    <p-treeTable 
-        [value]="files" 
-        [columns]="cols" 
-        selectionMode="single" 
-        [(selection)]="selectedNode" 
-        dataKey="name" 
-        (onNodeSelect)="nodeSelect($event)" 
-        (onNodeUnselect)="nodeUnselect($event)" 
-        [scrollable]="true" 
+    <p-treeTable
+        [value]="files"
+        [columns]="cols"
+        selectionMode="single"
+        [(selection)]="selectedNode"
+        dataKey="name"
+        (onNodeSelect)="nodeSelect($event)"
+        (onNodeUnselect)="nodeUnselect($event)"
+        [scrollable]="true"
         [tableStyle]="{'min-width':'50rem'}">
             <ng-template pTemplate="header" let-columns>
                 <tr>
@@ -146,10 +146,10 @@ export class SelectionEventsDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MessageService, TreeNode } from 'primeng/api';
+import { MessageService, TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from 'primeng/treetable';
-import { ToastModule } from 'primeng/toast';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 import { CommonModule } from '@angular/common';
 
 interface Column {

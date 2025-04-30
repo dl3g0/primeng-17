@@ -26,7 +26,7 @@ export class RangeDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SliderModule } from 'primeng/slider';
+import { SliderModule } from '@jacobg213/primeng-17/slider';
 
 @Component({
     selector: 'slider-range-demo',

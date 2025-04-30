@@ -36,7 +36,7 @@ export class StaticDoc {
     </p-messages>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessagesModule } from 'primeng/messages';
+import { MessagesModule } from '@jacobg213/primeng-17/messages';
 
 @Component({
     selector: 'messages-static-demo',

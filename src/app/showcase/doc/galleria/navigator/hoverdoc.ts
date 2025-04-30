@@ -52,12 +52,12 @@ export class HoverDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-galleria 
-    [(value)]="images" 
-    [showIndicators]="false" 
-    [showItemNavigatorsOnHover]="true" 
-    [showItemNavigators]="true" 
-    [responsiveOptions]="responsiveOptions" 
+        basic: `<p-galleria
+    [(value)]="images"
+    [showIndicators]="false"
+    [showItemNavigatorsOnHover]="true"
+    [showItemNavigators]="true"
+    [responsiveOptions]="responsiveOptions"
     [containerStyle]="{ 'max-width': '640px' }">
         <ng-template pTemplate="item" let-item>
             <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
@@ -69,13 +69,13 @@ export class HoverDoc implements OnInit {
         </ng-template>
 </p-galleria>`,
         html: `<div class="card">
-    <p-galleria 
-        [(value)]="images" 
-        [showIndicators]="false" 
-        [showItemNavigatorsOnHover]="true" 
-        [showItemNavigators]="true" 
-        [responsiveOptions]="responsiveOptions" 
-        [containerStyle]="{ 'max-width': '640px' }"> 
+    <p-galleria
+        [(value)]="images"
+        [showIndicators]="false"
+        [showItemNavigatorsOnHover]="true"
+        [showItemNavigators]="true"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }">
             <ng-template pTemplate="item" let-item>
                 <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
             </ng-template>
@@ -88,7 +88,7 @@ export class HoverDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
 
 @Component({
     selector: 'galleria-navigator-hover-demo',

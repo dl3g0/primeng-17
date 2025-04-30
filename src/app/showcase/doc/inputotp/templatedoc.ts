@@ -46,13 +46,13 @@ export class TemplateDoc {
     code: Code = {
         basic: `<p-inputOtp [(ngModel)]="value">
     <ng-template pTemplate="input" let-token let-events="events">
-        <input 
-            pInputText 
-            class="custom-otp-input" 
-            (input)="events.input($event)" 
-            (keydown)="events.keydown($event)" 
-            type="text" 
-            [attr.value]="token" 
+        <input
+            pInputText
+            class="custom-otp-input"
+            (input)="events.input($event)"
+            (keydown)="events.keydown($event)"
+            type="text"
+            [attr.value]="token"
             [maxLength]="1" />
     </ng-template>
 </p-inputOtp>`,
@@ -60,20 +60,20 @@ export class TemplateDoc {
         html: `<div class="card flex justify-content-center">
     <p-inputOtp [(ngModel)]="value">
         <ng-template pTemplate="input" let-token let-events="events">
-            <input 
+            <input
                 pInputText
-                class="custom-otp-input" 
-                (input)="events.input($event)" 
-                (keydown)="events.keydown($event)" 
-                type="text" 
-                [attr.value]="token" 
+                class="custom-otp-input"
+                (input)="events.input($event)"
+                (keydown)="events.keydown($event)"
+                type="text"
+                [attr.value]="token"
                 [maxLength]="1" />
         </ng-template>
     </p-inputOtp>
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputOtpModule } from 'primeng/inputotp';
+import { InputOtpModule } from '@jacobg213/primeng-17/inputotp';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -100,7 +100,7 @@ import { FormsModule } from '@angular/forms';
             outline: 0 none;
             box-shadow: none;
             border-bottom-color: var(--primary-color);
-        } 
+        }
         \`
     ],
 })

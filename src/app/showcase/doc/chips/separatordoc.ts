@@ -24,7 +24,7 @@ export class SeparatorDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ChipsModule } from 'primeng/chips';
+import { ChipsModule } from '@jacobg213/primeng-17/chips';
 
 @Component({
     selector: 'chips-basic-demo',

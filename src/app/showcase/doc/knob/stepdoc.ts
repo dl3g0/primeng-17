@@ -26,7 +26,7 @@ export class StepDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@jacobg213/primeng-17/knob';
 
 @Component({
     selector: 'knob-step-demo',

@@ -47,26 +47,26 @@ export class ItemWithoutThumbnailsDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-galleria 
-    [(value)]="images" 
-    [numVisible]="5" 
-    [circular]="true" 
-    [showItemNavigators]="true" 
-    [showThumbnails]="false" 
-    [responsiveOptions]="responsiveOptions" 
+        basic: `<p-galleria
+    [(value)]="images"
+    [numVisible]="5"
+    [circular]="true"
+    [showItemNavigators]="true"
+    [showThumbnails]="false"
+    [responsiveOptions]="responsiveOptions"
     [containerStyle]="{ 'max-width': '640px' }">
         <ng-template pTemplate="item" let-item>
             <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
         </ng-template>
 </p-galleria>`,
         html: `<div class="card">
-    <p-galleria 
-        [(value)]="images" 
-        [numVisible]="5" 
-        [circular]="true" 
-        [showItemNavigators]="true" 
-        [showThumbnails]="false" 
-        [responsiveOptions]="responsiveOptions" 
+    <p-galleria
+        [(value)]="images"
+        [numVisible]="5"
+        [circular]="true"
+        [showItemNavigators]="true"
+        [showThumbnails]="false"
+        [responsiveOptions]="responsiveOptions"
         [containerStyle]="{ 'max-width': '640px' }">
             <ng-template pTemplate="item" let-item>
                 <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
@@ -75,7 +75,7 @@ export class ItemWithoutThumbnailsDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
 
 @Component({
     selector: 'galleria-item-without-thumbnails-demo',

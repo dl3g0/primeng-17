@@ -64,11 +64,11 @@ export class SizeDoc {
 
     code: Code = {
         basic: `<div class="flex justify-content-center mb-3">
-    <p-selectButton 
-        [options]="sizes" 
-        [(ngModel)]="selectedSize" 
-        [multiple]="false" 
-        optionLabel="name" 
+    <p-selectButton
+        [options]="sizes"
+        [(ngModel)]="selectedSize"
+        [multiple]="false"
+        optionLabel="name"
         optionValue="class" />
 </div>
 <p-table [value]="products" [tableStyle]="{ 'min-width': '50rem' }" [styleClass]="selectedSize.class">
@@ -91,11 +91,11 @@ export class SizeDoc {
 </p-table>`,
         html: `<div class="card">
     <div class="flex justify-content-center mb-3">
-        <p-selectButton 
-            [options]="sizes" 
-            [(ngModel)]="selectedSize" 
-            [multiple]="false" 
-            optionLabel="name" 
+        <p-selectButton
+            [options]="sizes"
+            [(ngModel)]="selectedSize"
+            [multiple]="false"
+            optionLabel="name"
             optionValue="class" />
     </div>
     <p-table [value]="products" [tableStyle]="{ 'min-width': '50rem' }" [styleClass]="selectedSize.class">
@@ -120,8 +120,8 @@ export class SizeDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { TableModule } from '@jacobg213/primeng-17/table';
+import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -150,7 +150,7 @@ export class TableSizeDemo {
             { name: 'Normal', class: '' },
             { name: 'Large',  class: 'p-datatable-lg' }
         ];
-    } 
+    }
 }`,
         data: `{
     id: '1000',

@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputMaskModule } from 'primeng/inputmask';
-import { CheckboxModule } from 'primeng/checkbox';
-import { StepsModule } from 'primeng/steps';
-import { ToastModule } from 'primeng/toast';
-import { CardModule } from 'primeng/card';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { InputMaskModule } from '@jacobg213/primeng-17/inputmask';
+import { CheckboxModule } from '@jacobg213/primeng-17/checkbox';
+import { StepsModule } from '@jacobg213/primeng-17/steps';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { CardModule } from '@jacobg213/primeng-17/card';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { BasicDoc } from './basicdoc';
@@ -21,7 +21,7 @@ import { SeatDemo } from './seatdemo';
 import { StyleDoc } from './styledoc';
 import { TicketService } from '@service/ticketservice';
 import { AccessibilityDoc } from './accessibilitydoc';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 import { ControlledDoc } from './controlleddoc';
 
 @NgModule({

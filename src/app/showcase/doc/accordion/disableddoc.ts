@@ -75,12 +75,12 @@ export class DisabledDoc {
                 qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
             </p>
         </p-accordionTab>
-        <p-accordionTab header="Header IV" [disabled]="true" />  
+        <p-accordionTab header="Header IV" [disabled]="true" />
     </p-accordion>
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
+import { AccordionModule } from '@jacobg213/primeng-17/accordion';
 
 @Component({
     selector: 'accordion-disabled-demo',

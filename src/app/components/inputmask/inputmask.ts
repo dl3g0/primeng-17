@@ -48,12 +48,12 @@ import {
     numberAttribute
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { DomHandler } from 'primeng/dom';
-import { TimesIcon } from 'primeng/icons/times';
-import { InputTextModule } from 'primeng/inputtext';
-import { Nullable } from 'primeng/ts-helpers';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
 import { Caret } from './inputmask.interface';
 
 export const INPUTMASK_VALUE_ACCESSOR: any = {

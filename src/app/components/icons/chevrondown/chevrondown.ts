@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BaseIcon } from 'primeng/baseicon';
+import { BaseIcon } from '@jacobg213/primeng-17/baseicon';
 
 @Component({
     selector: 'ChevronDownIcon',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -57,8 +57,8 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
-import { OrganizationChartModule } from 'primeng/organizationchart';
+import { TreeNode } from '@jacobg213/primeng-17/api';
+import { OrganizationChartModule } from '@jacobg213/primeng-17/organizationchart';
 
 @Component({
     selector: 'organization-chart-basic-doc',

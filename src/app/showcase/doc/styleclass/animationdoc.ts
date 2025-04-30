@@ -27,16 +27,16 @@ import { Code } from '@domain/code';
 export class AnimationDoc {
     code: Code = {
         basic: `<div>
-    <p-button 
-        label="Show" 
-        class="mr-2" 
-        pStyleClass=".box" 
-        enterFromClass="hidden" 
+    <p-button
+        label="Show"
+        class="mr-2"
+        pStyleClass=".box"
+        enterFromClass="hidden"
         enterActiveClass="fadein" />
-    <p-button 
-        label="Hide" 
-        pStyleClass=".box" 
-        leaveActiveClass="fadeout" 
+    <p-button
+        label="Hide"
+        pStyleClass=".box"
+        leaveActiveClass="fadeout"
         leaveToClass="hidden" />
 </div>
 
@@ -47,16 +47,16 @@ export class AnimationDoc {
 </div>`,
         html: `<div class="card flex flex-column align-items-center">
     <div>
-        <p-button 
+        <p-button
             label="Show"
             class="mr-2"
             pStyleClass=".box"
-            enterFromClass="hidden" 
+            enterFromClass="hidden"
             enterActiveClass="fadein" />
-        <p-button 
-            label="Hide" 
-            pStyleClass=".box" 
-            leaveActiveClass="fadeout" 
+        <p-button
+            label="Hide"
+            pStyleClass=".box"
+            leaveActiveClass="fadeout"
             leaveToClass="hidden" />
     </div>
 
@@ -67,8 +67,8 @@ export class AnimationDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { StyleClassModule } from 'primeng/styleclass';
-import { ButtonModule } from 'primeng/button';
+import { StyleClassModule } from '@jacobg213/primeng-17/styleclass';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: './style-class-animation-demo',

@@ -31,90 +31,90 @@ import { Code } from '@domain/code';
 })
 export class IconDoc {
     code: Code = {
-        basic: `<p-avatar 
-    icon="pi pi-user" 
+        basic: `<p-avatar
+    icon="pi pi-user"
     styleClass="mr-2" size="xlarge" />
-<p-avatar 
-    icon="pi pi-user" 
+<p-avatar
+    icon="pi pi-user"
     styleClass="mr-2"
-    size="large" 
+    size="large"
     [style]="{ 'background-color': '#ece9fc', color: '#2a1261' }" />
-<p-avatar 
-    icon="pi pi-user" 
-    styleClass="mr-2" 
+<p-avatar
+    icon="pi pi-user"
+    styleClass="mr-2"
     [style]="{ 'background-color': '#dee9fc', color: '#1a2551' }" />
 
-<p-avatar 
-    icon="pi pi-user" 
-    styleClass="mr-2" 
-    size="xlarge" 
+<p-avatar
+    icon="pi pi-user"
+    styleClass="mr-2"
+    size="xlarge"
     shape="circle" />
-<p-avatar 
-    icon="pi pi-user" 
-    styleClass="mr-2" 
-    size="large" 
-    [style]="{ 'background-color': '#ece9fc', color: '#2a1261' }" 
+<p-avatar
+    icon="pi pi-user"
+    styleClass="mr-2"
+    size="large"
+    [style]="{ 'background-color': '#ece9fc', color: '#2a1261' }"
     shape="circle" />
-<p-avatar 
-    icon="pi pi-user" 
-    styleClass="mr-2" 
-    [style]="{ 'background-color': '#dee9fc', color: '#1a2551' }" 
+<p-avatar
+    icon="pi pi-user"
+    styleClass="mr-2"
+    [style]="{ 'background-color': '#dee9fc', color: '#1a2551' }"
     shape="circle" />
-        
-<p-avatar 
-    icon="pi pi-user" 
-    pBadge 
-    value="4" 
+
+<p-avatar
+    icon="pi pi-user"
+    pBadge
+    value="4"
     size="xlarge"
     badgeSize="large" />`,
         html: `<div class="col-12 md:col-4">
         <h5>Icon</h5>
-        <p-avatar 
-            icon="pi pi-user" 
-            styleClass="mr-2" 
+        <p-avatar
+            icon="pi pi-user"
+            styleClass="mr-2"
             size="xlarge" />
-        <p-avatar 
-            icon="pi pi-user" 
-            styleClass="mr-2" 
-            size="large" 
+        <p-avatar
+            icon="pi pi-user"
+            styleClass="mr-2"
+            size="large"
             [style]="{ 'background-color': '#ece9fc', color: '#2a1261' }" />
-        <p-avatar 
-            icon="pi pi-user" 
-            styleClass="mr-2" 
+        <p-avatar
+            icon="pi pi-user"
+            styleClass="mr-2"
             [style]="{ 'background-color': '#dee9fc', color: '#1a2551' }" />
     </div>
     <div class="col-12 md:col-4">
         <h5>Icon - Circle</h5>
-        <p-avatar 
-            icon="pi pi-user" 
-            styleClass="mr-2" 
-            size="xlarge" 
-            shape="circle" />
-        <p-avatar 
-            icon="pi pi-user" 
+        <p-avatar
+            icon="pi pi-user"
             styleClass="mr-2"
-            size="large" 
+            size="xlarge"
+            shape="circle" />
+        <p-avatar
+            icon="pi pi-user"
+            styleClass="mr-2"
+            size="large"
             [style]="{ 'background-color': '#ece9fc', color: '#2a1261' }"
             shape="circle" />
-        <p-avatar 
-            icon="pi pi-user" 
-            styleClass="mr-2" 
-            [style]="{ 'background-color': '#dee9fc', color: '#1a2551' }" 
+        <p-avatar
+            icon="pi pi-user"
+            styleClass="mr-2"
+            [style]="{ 'background-color': '#dee9fc', color: '#1a2551' }"
             shape="circle" />
     </div>
     <div class="col-12 md:col-4">
         <h5>Badge</h5>
-        <p-avatar 
-            icon="pi pi-user" 
-            pBadge 
-            value="4" 
+        <p-avatar
+            icon="pi pi-user"
+            pBadge
+            value="4"
             size="xlarge"
             badgeSize="large" />
     </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
-        
+import { AvatarModule } from '@jacobg213/primeng-17/avatar';
+import { BadgeModule } from '@jacobg213/primeng-17/badge';
+
 @Component({
     selector: 'avatar-icon-demo',
     templateUrl: './avatar-icon-demo.html',

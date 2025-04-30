@@ -30,23 +30,23 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { FilterService, Footer, Header, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { ScrollerOptions } from 'primeng/api';
-import { TooltipModule } from 'primeng/tooltip';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { CheckIcon } from 'primeng/icons/check';
-import { SearchIcon } from 'primeng/icons/search';
-import { TimesCircleIcon } from 'primeng/icons/timescircle';
-import { TimesIcon } from 'primeng/icons/times';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { Nullable } from 'primeng/ts-helpers';
-import { AutoFocusModule } from 'primeng/autofocus';
+import { FilterService, Footer, Header, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { Overlay, OverlayModule } from '@jacobg213/primeng-17/overlay';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { ScrollerOptions } from '@jacobg213/primeng-17/api';
+import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
+import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
+import { TimesCircleIcon } from '@jacobg213/primeng-17/icons/timescircle';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
 import { MultiSelectRemoveEvent, MultiSelectFilterOptions, MultiSelectFilterEvent, MultiSelectBlurEvent, MultiSelectChangeEvent, MultiSelectFocusEvent, MultiSelectLazyLoadEvent, MultiSelectSelectAllChangeEvent } from './multiselect.interface';
-import { MinusIcon } from 'primeng/icons/minus';
+import { MinusIcon } from '@jacobg213/primeng-17/icons/minus';
 
 export const MULTISELECT_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

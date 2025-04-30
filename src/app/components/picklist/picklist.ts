@@ -22,22 +22,22 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { DomHandler } from 'primeng/dom';
-import { AngleDoubleDownIcon } from 'primeng/icons/angledoubledown';
-import { AngleDoubleLeftIcon } from 'primeng/icons/angledoubleleft';
-import { AngleDoubleRightIcon } from 'primeng/icons/angledoubleright';
-import { AngleDoubleUpIcon } from 'primeng/icons/angledoubleup';
-import { AngleDownIcon } from 'primeng/icons/angledown';
-import { AngleLeftIcon } from 'primeng/icons/angleleft';
-import { AngleRightIcon } from 'primeng/icons/angleright';
-import { AngleUpIcon } from 'primeng/icons/angleup';
-import { HomeIcon } from 'primeng/icons/home';
-import { SearchIcon } from 'primeng/icons/search';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
+import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { AngleDoubleDownIcon } from '@jacobg213/primeng-17/icons/angledoubledown';
+import { AngleDoubleLeftIcon } from '@jacobg213/primeng-17/icons/angledoubleleft';
+import { AngleDoubleRightIcon } from '@jacobg213/primeng-17/icons/angledoubleright';
+import { AngleDoubleUpIcon } from '@jacobg213/primeng-17/icons/angledoubleup';
+import { AngleDownIcon } from '@jacobg213/primeng-17/icons/angledown';
+import { AngleLeftIcon } from '@jacobg213/primeng-17/icons/angleleft';
+import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
+import { AngleUpIcon } from '@jacobg213/primeng-17/icons/angleup';
+import { HomeIcon } from '@jacobg213/primeng-17/icons/home';
+import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
+import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
 import {
     PickListFilterOptions,
     PickListMoveAllToSourceEvent,

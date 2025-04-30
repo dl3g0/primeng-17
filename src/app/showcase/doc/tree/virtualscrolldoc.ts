@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -42,26 +42,26 @@ export class VirtualScrollDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-tree 
-    class="w-full md:w-30rem" 
-    scrollHeight="250px" 
-    [virtualScroll]="true" 
-    [virtualScrollItemSize]="46" 
+        basic: `<p-tree
+    class="w-full md:w-30rem"
+    scrollHeight="250px"
+    [virtualScroll]="true"
+    [virtualScrollItemSize]="46"
     [value]="files" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-tree 
-        class="w-full md:w-30rem" 
-        scrollHeight="250px" 
-        [virtualScroll]="true" 
-        [virtualScrollItemSize]="46" 
+    <p-tree
+        class="w-full md:w-30rem"
+        scrollHeight="250px"
+        [virtualScroll]="true"
+        [virtualScrollItemSize]="46"
         [value]="files" />
 </div>`,
 
         typescript: `import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeModule } from 'primeng/tree';
+import { TreeModule } from '@jacobg213/primeng-17/tree';
 
 @Component({
     selector: 'tree-virtual-scroll-demo',

@@ -1,8 +1,8 @@
 import { DOCUMENT, Location, isPlatformBrowser } from '@angular/common';
 import { Component, ElementRef, Inject, Input, NgZone, OnDestroy, OnInit, PLATFORM_ID, Renderer2, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { DomHandler } from 'primeng/dom';
-import { ObjectUtils } from 'primeng/utils';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { ObjectUtils } from '@jacobg213/primeng-17/utils';
 import { Subscription } from 'rxjs';
 import { Doc } from 'src/app/showcase/domain/doc';
 

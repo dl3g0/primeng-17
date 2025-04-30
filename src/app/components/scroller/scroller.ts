@@ -23,10 +23,10 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { PrimeTemplate, ScrollerOptions, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { Nullable } from 'primeng/ts-helpers';
+import { PrimeTemplate, ScrollerOptions, SharedModule } from '@jacobg213/primeng-17/api';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
 import { ScrollerLazyLoadEvent, ScrollerScrollEvent, ScrollerScrollIndexChangeEvent, ScrollerToType } from './scroller.interface';
 
 /**

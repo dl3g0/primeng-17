@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
-import { ContextMenu } from 'primeng/contextmenu';
+import { ContextMenu } from '@jacobg213/primeng-17/contextmenu';
 
 interface Users {
     id: number;
@@ -142,9 +142,9 @@ export class CommandDoc implements OnInit {
         ]"
         (contextmenu)="onContextMenu($event, user)">
         <div class="flex align-items-center gap-2">
-            <img 
-                [alt]="user.name" 
-                [src]="'https://primefaces.org/cdn/primeng/images/demo/avatar/' + user.image" 
+            <img
+                [alt]="user.name"
+                [src]="'https://primefaces.org/cdn/primeng/images/demo/avatar/' + user.image"
                 style="width: 32px" />
             <span class="font-bold">
                 {{ user.name }}
@@ -175,9 +175,9 @@ export class CommandDoc implements OnInit {
             ]"
             (contextmenu)="onContextMenu($event, user)">
             <div class="flex align-items-center gap-2">
-                <img 
-                    [alt]="user.name" 
-                    [src]="'https://primefaces.org/cdn/primeng/images/demo/avatar/' + user.image" 
+                <img
+                    [alt]="user.name"
+                    [src]="'https://primefaces.org/cdn/primeng/images/demo/avatar/' + user.image"
                     style="width: 32px" />
                 <span class="font-bold">
                     {{ user.name }}
@@ -191,12 +191,12 @@ export class CommandDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit, ViewChild } from '@angular/core';
-import { ContextMenu } from 'primeng/contextmenu';
-import { MenuItem, MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ContextMenuModule } from 'primeng/contextmenu';
+import { ContextMenu } from '@jacobg213/primeng-17/contextmenu';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ContextMenuModule } from '@jacobg213/primeng-17/contextmenu';
 import { CommonModule } from '@angular/common';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@jacobg213/primeng-17/tag';
 
 interface Users {
     id: number;

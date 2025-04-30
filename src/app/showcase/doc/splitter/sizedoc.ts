@@ -23,9 +23,9 @@ import { Code } from '@domain/code';
 })
 export class SizeDoc {
     code: Code = {
-        basic: `<p-splitter 
-    [panelSizes]="[25, 75]" 
-    [style]="{ height: '300px' }" 
+        basic: `<p-splitter
+    [panelSizes]="[25, 75]"
+    [style]="{ height: '300px' }"
     styleClass="mb-5">
     <ng-template pTemplate>
         <div class="col flex align-items-center justify-content-center">
@@ -40,9 +40,9 @@ export class SizeDoc {
 </p-splitter>`,
 
         html: `<div class="card">
-    <p-splitter 
-        [panelSizes]="[25, 75]" 
-        [style]="{ height: '300px' }" 
+    <p-splitter
+        [panelSizes]="[25, 75]"
+        [style]="{ height: '300px' }"
         styleClass="mb-5">
             <ng-template pTemplate>
                 <div class="col flex align-items-center justify-content-center">
@@ -58,7 +58,7 @@ export class SizeDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';   
+import { SplitterModule } from '@jacobg213/primeng-17/splitter';
 
 @Component({
     selector: 'splitter-size-demo',

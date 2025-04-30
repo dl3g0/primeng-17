@@ -85,7 +85,7 @@ export class PolarAreaDoc implements OnInit {
     <p-chart type="polarArea" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@jacobg213/primeng-17/chart';
 
 @Component({
     selector: 'chart-polar-area-demo',
@@ -102,7 +102,7 @@ export class ChartPolarAreaDemo implements OnInit {
         const documentStyle = getComputedStyle(document.documentElement);
         const textColor = documentStyle.getPropertyValue('--text-color');
         const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
-        
+
         this.data = {
             datasets: [
                 {
@@ -119,7 +119,7 @@ export class ChartPolarAreaDemo implements OnInit {
             ],
             labels: ['Red', 'Green', 'Yellow', 'Grey', 'Blue']
         };
-        
+
         this.options = {
             plugins: {
                 legend: {

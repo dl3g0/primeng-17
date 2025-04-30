@@ -43,28 +43,28 @@ export class ReactiveFormsDoc implements OnInit {
 
     code: Code = {
         basic: `<form [formGroup]="formGroup">
-    <p-listbox 
-        [options]="cities" 
-        formControlName="selectedCity" 
-        optionLabel="name" 
-        [style]="{ width: '15rem' }" 
+    <p-listbox
+        [options]="cities"
+        formControlName="selectedCity"
+        optionLabel="name"
+        [style]="{ width: '15rem' }"
         [listStyle]="{'max-height': '220px'}" />
 </form>`,
 
         html: `<div class="card flex justify-content-center">
     <form [formGroup]="formGroup">
-        <p-listbox 
-            [options]="cities" 
-            formControlName="selectedCity" 
-            optionLabel="name" 
-            [style]="{ width: '15rem' }" 
+        <p-listbox
+            [options]="cities"
+            formControlName="selectedCity"
+            optionLabel="name"
+            [style]="{ width: '15rem' }"
             [listStyle]="{'max-height': '220px'}" />
     </form>
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@jacobg213/primeng-17/listbox';
 
 interface City {
     name: string,
@@ -94,7 +94,7 @@ export class ListboxReactiveFormsDemo implements OnInit {
         this.formGroup = new FormGroup({
             selectedCity: new FormControl<City | null>(null)
         });
-    } 
+    }
 }`
     };
 }

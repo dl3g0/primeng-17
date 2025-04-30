@@ -174,10 +174,10 @@ export class HeadlessDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DialogModule } from 'primeng/dialog';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
-        
+import { DialogModule } from '@jacobg213/primeng-17/dialog';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+
 @Component({
     selector: 'dialog-headless-demo',
     templateUrl: './dialog-headless-demo.html',

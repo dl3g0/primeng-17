@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -35,8 +35,8 @@ export class SeverityDoc implements OnInit {
     <p-messages [(value)]="messages" [enableService]="false" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
-import { MessagesModule } from 'primeng/messages';
+import { Message } from '@jacobg213/primeng-17/api';
+import { MessagesModule } from '@jacobg213/primeng-17/messages';
 
 @Component({
     selector: 'messages-severity-demo',

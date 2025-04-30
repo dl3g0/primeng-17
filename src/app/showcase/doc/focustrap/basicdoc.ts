@@ -60,7 +60,7 @@ export class BasicDoc {
     <div>
         <h4>Float Label</h4>
         <span class="p-float-label">
-            <input id="float-input" type="text" size="30" pInputText> 
+            <input id="float-input" type="text" size="30" pInputText>
             <label for="float-input">Username</label>
         </span>
     </div>
@@ -73,7 +73,7 @@ export class BasicDoc {
     <div>
         <h4>Float Label</h4>
         <span class="p-float-label">
-            <input id="float-input" type="text" size="30" pInputText> 
+            <input id="float-input" type="text" size="30" pInputText>
             <label for="float-input">Username</label>
         </span>
     </div>
@@ -91,21 +91,21 @@ export class BasicDoc {
     </div>
     <div>
         <h4>Dropdown</h4>
-        <p-dropdown 
-            [options]="cities" 
-            [(ngModel)]="selectedCity" 
-            placeholder="Select a City" 
-            optionLabel="name" 
+        <p-dropdown
+            [options]="cities"
+            [(ngModel)]="selectedCity"
+            placeholder="Select a City"
+            optionLabel="name"
             [showClear]="true" />
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { FocusTrapModule } from 'primeng/focustrap';
-import { ButtonModule } from 'primeng/button';
-import { DropdownModule } from 'primeng/dropdown';
+import { FocusTrapModule } from '@jacobg213/primeng-17/focustrap';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
-        
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+
 @Component({
     selector: 'focus-trap-basic-demo',
     templateUrl: './focus-trap-basic-demo.html',

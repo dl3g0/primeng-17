@@ -85,8 +85,8 @@ export class FullScreenTemplateDoc implements OnInit {
     [showItemNavigators]="true"
     [showThumbnails]="false">
     <ng-template pTemplate="item" let-item>
-        <img 
-            [src]="item.itemImageSrc" 
+        <img
+            [src]="item.itemImageSrc"
             style="width: 100%; display: block;" />
     </ng-template>
 </p-galleria>
@@ -94,10 +94,10 @@ export class FullScreenTemplateDoc implements OnInit {
         html: `<div class="card">
     <div *ngIf="images" class="grid" style="max-width: 800px;">
         <div *ngFor="let image of images; let index = index" class="col-3" key="index">
-            <img 
-                [src]="image.thumbnailImageSrc" 
-                [alt]="image.alt" 
-                style="cursor: pointer" 
+            <img
+                [src]="image.thumbnailImageSrc"
+                [alt]="image.alt"
+                style="cursor: pointer"
                 (click)="imageClick(index)" />
         </div>
     </div>
@@ -113,8 +113,8 @@ export class FullScreenTemplateDoc implements OnInit {
         [showItemNavigators]="true"
         [showThumbnails]="false">
         <ng-template pTemplate="item" let-item>
-            <img 
-                [src]="item.itemImageSrc" 
+            <img
+                [src]="item.itemImageSrc"
                 style="width: 100%; display: block;" />
         </ng-template>
     </p-galleria>
@@ -122,7 +122,7 @@ export class FullScreenTemplateDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
 import { CommonModule } from '@angular/common';
 
 @Component({

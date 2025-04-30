@@ -78,7 +78,7 @@ export class ShowClearDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { CountryService } from '@service/countryservice';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';
 import { FormControl, FormGroup } from '@angular/forms';
 
 interface AutoCompleteCompleteEvent {

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -154,23 +154,23 @@ export class NestedDoc {
     }
 
     code: Code = {
-        basic: `<p-splitButton 
-    label="Save" 
-    (onClick)="save('info')" 
+        basic: `<p-splitButton
+    label="Save"
+    (onClick)="save('info')"
     [model]="items" />`,
 
         html: `<div class="card flex justify-content-center">
     <p-toast />
-    <p-splitButton 
-        label="Save" 
-        (onClick)="save('info')" 
+    <p-splitButton
+        label="Save"
+        (onClick)="save('info')"
         [model]="items" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SplitButtonModule } from '@jacobg213/primeng-17/splitbutton';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'split-button-nested-demo',

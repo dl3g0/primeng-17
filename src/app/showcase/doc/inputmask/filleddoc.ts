@@ -18,22 +18,22 @@ export class FilledDoc {
     value: string | undefined;
 
     code: Code = {
-        basic: `<p-inputMask 
-    mask="99-999999" 
-    [(ngModel)]="value" 
+        basic: `<p-inputMask
+    mask="99-999999"
+    [(ngModel)]="value"
     variant="filled"
     placeholder="99-999999" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-inputMask 
-        mask="99-999999" 
-        [(ngModel)]="value" 
+    <p-inputMask
+        mask="99-999999"
+        [(ngModel)]="value"
         variant="filled"
         placeholder="99-999999" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputMaskModule } from '@jacobg213/primeng-17/inputmask';
 import { FormsModule } from '@angular/forms';
 
 @Component({

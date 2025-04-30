@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -26,19 +26,19 @@ export class BasicDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-messages 
-    [(value)]="messages" 
-    [enableService]="false" 
+        basic: `<p-messages
+    [(value)]="messages"
+    [enableService]="false"
     [closable]="false" />`,
         html: `<div class="card">
-    <p-messages 
-        [(value)]="messages" 
-        [enableService]="false" 
+    <p-messages
+        [(value)]="messages"
+        [enableService]="false"
         [closable]="false" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
-import { MessagesModule } from 'primeng/messages';
+import { Message } from '@jacobg213/primeng-17/api';
+import { MessagesModule } from '@jacobg213/primeng-17/messages';
 
 @Component({
     selector: 'messages-basic-demo',

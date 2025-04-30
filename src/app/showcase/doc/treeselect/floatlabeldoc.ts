@@ -29,10 +29,10 @@ export class FloatLabelDoc {
 
     code: Code = {
         basic: `<p-floatLabel class="md:w-20rem w-full">
-    <p-treeSelect 
-        containerStyleClass="w-full" 
-        [(ngModel)]="selectedNodes" 
-        [options]="nodes" 
+    <p-treeSelect
+        containerStyleClass="w-full"
+        [(ngModel)]="selectedNodes"
+        [options]="nodes"
         placeholder="Select Item" />
     <label for="treeselect">
         Tree Select
@@ -41,10 +41,10 @@ export class FloatLabelDoc {
 
         html: `<div class="card flex justify-content-center">
     <p-floatLabel class="md:w-20rem w-full">
-        <p-treeSelect 
-            containerStyleClass="w-full" 
-            [(ngModel)]="selectedNodes" 
-            [options]="nodes" 
+        <p-treeSelect
+            containerStyleClass="w-full"
+            [(ngModel)]="selectedNodes"
+            [options]="nodes"
             placeholder="Select Item" />
         <label for="treeselect">
             Tree Select
@@ -55,8 +55,8 @@ export class FloatLabelDoc {
         typescript: `import { Component } from '@angular/core';
 import { NodeService } from '@service/nodeservice';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { TreeSelectModule } from '@jacobg213/primeng-17/treeselect';
+import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
 
 @Component({
     selector: 'tree-select-floatlabel-demo',

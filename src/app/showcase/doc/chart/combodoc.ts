@@ -112,7 +112,7 @@ export class ComboDoc implements OnInit {
     <p-chart type="line" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@jacobg213/primeng-17/chart';
 
 @Component({
     selector: 'chart-combo-demo',
@@ -130,7 +130,7 @@ export class ChartComboDemo implements OnInit {
         const textColor = documentStyle.getPropertyValue('--text-color');
         const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
         const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
-        
+
         this.data = {
             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
             datasets: [
@@ -159,7 +159,7 @@ export class ChartComboDemo implements OnInit {
                 }
             ]
         };
-        
+
         this.options = {
             maintainAspectRatio: false,
             aspectRatio: 0.6,

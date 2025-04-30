@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { OrganizationChart } from './organizationchart';
 
 /**

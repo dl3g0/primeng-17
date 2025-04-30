@@ -34,7 +34,7 @@ export class FloatLabelDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { PasswordModule } from 'primeng/password';
+import { PasswordModule } from '@jacobg213/primeng-17/password';
 import { FormsModule } from '@angular/forms';
 
 @Component({

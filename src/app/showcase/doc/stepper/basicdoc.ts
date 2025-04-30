@@ -64,10 +64,10 @@ export class BasicDoc {
                 </div>
             </div>
             <div class="flex pt-4 justify-content-end">
-                <p-button 
-                    label="Next" 
-                    icon="pi pi-arrow-right" 
-                    iconPos="right" 
+                <p-button
+                    label="Next"
+                    icon="pi pi-arrow-right"
+                    iconPos="right"
                     (onClick)="nextCallback.emit()" />
             </div>
         </ng-template>
@@ -80,14 +80,14 @@ export class BasicDoc {
                 </div>
             </div>
             <div class="flex pt-4 justify-content-between">
-                <p-button 
-                    label="Back" 
-                    icon="pi pi-arrow-left" 
+                <p-button
+                    label="Back"
+                    icon="pi pi-arrow-left"
                     (onClick)="prevCallback.emit()" />
-                <p-button 
-                    label="Next" 
-                    icon="pi pi-arrow-right" 
-                    iconPos="right" 
+                <p-button
+                    label="Next"
+                    icon="pi pi-arrow-right"
+                    iconPos="right"
                     (onClick)="nextCallback.emit()" />
             </div>
         </ng-template>
@@ -116,10 +116,10 @@ export class BasicDoc {
                     </div>
                 </div>
                 <div class="flex pt-4 justify-content-end">
-                    <p-button 
-                        label="Next" 
-                        icon="pi pi-arrow-right" 
-                        iconPos="right" 
+                    <p-button
+                        label="Next"
+                        icon="pi pi-arrow-right"
+                        iconPos="right"
                         (onClick)="nextCallback.emit()" />
                 </div>
             </ng-template>
@@ -132,14 +132,14 @@ export class BasicDoc {
                     </div>
                 </div>
                 <div class="flex pt-4 justify-content-between">
-                    <p-button 
-                        label="Back" 
-                        icon="pi pi-arrow-left" 
+                    <p-button
+                        label="Back"
+                        icon="pi pi-arrow-left"
                         (onClick)="prevCallback.emit()" />
-                    <p-button 
-                        label="Next" 
-                        icon="pi pi-arrow-right" 
-                        iconPos="right" 
+                    <p-button
+                        label="Next"
+                        icon="pi pi-arrow-right"
+                        iconPos="right"
                         (onClick)="nextCallback.emit()" />
                 </div>
             </ng-template>
@@ -152,9 +152,9 @@ export class BasicDoc {
                     </div>
                 </div>
                 <div class="flex pt-4 justify-content-start">
-                    <p-button 
-                        label="Back" 
-                        icon="pi pi-arrow-left" 
+                    <p-button
+                        label="Back"
+                        icon="pi pi-arrow-left"
                         (onClick)="prevCallback.emit()" />
                 </div>
             </ng-template>
@@ -163,8 +163,8 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { StepperModule } from 'primeng/stepper';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { StepperModule } from '@jacobg213/primeng-17/stepper';
 
 @Component({
     selector: 'stepper-basic-demo',
@@ -175,10 +175,10 @@ import { StepperModule } from 'primeng/stepper';
         \`
         .p-stepper {
             flex-basis: 50rem;
-        } 
+        }
         \`
     ]
-    
+
 })
 export class StepperBasicDemo {
 }`

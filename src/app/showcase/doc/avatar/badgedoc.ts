@@ -16,21 +16,21 @@ import { Code } from '@domain/code';
 })
 export class BadgeDoc {
     code: Code = {
-        basic: `<p-avatar 
+        basic: `<p-avatar
     image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
-    pBadge 
-    value="4" 
+    pBadge
+    value="4"
     severity="danger" />`,
         html: `<div class="card flex justify-content-center">
-    <p-avatar 
-        image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" 
-        pBadge 
-        value="4" 
+    <p-avatar
+        image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
+        pBadge
+        value="4"
         severity="danger" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
+import { AvatarModule } from '@jacobg213/primeng-17/avatar';
+import { BadgeModule } from '@jacobg213/primeng-17/badge';
 
 @Component({
     selector: 'avatar-badge-demo',

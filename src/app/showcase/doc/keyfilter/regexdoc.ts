@@ -42,7 +42,7 @@ export class RegexDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
 
 @Component({
     selector: 'key-filter-reg-exp-demo',

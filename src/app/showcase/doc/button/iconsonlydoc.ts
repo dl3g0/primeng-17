@@ -149,7 +149,7 @@ export class IconOnlyDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'button-icon-only-demo',

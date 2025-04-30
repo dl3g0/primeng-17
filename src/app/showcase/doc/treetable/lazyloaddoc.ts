@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -137,17 +137,17 @@ export class LazyLoadDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-treeTable 
-    [value]="files" 
-    [columns]="cols" 
-    [paginator]="true" 
-    [rows]="10" 
-    [lazy]="true" 
-    (onLazyLoad)="loadNodes($event)" 
-    [totalRecords]="1000" 
-    [loading]="loading" 
-    (onNodeExpand)="onNodeExpand($event)" 
-    [scrollable]="true" 
+        basic: `<p-treeTable
+    [value]="files"
+    [columns]="cols"
+    [paginator]="true"
+    [rows]="10"
+    [lazy]="true"
+    (onLazyLoad)="loadNodes($event)"
+    [totalRecords]="1000"
+    [loading]="loading"
+    (onNodeExpand)="onNodeExpand($event)"
+    [scrollable]="true"
     [tableStyle]="{'min-width':'50rem'}">
         <ng-template pTemplate="header" let-columns>
             <tr>
@@ -167,17 +167,17 @@ export class LazyLoadDoc implements OnInit {
 </p-treeTable>`,
 
         html: `<div class="card">
-    <p-treeTable 
-        [value]="files" 
-        [columns]="cols" 
-        [paginator]="true" 
-        [rows]="10" 
-        [lazy]="true" 
-        (onLazyLoad)="loadNodes($event)" 
-        [totalRecords]="1000" 
-        [loading]="loading" 
-        (onNodeExpand)="onNodeExpand($event)" 
-        [scrollable]="true" 
+    <p-treeTable
+        [value]="files"
+        [columns]="cols"
+        [paginator]="true"
+        [rows]="10"
+        [lazy]="true"
+        (onLazyLoad)="loadNodes($event)"
+        [totalRecords]="1000"
+        [loading]="loading"
+        (onNodeExpand)="onNodeExpand($event)"
+        [scrollable]="true"
         [tableStyle]="{'min-width':'50rem'}">
             <ng-template pTemplate="header" let-columns>
                 <tr>
@@ -198,8 +198,8 @@ export class LazyLoadDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { TreeNode } from 'primeng/api';
-import { TreeTableModule } from 'primeng/treetable';
+import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
 import { CommonModule } from '@angular/common';
 
 interface Column {

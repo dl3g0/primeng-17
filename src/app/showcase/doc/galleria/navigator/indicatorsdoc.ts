@@ -60,13 +60,13 @@ export class IndicatorsDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-galleria 
-    [(value)]="images" 
-    [showItemNavigators]="true" 
-    [showThumbnails]="false" 
-    [showIndicators]="true" 
-    [showIndicatorsOnItem]="true" 
-    [responsiveOptions]="responsiveOptions" 
+        basic: `<p-galleria
+    [(value)]="images"
+    [showItemNavigators]="true"
+    [showThumbnails]="false"
+    [showIndicators]="true"
+    [showIndicatorsOnItem]="true"
+    [responsiveOptions]="responsiveOptions"
     [containerStyle]="{ 'max-width': '640px', 'margin-top': '2em' }">
         <ng-template pTemplate="item" let-item>
             <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
@@ -78,14 +78,14 @@ export class IndicatorsDoc implements OnInit {
         </ng-template>
 </p-galleria>`,
         html: `<div class="card">
-    <p-galleria 
-        [(value)]="images" 
-        [showItemNavigators]="true" 
-        [showThumbnails]="false" 
-        [showIndicators]="true" 
-        [showIndicatorsOnItem]="true" 
-        [responsiveOptions]="responsiveOptions" 
-        [containerStyle]="{ 'max-width': '640px', 'margin-top':'2em' }"> 
+    <p-galleria
+        [(value)]="images"
+        [showItemNavigators]="true"
+        [showThumbnails]="false"
+        [showIndicators]="true"
+        [showIndicatorsOnItem]="true"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px', 'margin-top':'2em' }">
             <ng-template pTemplate="item" let-item>
                 <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
             </ng-template>
@@ -98,7 +98,7 @@ export class IndicatorsDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
 
 @Component({
     selector: 'galleria-navigator-indicators-demo',

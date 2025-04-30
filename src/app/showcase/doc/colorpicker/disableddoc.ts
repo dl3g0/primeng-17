@@ -18,19 +18,19 @@ export class DisabledDoc {
     color: string | undefined;
 
     code: Code = {
-        basic: `<p-colorPicker 
-    [(ngModel)]="color" 
+        basic: `<p-colorPicker
+    [(ngModel)]="color"
     [disabled]="true" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-colorPicker 
-        [(ngModel)]="color" 
+    <p-colorPicker
+        [(ngModel)]="color"
         [disabled]="true" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@jacobg213/primeng-17/colorpicker';
 
 @Component({
     selector: 'color-picker-format-demo',

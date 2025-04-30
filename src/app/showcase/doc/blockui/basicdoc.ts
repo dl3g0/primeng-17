@@ -52,10 +52,10 @@ export class BasicDoc {
     </p-panel>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { BlockUIModule } from 'primeng/blockui';
-import { ButtonModule } from 'primeng/button';
-import { PanelModule } from 'primeng/panel';
-import { RippleModule } from 'primeng/ripple';
+import { BlockUIModule } from '@jacobg213/primeng-17/blockui';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { PanelModule } from '@jacobg213/primeng-17/panel';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'block-ui-basic-demo',

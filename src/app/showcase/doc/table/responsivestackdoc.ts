@@ -84,10 +84,10 @@ export class ResponsiveStackDoc {
     }
 
     code: Code = {
-        basic: `<p-table 
-    [value]="products" 
-    responsiveLayout="stack" 
-    [breakpoint]="'960px'" 
+        basic: `<p-table
+    [value]="products"
+    responsiveLayout="stack"
+    [breakpoint]="'960px'"
     [tableStyle]="{'min-width': '50rem'}">
         <ng-template pTemplate="header" let-columns>
             <tr>
@@ -114,15 +114,15 @@ export class ResponsiveStackDoc {
                     <span class="p-column-title">Quantity</span>{{product.quantity}}
                 </td>
                 <td>
-                    <p-tag 
-                        [value]="product.inventoryStatus" 
+                    <p-tag
+                        [value]="product.inventoryStatus"
                         [severity]="getSeverity(product.inventoryStatus)" />
                 </td>
                 <td>
                     <span class="p-column-title">Reviews</span>
-                    <p-rating 
-                        [(ngModel)]="product.rating" 
-                        [readonly]="true" 
+                    <p-rating
+                        [(ngModel)]="product.rating"
+                        [readonly]="true"
                         [cancel]="false" />
                 </td>
             </tr>
@@ -155,15 +155,15 @@ export class ResponsiveStackDoc {
                     <span class="p-column-title">Quantity</span>{{product.quantity}}
                 </td>
                 <td>
-                    <p-tag 
-                        [value]="product.inventoryStatus" 
+                    <p-tag
+                        [value]="product.inventoryStatus"
                         [severity]="getSeverity(product.inventoryStatus)" />
                 </td>
                 <td>
                     <span class="p-column-title">Reviews</span>
-                    <p-rating 
-                        [(ngModel)]="product.rating" 
-                        [readonly]="true" 
+                    <p-rating
+                        [(ngModel)]="product.rating"
+                        [readonly]="true"
                         [cancel]="false" />
                 </td>
             </tr>
@@ -173,9 +173,9 @@ export class ResponsiveStackDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
-import { RatingModule } from 'primeng/rating';
+import { TableModule } from '@jacobg213/primeng-17/table';
+import { TagModule } from '@jacobg213/primeng-17/tag';
+import { RatingModule } from '@jacobg213/primeng-17/rating';
 import { CommonModule } from '@angular/common';
 
 interface Column {

@@ -26,7 +26,7 @@ export class BasicDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from 'primeng/colorpicker';
+import { ColorPickerModule } from '@jacobg213/primeng-17/colorpicker';
 
 @Component({
     selector: 'color-picker-basic-demo',

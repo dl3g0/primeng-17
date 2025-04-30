@@ -62,24 +62,24 @@ export class VerticalDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-carousel 
-    [value]="products" 
-    [numVisible]="1" 
-    [numScroll]="1" 
-    orientation="vertical" 
+        basic: `<p-carousel
+    [value]="products"
+    [numVisible]="1"
+    [numScroll]="1"
+    orientation="vertical"
     verticalViewPortHeight="360px">
         <ng-template let-product pTemplate="item">
             <div class="border-1 surface-border border-round m-2 p-3">
                 <div class="mb-3">
                     <div class="relative mx-auto">
-                        <img 
-                            src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" 
-                            [alt]="product.name" 
+                        <img
+                            src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"
+                            [alt]="product.name"
                             class="w-full border-round" />
-                        <p-tag 
-                            [value]="product.inventoryStatus" 
-                            [severity]="getSeverity(product.inventoryStatus)" 
-                            class="absolute" 
+                        <p-tag
+                            [value]="product.inventoryStatus"
+                            [severity]="getSeverity(product.inventoryStatus)"
+                            class="absolute"
                             [ngStyle]="{ 'left.px': 5, 'top.px': 5 }" />
                     </div>
                 </div>
@@ -99,24 +99,24 @@ export class VerticalDoc implements OnInit {
         </ng-template>
 </p-carousel>`,
         html: `<div class="card flex justify-content-center">
-    <p-carousel 
-        [value]="products" 
-        [numVisible]="1" 
-        [numScroll]="1" 
-        orientation="vertical" 
+    <p-carousel
+        [value]="products"
+        [numVisible]="1"
+        [numScroll]="1"
+        orientation="vertical"
         verticalViewPortHeight="360px">
             <ng-template let-product pTemplate="item">
                 <div class="border-1 surface-border border-round m-2 p-3">
                     <div class="mb-3">
                         <div class="relative mx-auto">
-                            <img 
-                                src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" 
-                                [alt]="product.name" 
+                            <img
+                                src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"
+                                [alt]="product.name"
                                 class="w-full border-round" />
-                            <p-tag 
-                                [value]="product.inventoryStatus" 
-                                [severity]="getSeverity(product.inventoryStatus)" 
-                                class="absolute" 
+                            <p-tag
+                                [value]="product.inventoryStatus"
+                                [severity]="getSeverity(product.inventoryStatus)"
+                                class="absolute"
                                 [ngStyle]="{ 'left.px': 5, 'top.px': 5 }" />
                         </div>
                     </div>
@@ -137,9 +137,9 @@ export class VerticalDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { CarouselModule } from 'primeng/carousel';
-import { ButtonModule } from 'primeng/button';
-import { TagModule } from 'primeng/tag';
+import { CarouselModule } from '@jacobg213/primeng-17/carousel';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { TagModule } from '@jacobg213/primeng-17/tag';
 
 @Component({
     selector: 'carousel-vertical-demo',
@@ -200,7 +200,7 @@ export class CarouselVerticalDemo implements OnInit {
             text-align: center;
             padding: 2rem 0;
         }
-    
+
         .product-image {
             width: 50%;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
@@ -208,7 +208,7 @@ export class CarouselVerticalDemo implements OnInit {
     }
 }`,
         data: `
-/* ProductService */        
+/* ProductService */
 {
     id: '1000',
     code: 'f230fh0g3',

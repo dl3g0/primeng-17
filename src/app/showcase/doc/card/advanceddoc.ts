@@ -64,9 +64,9 @@ export class AdvancedDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { CardModule } from 'primeng/card';
-import { ButtonModule } from 'primeng/button';
-        
+import { CardModule } from '@jacobg213/primeng-17/card';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+
 @Component({
     selector: 'card-advanced-demo',
     templateUrl: './card-advanced-demo.html',

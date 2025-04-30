@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -78,11 +78,11 @@ export class ContextMenuDoc {
 
     code: Code = {
         basic: `<p-contextMenu #cm [model]="items" />
-<p-table 
-    [value]="products" 
-    [(contextMenuSelection)]="selectedProduct" 
-    [contextMenu]="cm" 
-    dataKey="code" 
+<p-table
+    [value]="products"
+    [(contextMenuSelection)]="selectedProduct"
+    [contextMenu]="cm"
+    dataKey="code"
     [tableStyle]="{'min-width': '50rem'}">
         <ng-template pTemplate="header">
             <tr>
@@ -103,11 +103,11 @@ export class ContextMenuDoc {
 </p-table>`,
         html: `<div class="card">
     <p-contextMenu #cm [model]="items" />
-    <p-table 
-        [value]="products" 
-        [(contextMenuSelection)]="selectedProduct" 
-        [contextMenu]="cm" 
-        dataKey="code" 
+    <p-table
+        [value]="products"
+        [(contextMenuSelection)]="selectedProduct"
+        [contextMenu]="cm"
+        dataKey="code"
         [tableStyle]="{'min-width': '50rem'}">
             <ng-template pTemplate="header">
                 <tr>
@@ -128,11 +128,11 @@ export class ContextMenuDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MessageService, MenuItem } from 'primeng/api';
+import { MessageService, MenuItem } from '@jacobg213/primeng-17/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { ContextMenuModule } from 'primeng/contextmenu';
+import { TableModule } from '@jacobg213/primeng-17/table';
+import { ContextMenuModule } from '@jacobg213/primeng-17/contextmenu';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 

@@ -18,21 +18,21 @@ export class YearDoc {
     date: Date[] | undefined;
 
     code: Code = {
-        basic: `<p-calendar 
-    [(ngModel)]="date" 
-    view="year" 
+        basic: `<p-calendar
+    [(ngModel)]="date"
+    view="year"
     dateFormat="yy" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-calendar 
-        [(ngModel)]="date" 
-        view="year" 
+    <p-calendar
+        [(ngModel)]="date"
+        view="year"
         dateFormat="yy" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CalendarModule } from 'primeng/calendar';
+import { CalendarModule } from '@jacobg213/primeng-17/calendar';
 
 @Component({
     selector: 'calendar-year-demo',

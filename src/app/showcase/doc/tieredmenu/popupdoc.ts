@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -101,9 +101,9 @@ export class PopupDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { TieredMenuModule } from 'primeng/tieredmenu';
-import { ButtonModule } from 'primeng/button';
+import { MenuItem } from '@jacobg213/primeng-17/api';
+import { TieredMenuModule } from '@jacobg213/primeng-17/tieredmenu';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'tiered-menu-popup-demo',
@@ -113,7 +113,7 @@ import { ButtonModule } from 'primeng/button';
 })
 export class TieredMenuPopupDemo implements OnInit {
     items: MenuItem[] | undefined;
-    
+
     ngOnInit() {
         this.items = [
             {

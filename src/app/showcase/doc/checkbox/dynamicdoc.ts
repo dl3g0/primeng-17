@@ -30,17 +30,17 @@ export class DynamicDoc {
 
     code: Code = {
         basic: `<div *ngFor="let category of categories" class="field-checkbox">
-    <p-checkbox 
+    <p-checkbox
         [(ngModel)]="selectedCategories"
-        [label]="category.name" 
-        name="group" 
+        [label]="category.name"
+        name="group"
         [value]="category" />
 </div>`,
 
         html: `<div class="card flex justify-content-center">
     <div class="flex flex-column gap-2">
         <div *ngFor="let category of categories" class="field-checkbox">
-            <p-checkbox 
+            <p-checkbox
                 [(ngModel)]="selectedCategories"
                 [label]="category.name"
                 name="group"
@@ -51,7 +51,7 @@ export class DynamicDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@jacobg213/primeng-17/checkbox';
 
 @Component({
     selector: 'checkbox-dynamic-demo',

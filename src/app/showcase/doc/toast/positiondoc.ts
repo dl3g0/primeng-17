@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -42,16 +42,16 @@ export class PositionDoc {
 <p-toast position="bottom-left" key="bl" />
 <p-toast position="bottom-right" key="br" />
 
-<p-button 
-    (onClick)="showTopLeft()" 
+<p-button
+    (onClick)="showTopLeft()"
     label="Top Left" />
-<p-button 
-    (onClick)="showBottomLeft()" 
-    label="Bottom Left" 
+<p-button
+    (onClick)="showBottomLeft()"
+    label="Bottom Left"
     severity="warning" />
-<p-button 
-    (onClick)="showBottomRight()" 
-    label="Bottom Right" 
+<p-button
+    (onClick)="showBottomRight()"
+    label="Bottom Right"
     severity="help" />`,
 
         html: `<div class="card flex justify-content-center gap-2">
@@ -59,24 +59,24 @@ export class PositionDoc {
     <p-toast position="bottom-left" key="bl" />
     <p-toast position="bottom-right" key="br" />
 
-    <p-button 
-        (onClick)="showTopLeft()" 
+    <p-button
+        (onClick)="showTopLeft()"
         label="Top Left" />
-    <p-button 
-        (onClick)="showBottomLeft()" 
-        label="Bottom Left" 
+    <p-button
+        (onClick)="showBottomLeft()"
+        label="Bottom Left"
         severity="warning" />
-    <p-button 
-        (onClick)="showBottomRight()" 
-        label="Bottom Right" 
+    <p-button
+        (onClick)="showBottomRight()"
+        label="Bottom Right"
         severity="help" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { MessageService } from '@jacobg213/primeng-17/api';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'toast-position-demo',

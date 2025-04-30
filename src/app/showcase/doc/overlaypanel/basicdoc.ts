@@ -137,12 +137,12 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { OverlayPanelModule } from 'primeng/overlaypanel';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
-import { ChipsModule } from 'primeng/chips';
+import { OverlayPanelModule } from '@jacobg213/primeng-17/overlaypanel';
+import { InputGroupModule } from '@jacobg213/primeng-17/inputgroup';
+import { InputGroupAddonModule } from '@jacobg213/primeng-17/inputgroupaddon';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { ChipsModule } from '@jacobg213/primeng-17/chips';
 import { CommonModule } from '@angular/common';
 
 @Component({

@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ViewChild } from
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { SortEvent } from 'primeng/api';
-import { Table } from 'primeng/table';
+import { SortEvent } from '@jacobg213/primeng-17/api';
+import { Table } from '@jacobg213/primeng-17/table';
 @Component({
     selector: 'removable-sort-doc',
     template: ` <app-docsectiontext>
@@ -141,11 +141,11 @@ export class RemovableSortDoc {
         typescript: `import { Component, OnInit, ViewChild } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { CommonModule } from '@angular/common';
-import { TableModule } from 'primeng/table';
-import { Table } from 'primeng/table';
-import { SortEvent } from 'primeng/api';
+import { TableModule } from '@jacobg213/primeng-17/table';
+import { Table } from '@jacobg213/primeng-17/table';
+import { SortEvent } from '@jacobg213/primeng-17/api';
 
 @Component({
     selector: 'table-removable-sort-demo',

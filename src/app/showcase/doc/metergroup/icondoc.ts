@@ -29,7 +29,7 @@ export class IconDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@jacobg213/primeng-17/metergroup';
 
 @Component({
     selector: 'meter-group-icon-demo',

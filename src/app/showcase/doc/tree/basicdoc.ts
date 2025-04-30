@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -33,9 +33,9 @@ export class BasicDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeModule } from 'primeng/tree';
+import { TreeModule } from '@jacobg213/primeng-17/tree';
 
 @Component({
     selector: 'tree-basic-demo',
@@ -51,7 +51,7 @@ export class TreeBasicDemo implements OnInit {
 
     ngOnInit() {
         this.nodeService.getFiles().then((data) => (this.files = data));
-    } 
+    }
 }`,
         service: ['NodeService'],
 

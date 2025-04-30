@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -55,43 +55,43 @@ export class SizesDoc {
     }
 
     code: Code = {
-        basic: `<p-splitButton 
-    label="Small" 
-    [model]="items" 
-    (onClick)="save('info')" 
+        basic: `<p-splitButton
+    label="Small"
+    [model]="items"
+    (onClick)="save('info')"
     size="sm" />
-<p-splitButton 
-    label="Normal" 
-    [model]="items" 
+<p-splitButton
+    label="Normal"
+    [model]="items"
     (onClick)="save('info')" />
-<p-splitButton 
-    label="Large" 
-    [model]="items" 
-    (onClick)="save('info')" 
+<p-splitButton
+    label="Large"
+    [model]="items"
+    (onClick)="save('info')"
     size="lg" />`,
 
         html: `<div class="card flex flex-wrap gap-3 justify-content-center">
     <p-toast />
-    <p-splitButton 
-        label="Small" 
-        [model]="items" 
-        (onClick)="save('info')" 
+    <p-splitButton
+        label="Small"
+        [model]="items"
+        (onClick)="save('info')"
         size="sm" />
-    <p-splitButton 
-        label="Normal" 
-        [model]="items" 
+    <p-splitButton
+        label="Normal"
+        [model]="items"
         (onClick)="save('info')" />
-    <p-splitButton 
-        label="Large" 
-        [model]="items" 
-        (onClick)="save('info')" 
+    <p-splitButton
+        label="Large"
+        [model]="items"
+        (onClick)="save('info')"
         size="lg" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SplitButtonModule } from '@jacobg213/primeng-17/splitbutton';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'split-button-sizes-demo',

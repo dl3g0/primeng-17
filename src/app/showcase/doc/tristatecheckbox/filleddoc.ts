@@ -18,15 +18,15 @@ export class FilledDoc {
     value: boolean | null = null;
 
     code: Code = {
-        basic: `<p-triStateCheckbox 
-    [(ngModel)]="value" 
-    variant="filled" 
+        basic: `<p-triStateCheckbox
+    [(ngModel)]="value"
+    variant="filled"
     inputId="tricheckbox" />`,
 
         html: `<div class="card flex flex-column gap-3 align-items-center">
-    <p-triStateCheckbox 
+    <p-triStateCheckbox
         [(ngModel)]="value"
-        variant="filled" 
+        variant="filled"
         inputId="tricheckbox" />
     <label for="tricheckbox">
         {{ value === null ? 'null' : value }}
@@ -34,7 +34,7 @@ export class FilledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
+import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
 import { FormsModule } from '@angular/forms';
 
 @Component({

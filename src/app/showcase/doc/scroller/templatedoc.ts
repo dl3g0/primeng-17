@@ -46,13 +46,13 @@ export class TemplateDoc {
     }
 
     code: Code = {
-        basic: `<p-scroller 
-    class="custom-loading" 
-    [items]="items" 
-    [itemSize]="25 * 7" 
-    [showLoader]="true" 
-    [delay]="250" 
-    styleClass="border-1 surface-border" 
+        basic: `<p-scroller
+    class="custom-loading"
+    [items]="items"
+    [itemSize]="25 * 7"
+    [showLoader]="true"
+    [delay]="250"
+    styleClass="border-1 surface-border"
     [style]="{'width': '200px', 'height': '200px'}">
         <ng-template pTemplate="item" let-item let-options="options">
             <div class="flex flex-column align-items-strech" [ngClass]="{'surface-ground': options.odd}">
@@ -106,13 +106,13 @@ export class TemplateDoc {
         </ng-template>
 </p-scroller>`,
         html: `<div class="card flex justify-content-center">
-    <p-scroller 
-        class="custom-loading" 
+    <p-scroller
+        class="custom-loading"
         [items]="items"
-        [itemSize]="25 * 7" 
-        [showLoader]="true" 
-        [delay]="250" 
-        styleClass="border-1 surface-border" 
+        [itemSize]="25 * 7"
+        [showLoader]="true"
+        [delay]="250"
+        styleClass="border-1 surface-border"
         [style]="{'width': '200px', 'height': '200px'}">
             <ng-template pTemplate="item" let-item let-options="options">
                 <div class="flex flex-column align-items-strech" [ngClass]="{'surface-ground': options.odd}">
@@ -168,8 +168,8 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ScrollerModule } from 'primeng/scroller';
-import { SkeletonModule } from 'primeng/skeleton';
+import { ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { SkeletonModule } from '@jacobg213/primeng-17/skeleton';
 
 @Component({
     selector: 'scroller-template-demo',
@@ -179,7 +179,7 @@ import { SkeletonModule } from 'primeng/skeleton';
             .p-scroller-viewport {
                 flex: none;
             }
-        
+
             p-skeleton {
                 width: 100%;
             }

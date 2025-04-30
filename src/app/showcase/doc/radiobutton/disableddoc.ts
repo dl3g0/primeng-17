@@ -25,7 +25,7 @@ export class DisabledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -84,14 +84,14 @@ export class FrozenColumnsDoc {
     }
 
     code: Code = {
-        basic: `<p-treeTable 
-    [value]="files" 
-    [columns]="scrollableCols" 
-    [frozenColumns]="frozenCols" 
-    [scrollable]="true" 
-    scrollHeight="250px" 
-    frozenWidth="200px" 
-    [scrollable]="true" 
+        basic: `<p-treeTable
+    [value]="files"
+    [columns]="scrollableCols"
+    [frozenColumns]="frozenCols"
+    [scrollable]="true"
+    scrollHeight="250px"
+    frozenWidth="200px"
+    [scrollable]="true"
     [tableStyle]="{'min-width':'50rem'}">
         <ng-template pTemplate="colgroup" let-columns>
             <colgroup>
@@ -123,14 +123,14 @@ export class FrozenColumnsDoc {
 </p-treeTable>`,
 
         html: `<div class="card">
-    <p-treeTable 
-        [value]="files" 
-        [columns]="scrollableCols" 
-        [frozenColumns]="frozenCols" 
-        [scrollable]="true" 
-        scrollHeight="250px" 
-        frozenWidth="200px" 
-        [scrollable]="true" 
+    <p-treeTable
+        [value]="files"
+        [columns]="scrollableCols"
+        [frozenColumns]="frozenCols"
+        [scrollable]="true"
+        scrollHeight="250px"
+        frozenWidth="200px"
+        [scrollable]="true"
         [tableStyle]="{'min-width':'50rem'}">
             <ng-template pTemplate="colgroup" let-columns>
                 <colgroup>
@@ -163,9 +163,9 @@ export class FrozenColumnsDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from 'primeng/treetable';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
 import { CommonModule } from '@angular/common';
 
 interface Column {

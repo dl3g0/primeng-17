@@ -72,7 +72,7 @@ export class DoughnutDoc implements OnInit {
     <p-chart type="doughnut" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@jacobg213/primeng-17/chart';
 
 @Component({
     selector: 'chart-doughnut-demo',

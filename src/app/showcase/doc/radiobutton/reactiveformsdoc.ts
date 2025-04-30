@@ -39,8 +39,8 @@ export class ReactiveFormsDoc implements OnInit {
     code: Code = {
         basic: `<form class="flex flex-column gap-3" [formGroup]="formGroup">
     <div *ngFor="let category of categories" class="field-checkbox">
-        <p-radioButton 
-            [inputId]="category.key" 
+        <p-radioButton
+            [inputId]="category.key"
             [value]="category"
             formControlName="selectedCategory" />
         <label [for]="category.key" class="ml-2">
@@ -52,9 +52,9 @@ export class ReactiveFormsDoc implements OnInit {
         html: `<div class="card flex justify-content-center">
     <form class="flex flex-column gap-3" [formGroup]="formGroup">
         <div *ngFor="let category of categories" class="field-checkbox">
-            <p-radioButton 
-                [inputId]="category.key" 
-                [value]="category" 
+            <p-radioButton
+                [inputId]="category.key"
+                [value]="category"
                 formControlName="selectedCategory" />
             <label [for]="category.key" class="ml-2">
                 {{ category.name }}
@@ -65,7 +65,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
 
 @Component({
     selector: 'radio-button-reactive-forms-demo',

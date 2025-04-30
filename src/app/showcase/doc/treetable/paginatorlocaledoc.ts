@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 interface Column {
@@ -75,13 +75,13 @@ export class PaginatorLocaleDoc {
     }
 
     code: Code = {
-        basic: `<p-treeTable 
-    paginatorLocale="fa-IR" 
-    [value]="files" 
-    [columns]="cols" 
-    [paginator]="true" 
-    [rows]="10" 
-    [scrollable]="true" 
+        basic: `<p-treeTable
+    paginatorLocale="fa-IR"
+    [value]="files"
+    [columns]="cols"
+    [paginator]="true"
+    [rows]="10"
+    [scrollable]="true"
     [tableStyle]="{'min-width':'50rem'}">
         <ng-template pTemplate="header" let-columns>
             <tr>
@@ -101,13 +101,13 @@ export class PaginatorLocaleDoc {
 </p-treeTable>`,
 
         html: `<div class="card">
-    <p-treeTable 
-        paginatorLocale="fa-IR" 
-        [value]="files" 
-        [columns]="cols" 
-        [paginator]="true" 
-        [rows]="10" 
-        [scrollable]="true" 
+    <p-treeTable
+        paginatorLocale="fa-IR"
+        [value]="files"
+        [columns]="cols"
+        [paginator]="true"
+        [rows]="10"
+        [scrollable]="true"
         [tableStyle]="{'min-width':'50rem'}">
             <ng-template pTemplate="header" let-columns>
                 <tr>
@@ -128,8 +128,8 @@ export class PaginatorLocaleDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
-import { TreeTableModule } from 'primeng/treetable';
+import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
 import { CommonModule } from '@angular/common';
 
 interface Column {
@@ -152,14 +152,14 @@ export class TreeTablePaginatorLocaleDemo implements OnInit {
         this.files = [];
         for(let i = 0; i < 50; i++) {
             let node = {
-                data:{  
+                data:{
                     name: 'Item ' + i,
                     size: Math.floor(Math.random() * 1000) + 1 + 'kb',
                     type: 'Type ' + i
                 },
                 children: [
                     {
-                        data: {  
+                        data: {
                             name: 'Item ' + i + ' - 0',
                             size: Math.floor(Math.random() * 1000) + 1 + 'kb',
                             type: 'Type ' + i

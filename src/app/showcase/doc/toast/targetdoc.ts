@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -36,28 +36,28 @@ export class TargetDoc {
         basic: `<p-toast key="toast1" />
 <p-toast key="toast2" />
 <p-button
-    (onClick)="showToast1()" 
+    (onClick)="showToast1()"
     label="Show Success" />
 <p-button
-    (onClick)="showToast2()" 
-    label="Show Warning" 
+    (onClick)="showToast2()"
+    label="Show Warning"
     severity="warning" />`,
         html: `<div class="card flex justify-content-center gap-2">
     <p-toast key="toast1" />
     <p-toast key="toast2" />
     <p-button
-        (onClick)="showToast1()" 
+        (onClick)="showToast1()"
         label="Show Success" />
     <p-button
-        (onClick)="showToast2()" 
-        label="Show Warning" 
+        (onClick)="showToast2()"
+        label="Show Warning"
         severity="warning" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { MessageService } from '@jacobg213/primeng-17/api';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'toast-target-demo',

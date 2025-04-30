@@ -106,7 +106,7 @@ export class InvalidDoc {
     }
 
     code: Code = {
-        basic: `<p-cascadeSelect 
+        basic: `<p-cascadeSelect
     class="ng-invalid ng-dirty"
     [(ngModel)]="selectedCity"
     [options]="countries"
@@ -122,15 +122,15 @@ export class InvalidDoc {
         [(ngModel)]="selectedCity"
         [options]="countries"
         optionLabel="cname"
-        optionGroupLabel="name" 
+        optionGroupLabel="name"
         [optionGroupChildren]="['states', 'cities']"
-        [style]="{ minWidth: '14rem' }" 
+        [style]="{ minWidth: '14rem' }"
         placeholder="Select a City" />
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CascadeSelectModule } from 'primeng/cascadeselect';
+import { CascadeSelectModule } from '@jacobg213/primeng-17/cascadeselect';
 
 @Component({
     selector: 'cascade-select-invalid-demo',
@@ -142,7 +142,7 @@ export class CascadeSelectInvalidDemo implements OnInit {
     countries: any[] | undefined;
 
     selectedCity: any;
-    
+
     ngOnInit() {
         this.countries = [
             {

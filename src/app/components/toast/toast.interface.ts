@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from '@jacobg213/primeng-17/api';
 
 /**
  * Defines valid templates in Toast.

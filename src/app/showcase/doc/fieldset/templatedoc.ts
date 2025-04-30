@@ -30,8 +30,8 @@ export class TemplateDoc {
         basic: `<p-fieldset>
     <ng-template pTemplate="header">
         <div class="flex align-items-center gap-2 px-2">
-            <p-avatar 
-                image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" 
+            <p-avatar
+                image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
                 shape="circle" />
             <span class="font-bold">Amy Elsner</span>
         </div>
@@ -45,8 +45,8 @@ export class TemplateDoc {
 <p-fieldset>
 <ng-template pTemplate="header">
     <div class="flex align-items-center gap-2 px-2">
-        <p-avatar 
-            image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" 
+        <p-avatar
+            image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
             shape="circle" />
         <span class="font-bold">Amy Elsner</span>
     </div>
@@ -59,8 +59,8 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { FieldsetModule } from 'primeng/fieldset';
-import { AvatarModule } from 'primeng/avatar';
+import { FieldsetModule } from '@jacobg213/primeng-17/fieldset';
+import { AvatarModule } from '@jacobg213/primeng-17/avatar';
 
 @Component({
     selector: 'fieldset-template-demo',

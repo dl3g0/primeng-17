@@ -373,12 +373,12 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { StepperModule } from 'primeng/stepper';
-import { InputTextModule } from 'primeng/inputtext';
-import { ToggleButtonModule } from 'primeng/togglebutton';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputIconModule } from 'primeng/inputicon';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { StepperModule } from '@jacobg213/primeng-17/stepper';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { ToggleButtonModule } from '@jacobg213/primeng-17/togglebutton';
+import { IconFieldModule } from '@jacobg213/primeng-17/iconfield';
+import { InputIconModule } from '@jacobg213/primeng-17/inputicon';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -397,7 +397,7 @@ import { CommonModule } from '@angular/common';
     styles: [
         \`.p-stepper {
             flex-basis: 40rem;
-        } 
+        }
         \`
     ]
 })

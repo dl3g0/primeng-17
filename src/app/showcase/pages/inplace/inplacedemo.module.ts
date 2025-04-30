@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
+import { InplaceModule } from '@jacobg213/primeng-17/inplace';
 import { InplaceDocModule } from '@doc/inplace/inplacedoc.module';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { InplaceDemo } from './inplacedemo';

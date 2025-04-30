@@ -29,23 +29,23 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { BlockableUI, FilterMetadata, FilterService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ArrowDownIcon } from 'primeng/icons/arrowdown';
-import { ArrowUpIcon } from 'primeng/icons/arrowup';
-import { CheckIcon } from 'primeng/icons/check';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { MinusIcon } from 'primeng/icons/minus';
-import { SortAltIcon } from 'primeng/icons/sortalt';
-import { SortAmountDownIcon } from 'primeng/icons/sortamountdown';
-import { SortAmountUpAltIcon } from 'primeng/icons/sortamountupalt';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { PaginatorModule } from 'primeng/paginator';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { ObjectUtils } from 'primeng/utils';
+import { BlockableUI, FilterMetadata, FilterService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from '@jacobg213/primeng-17/api';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { ArrowDownIcon } from '@jacobg213/primeng-17/icons/arrowdown';
+import { ArrowUpIcon } from '@jacobg213/primeng-17/icons/arrowup';
+import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
+import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
+import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
+import { MinusIcon } from '@jacobg213/primeng-17/icons/minus';
+import { SortAltIcon } from '@jacobg213/primeng-17/icons/sortalt';
+import { SortAmountDownIcon } from '@jacobg213/primeng-17/icons/sortamountdown';
+import { SortAmountUpAltIcon } from '@jacobg213/primeng-17/icons/sortamountupalt';
+import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
+import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
+import { ObjectUtils } from '@jacobg213/primeng-17/utils';
 import { Subject, Subscription } from 'rxjs';
 import {
     TreeTableColResizeEvent,

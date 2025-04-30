@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { InputTextareaModule } from 'primeng/inputtextarea';`
+        typescript: `import { InputTextareaModule } from '@jacobg213/primeng-17/inputtextarea';`
     };
 }

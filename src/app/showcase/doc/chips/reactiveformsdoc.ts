@@ -39,7 +39,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ChipsModule } from 'primeng/chips';
+import { ChipsModule } from '@jacobg213/primeng-17/chips';
 
 @Component({
     selector: 'chips-reactive-forms-demo',

@@ -1,12 +1,12 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, booleanAttribute, ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChild, ContentChildren, ElementRef, EventEmitter, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { BlockableUI, Footer, PrimeTemplate, SharedModule } from 'primeng/api';
-import { MinusIcon } from 'primeng/icons/minus';
-import { PlusIcon } from 'primeng/icons/plus';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable } from 'primeng/ts-helpers';
-import { UniqueComponentId } from 'primeng/utils';
+import { BlockableUI, Footer, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { MinusIcon } from '@jacobg213/primeng-17/icons/minus';
+import { PlusIcon } from '@jacobg213/primeng-17/icons/plus';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
 import { PanelAfterToggleEvent, PanelBeforeToggleEvent } from './panel.interface';
 
 /**

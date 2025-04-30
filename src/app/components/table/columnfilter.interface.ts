@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { SelectItem } from 'primeng/api';
+import { SelectItem } from '@jacobg213/primeng-17/api';
 
 /**
  * Defines valid templates in Column Filter.

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -51,16 +51,16 @@ export class TemplateDoc {
     }
 
     code: Code = {
-        basic: `<p-toast 
-    position="bottom-center" 
-    key="confirm" 
-    (onClose)="onReject()" 
+        basic: `<p-toast
+    position="bottom-center"
+    key="confirm"
+    (onClose)="onReject()"
     [baseZIndex]="5000">
         <ng-template let-message pTemplate="message">
             <div class="flex flex-column align-items-start" style="flex: 1">
                 <div class="flex align-items-center gap-2">
-                    <p-avatar 
-                        image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" 
+                    <p-avatar
+                        image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
                         shape="circle" />
                     <span class="font-bold text-900">
                         Amy Elsner
@@ -75,16 +75,16 @@ export class TemplateDoc {
 </p-toast>
 <p-button (onClick)="showConfirm()" label="View" />`,
         html: `<div class="card flex justify-content-center">
-    <p-toast 
-        position="bottom-center" 
-        key="confirm" 
-        (onClose)="onReject()" 
+    <p-toast
+        position="bottom-center"
+        key="confirm"
+        (onClose)="onReject()"
         [baseZIndex]="5000">
             <ng-template let-message pTemplate="message">
                 <div class="flex flex-column align-items-start" style="flex: 1">
                     <div class="flex align-items-center gap-2">
-                        <p-avatar 
-                            image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" 
+                        <p-avatar
+                            image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
                             shape="circle" />
                         <span class="font-bold text-900">
                             Amy Elsner
@@ -100,11 +100,11 @@ export class TemplateDoc {
     <p-button (onClick)="showConfirm()" label="View" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
-import { AvatarModule } from 'primeng/avatar';
+import { MessageService } from '@jacobg213/primeng-17/api';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { AvatarModule } from '@jacobg213/primeng-17/avatar';
 
 @Component({
     selector: 'toast-template-demo',

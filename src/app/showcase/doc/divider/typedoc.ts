@@ -79,7 +79,7 @@ export class TypeDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@jacobg213/primeng-17/divider';
 
 @Component({
     selector: 'divider-type-demo',

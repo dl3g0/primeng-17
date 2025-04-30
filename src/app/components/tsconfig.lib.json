@@ -10,14 +10,11 @@
         "moduleResolution": "node",
         "outDir": "../build",
         "rootDir": ".",
-        "lib": [
-            "es2022",
-            "dom"
-        ],
+        "lib": ["es2022", "dom"],
         "skipLibCheck": true,
         "types": ["resize-observer-browser"],
         "paths": {
-            "primeng/*": ["src/app/components/*/public_api"]
+            "@jacobg213/primeng-17/*": ["src/app/components/*/public_api"]
         }
     },
     "angularCompilerOptions": {
@@ -30,7 +27,5 @@
         "flatModuleOutFile": "primeng.js",
         "flatModuleId": "primeng"
     },
-    "files": [
-        "./public_api.ts"
-    ]
+    "files": ["./public_api.ts"]
 }

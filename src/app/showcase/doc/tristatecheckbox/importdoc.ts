@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';`
+        typescript: `import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';`
     };
 }

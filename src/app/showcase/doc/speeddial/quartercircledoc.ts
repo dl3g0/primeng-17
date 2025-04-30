@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -60,65 +60,65 @@ export class QuarterCircleDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-speedDial 
-    [model]="items" 
+        basic: `<p-speedDial
+    [model]="items"
     radius="120"
-    direction="up-left" 
-    type="quarter-circle" 
+    direction="up-left"
+    type="quarter-circle"
     buttonClassName="p-button-success" />
-<p-speedDial 
-    [model]="items" 
-    radius="120" 
+<p-speedDial
+    [model]="items"
+    radius="120"
     direction="up-right"
-    type="quarter-circle" 
+    type="quarter-circle"
     buttonClassName="p-button-success" />
-<p-speedDial 
-    [model]="items" 
-    radius="120" 
-    direction="down-left" 
-    type="quarter-circle" 
+<p-speedDial
+    [model]="items"
+    radius="120"
+    direction="down-left"
+    type="quarter-circle"
     buttonClassName="p-button-success" />
-<p-speedDial 
-    [model]="items" 
-    radius="120" 
-    direction="down-right" 
-    type="quarter-circle" 
+<p-speedDial
+    [model]="items"
+    radius="120"
+    direction="down-right"
+    type="quarter-circle"
     buttonClassName="p-button-success" />`,
 
         html: `<div class="card">
     <div style="height: 500px; position: relative;" class="speeddial-circle-demo">
         <p-toast />
-        <p-speedDial 
-            [model]="items" 
-            radius="120" 
-            direction="up-left" 
-            type="quarter-circle" 
+        <p-speedDial
+            [model]="items"
+            radius="120"
+            direction="up-left"
+            type="quarter-circle"
             buttonClassName="p-button-success" />
-        <p-speedDial 
-            [model]="items" 
-            radius="120" 
-            direction="up-right" 
-            type="quarter-circle" 
+        <p-speedDial
+            [model]="items"
+            radius="120"
+            direction="up-right"
+            type="quarter-circle"
             buttonClassName="p-button-success" />
-        <p-speedDial 
-            [model]="items" 
-            radius="120" 
-            direction="down-left" 
-            type="quarter-circle" 
+        <p-speedDial
+            [model]="items"
+            radius="120"
+            direction="down-left"
+            type="quarter-circle"
             buttonClassName="p-button-success" />
-        <p-speedDial 
-            [model]="items" 
-            radius="120" 
-            direction="down-right" 
-            type="quarter-circle" 
+        <p-speedDial
+            [model]="items"
+            radius="120"
+            direction="down-right"
+            type="quarter-circle"
             buttonClassName="p-button-success" />
     </div>
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SpeedDialModule } from '@jacobg213/primeng-17/speeddial';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'speed-dial-quarter-circle-demo',
@@ -131,17 +131,17 @@ import { ToastModule } from 'primeng/toast';
                         right: 0;
                         bottom: 0;
                     }
-        
+
                     &.p-speeddial-direction-up-right {
                         left: 0;
                         bottom: 0;
                     }
-        
+
                     &.p-speeddial-direction-down-left {
                         right: 0;
                         top: 0;
                     }
-        
+
                     &.p-speeddial-direction-down-right {
                         left: 0;
                         top: 0;

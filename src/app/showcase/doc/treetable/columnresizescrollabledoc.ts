@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -62,11 +62,11 @@ export class ResizeScrollableDoc {
     }
 
     code: Code = {
-        basic: `<p-treeTable 
-    [value]="files" 
-    [columns]="cols" 
-    [resizableColumns]="true" 
-    [scrollable]="true" 
+        basic: `<p-treeTable
+    [value]="files"
+    [columns]="cols"
+    [resizableColumns]="true"
+    [scrollable]="true"
     scrollHeight="200px">
         <ng-template pTemplate="colgroup" let-columns>
             <colgroup>
@@ -91,11 +91,11 @@ export class ResizeScrollableDoc {
 </p-treeTable>`,
 
         html: `<div class="card">
-    <p-treeTable 
-        [value]="files" 
-        [columns]="cols" 
-        [resizableColumns]="true" 
-        [scrollable]="true" 
+    <p-treeTable
+        [value]="files"
+        [columns]="cols"
+        [resizableColumns]="true"
+        [scrollable]="true"
         scrollHeight="200px">
             <ng-template pTemplate="colgroup" let-columns>
                 <colgroup>
@@ -121,9 +121,9 @@ export class ResizeScrollableDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from 'primeng/treetable';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
 import { CommonModule } from '@angular/common';
 
 interface Column {

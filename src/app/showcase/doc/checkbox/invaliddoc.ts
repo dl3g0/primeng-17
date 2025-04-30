@@ -18,14 +18,14 @@ export class InvalidDoc {
     checked: boolean = false;
 
     code: Code = {
-        basic: `<p-checkbox 
+        basic: `<p-checkbox
     [(ngModel)]="checked"
     [binary]="true"
     inputId="binary"
     class="ng-invalid ng-dirty" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-checkbox 
+    <p-checkbox
         [(ngModel)]="checked"
         [binary]="true"
         inputId="binary"
@@ -34,7 +34,7 @@ export class InvalidDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@jacobg213/primeng-17/checkbox';
 
 @Component({
     selector: 'checkbox-invalid-demo',

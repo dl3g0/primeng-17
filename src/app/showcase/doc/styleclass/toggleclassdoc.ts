@@ -20,22 +20,22 @@ import { Code } from '@domain/code';
 })
 export class ToggleClassDoc {
     code: Code = {
-        basic: `<p-button 
-    label="Toggle p-disabled" 
-    pStyleClass="@next" 
+        basic: `<p-button
+    label="Toggle p-disabled"
+    pStyleClass="@next"
     toggleClass="p-disabled" />
 <input type="text" pInputText class="block mt-3" />`,
         html: `<div class="card flex flex-column align-items-center">
-    <p-button 
+    <p-button
         label="Toggle p-disabled"
-        pStyleClass="@next" 
+        pStyleClass="@next"
         toggleClass="p-disabled" />
     <input type="text" pInputText class="block mt-3">
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { StyleClassModule } from 'primeng/styleclass';
-import { InputTextModule } from 'primeng/inputtext';
-import { ButtonModule } from 'primeng/button';
+import { StyleClassModule } from '@jacobg213/primeng-17/styleclass';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'style-class-toggle-class-demo',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -33,39 +33,39 @@ export class DynamicDoc {
     }
 
     code: Code = {
-        basic: `<p-button 
-    type="button" 
-    pRipple 
-    (onClick)="addMessages()" 
-    label="Show" 
+        basic: `<p-button
+    type="button"
+    pRipple
+    (onClick)="addMessages()"
+    label="Show"
     styleClass="mr-2" />
-<p-button 
-    type="button" 
-    pRipple 
-    (onClick)="clearMessages()" 
-    label="Clear" 
+<p-button
+    type="button"
+    pRipple
+    (onClick)="clearMessages()"
+    label="Clear"
     severity="secondary" />
 <p-messages [(value)]="messages" [enableService]="false" />`,
         html: `<div class="card">
-    <p-button 
-        type="button" 
-        pRipple 
-        (onClick)="addMessages()" 
-        label="Show" 
-        styleClass="mr-2" />
-    <p-button 
+    <p-button
         type="button"
-        pRipple 
-        (onClick)="clearMessages()" 
-        label="Clear" 
+        pRipple
+        (onClick)="addMessages()"
+        label="Show"
+        styleClass="mr-2" />
+    <p-button
+        type="button"
+        pRipple
+        (onClick)="clearMessages()"
+        label="Clear"
         severity="secondary" />
     <p-messages [(value)]="messages" [enableService]="false" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
-import { MessagesModule } from 'primeng/messages';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { Message } from '@jacobg213/primeng-17/api';
+import { MessagesModule } from '@jacobg213/primeng-17/messages';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'messages-dynamic-demo',

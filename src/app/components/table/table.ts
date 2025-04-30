@@ -33,30 +33,46 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, LazyLoadMeta, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { CalendarModule } from 'primeng/calendar';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { DropdownModule } from 'primeng/dropdown';
-import { ArrowDownIcon } from 'primeng/icons/arrowdown';
-import { ArrowUpIcon } from 'primeng/icons/arrowup';
-import { CheckIcon } from 'primeng/icons/check';
-import { FilterIcon } from 'primeng/icons/filter';
-import { FilterSlashIcon } from 'primeng/icons/filterslash';
-import { PlusIcon } from 'primeng/icons/plus';
-import { SortAltIcon } from 'primeng/icons/sortalt';
-import { SortAmountDownIcon } from 'primeng/icons/sortamountdown';
-import { SortAmountUpAltIcon } from 'primeng/icons/sortamountupalt';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { TrashIcon } from 'primeng/icons/trash';
-import { InputNumberModule } from 'primeng/inputnumber';
-import { InputTextModule } from 'primeng/inputtext';
-import { PaginatorModule } from 'primeng/paginator';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { SelectButtonModule } from 'primeng/selectbutton';
-import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import {
+    BlockableUI,
+    FilterMatchMode,
+    FilterMetadata,
+    FilterOperator,
+    FilterService,
+    LazyLoadMeta,
+    OverlayService,
+    PrimeNGConfig,
+    PrimeTemplate,
+    ScrollerOptions,
+    SelectItem,
+    SharedModule,
+    SortMeta,
+    TableState,
+    TranslationKeys
+} from '@jacobg213/primeng-17/api';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { CalendarModule } from '@jacobg213/primeng-17/calendar';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { ArrowDownIcon } from '@jacobg213/primeng-17/icons/arrowdown';
+import { ArrowUpIcon } from '@jacobg213/primeng-17/icons/arrowup';
+import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
+import { FilterIcon } from '@jacobg213/primeng-17/icons/filter';
+import { FilterSlashIcon } from '@jacobg213/primeng-17/icons/filterslash';
+import { PlusIcon } from '@jacobg213/primeng-17/icons/plus';
+import { SortAltIcon } from '@jacobg213/primeng-17/icons/sortalt';
+import { SortAmountDownIcon } from '@jacobg213/primeng-17/icons/sortamountdown';
+import { SortAmountUpAltIcon } from '@jacobg213/primeng-17/icons/sortamountupalt';
+import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
+import { TrashIcon } from '@jacobg213/primeng-17/icons/trash';
+import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
+import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
+import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
+import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
 import { Subject, Subscription } from 'rxjs';
 import {
     ExportCSVOptions,

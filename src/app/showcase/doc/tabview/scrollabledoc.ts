@@ -39,7 +39,7 @@ export class ScrollableDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TabViewModule } from 'primeng/tabview';
+import { TabViewModule } from '@jacobg213/primeng-17/tabview';
 import { CommonModule } from '@angular/common';
 
 @Component({

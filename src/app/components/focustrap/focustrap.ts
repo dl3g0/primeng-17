@@ -1,4 +1,4 @@
-import { DomHandler } from 'primeng/dom';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Directive, ElementRef, Input, NgModule, inject, booleanAttribute, PLATFORM_ID, SimpleChanges } from '@angular/core';
 

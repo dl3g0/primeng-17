@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -76,9 +76,9 @@ export class LinearDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SpeedDialModule } from '@jacobg213/primeng-17/speeddial';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'speed-dial-linear-demo',
@@ -90,17 +90,17 @@ import { ToastModule } from 'primeng/toast';
                     left: calc(50% - 2rem);
                     bottom: 0;
                 }
-        
+
                 .p-speeddial-direction-down {
                     left: calc(50% - 2rem);
                     top: 0;
                 }
-        
+
                 .p-speeddial-direction-left {
                     right: 0;
                     top: calc(50% - 2rem);
                 }
-        
+
                 .p-speeddial-direction-right {
                     left: 0;
                     top: calc(50% - 2rem);

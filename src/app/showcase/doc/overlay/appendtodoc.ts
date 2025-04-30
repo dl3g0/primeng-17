@@ -12,7 +12,7 @@ import { Code } from '@domain/code';
 export class AppendToDoc {
     code: Code = {
         typescript: `
-import { PrimeNGConfig, OverlayOptions } from 'primeng/api';
+import { PrimeNGConfig, OverlayOptions } from '@jacobg213/primeng-17/api';
 
 this.primengConfig.overlayOptions: OverlayOptions = {
     appendTo: 'body'

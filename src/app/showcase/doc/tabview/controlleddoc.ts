@@ -43,23 +43,23 @@ export class ControlledDoc {
 
     code: Code = {
         basic: `<div class="flex mb-2 gap-2 justify-content-end">
-    <p-button 
-        (onClick)="activeIndex = 0" 
-        rounded="true" 
-        styleClass="w-2rem h-2rem p-0" 
-        [outlined]="activeIndex !== 0" 
-        label="1" />
-    <p-button 
-        (onClick)="activeIndex = 1" 
-        rounded="true" 
-        styleClass="w-2rem h-2rem p-0" 
-        [outlined]="activeIndex !== 1" 
-        label="2" />
-    <p-button 
-        (onClick)="activeIndex = 2" 
+    <p-button
+        (onClick)="activeIndex = 0"
         rounded="true"
-        styleClass="w-2rem h-2rem p-0" 
-        [outlined]="activeIndex !== 2" 
+        styleClass="w-2rem h-2rem p-0"
+        [outlined]="activeIndex !== 0"
+        label="1" />
+    <p-button
+        (onClick)="activeIndex = 1"
+        rounded="true"
+        styleClass="w-2rem h-2rem p-0"
+        [outlined]="activeIndex !== 1"
+        label="2" />
+    <p-button
+        (onClick)="activeIndex = 2"
+        rounded="true"
+        styleClass="w-2rem h-2rem p-0"
+        [outlined]="activeIndex !== 2"
         label="3" />
 </div>
     <p-tabView [(activeIndex)]="activeIndex">
@@ -82,23 +82,23 @@ export class ControlledDoc {
 
         html: `<div class="card">
     <div class="flex mb-2 gap-2 justify-content-end">
-        <p-button 
-            (onClick)="activeIndex = 0" 
-            rounded="true" 
-            styleClass="w-2rem h-2rem p-0" 
-            [outlined]="activeIndex !== 0" 
+        <p-button
+            (onClick)="activeIndex = 0"
+            rounded="true"
+            styleClass="w-2rem h-2rem p-0"
+            [outlined]="activeIndex !== 0"
             label="1" />
-        <p-button 
-            (onClick)="activeIndex = 1" 
-            rounded="true" 
-            styleClass="w-2rem h-2rem p-0" 
-            [outlined]="activeIndex !== 1" 
+        <p-button
+            (onClick)="activeIndex = 1"
+            rounded="true"
+            styleClass="w-2rem h-2rem p-0"
+            [outlined]="activeIndex !== 1"
             label="2" />
-        <p-button 
-            (onClick)="activeIndex = 2" 
-            rounded="true" 
-            styleClass="w-2rem h-2rem p-0" 
-            [outlined]="activeIndex !== 2" 
+        <p-button
+            (onClick)="activeIndex = 2"
+            rounded="true"
+            styleClass="w-2rem h-2rem p-0"
+            [outlined]="activeIndex !== 2"
             label="3" />
     </div>
 <p-tabView [(activeIndex)]="activeIndex">
@@ -124,8 +124,8 @@ export class ControlledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TabViewModule } from 'primeng/tabview';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { TabViewModule } from '@jacobg213/primeng-17/tabview';
 
 @Component({
     selector: 'tab-view-controlled-demo',

@@ -13,6 +13,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { PrimeNGConfig } from 'primeng/api';`
+        typescript: `import { PrimeNGConfig } from '@jacobg213/primeng-17/api';`
     };
 }

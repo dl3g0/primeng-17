@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { BasicDoc } from '@doc/defer/basicdoc';
 import { ImportDoc } from '@doc/defer/importdoc';
 import { DataTableDoc } from '@doc/defer/datatabledoc';

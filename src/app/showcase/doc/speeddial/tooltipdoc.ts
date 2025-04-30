@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -123,33 +123,33 @@ export class TooltipDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-speedDial 
-    [model]="leftTooltipItems" 
-    className="speeddial-right" 
+        basic: `<p-speedDial
+    [model]="leftTooltipItems"
+    className="speeddial-right"
     direction="up" />
-<p-speedDial 
-    [model]="tooltipItems" 
-    className="speeddial-left" 
+<p-speedDial
+    [model]="tooltipItems"
+    className="speeddial-left"
     direction="up" />`,
 
         html: `<div class="card">
     <div style="height: 350px; position: relative;" class="speeddial-tooltip-demo">
         <p-toast />
-        <p-speedDial 
-            [model]="leftTooltipItems" 
-            className="speeddial-right" 
+        <p-speedDial
+            [model]="leftTooltipItems"
+            className="speeddial-right"
             direction="up" />
-        <p-speedDial 
-            [model]="tooltipItems" 
-            className="speeddial-left" 
+        <p-speedDial
+            [model]="tooltipItems"
+            className="speeddial-left"
             direction="up" />
     </div>
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SpeedDialModule } from '@jacobg213/primeng-17/speeddial';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'speed-dial-tooltip-demo',
@@ -162,7 +162,7 @@ import { ToastModule } from 'primeng/toast';
                         left: 0;
                         bottom: 0;
                     }
-        
+
                     &.speeddial-right {
                         right: 0;
                         bottom: 0;

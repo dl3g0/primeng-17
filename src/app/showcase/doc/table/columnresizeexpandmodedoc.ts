@@ -50,11 +50,11 @@ export class ColumnResizeExpandModeDoc {
     }
 
     code: Code = {
-        basic: `<p-table 
-    [value]="products" 
-    [resizableColumns]="true" 
-    columnResizeMode="expand" 
-    styleClass="p-datatable-gridlines" 
+        basic: `<p-table
+    [value]="products"
+    [resizableColumns]="true"
+    columnResizeMode="expand"
+    styleClass="p-datatable-gridlines"
     [tableStyle]="{'min-width': '50rem'}">
         <ng-template pTemplate="header">
             <tr>
@@ -74,11 +74,11 @@ export class ColumnResizeExpandModeDoc {
         </ng-template>
 </p-table>`,
         html: `<div class="card">
-    <p-table 
-        [value]="products" 
-        [resizableColumns]="true" 
-        columnResizeMode="expand" 
-        styleClass="p-datatable-gridlines" 
+    <p-table
+        [value]="products"
+        [resizableColumns]="true"
+        columnResizeMode="expand"
+        styleClass="p-datatable-gridlines"
         [tableStyle]="{'min-width': '50rem'}">
             <ng-template pTemplate="header">
                 <tr>
@@ -101,7 +101,7 @@ export class ColumnResizeExpandModeDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 
 @Component({
     selector: 'table-column-resize-expand-mode-demo',

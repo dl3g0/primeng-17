@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -70,14 +70,14 @@ export class SelectionMultipleDoc {
 
     code: Code = {
         basic: `<p-inputSwitch [(ngModel)]="metaKeySelection" />
-<p-treeTable 
-    [value]="files" 
-    [columns]="cols" 
-    selectionMode="multiple" 
-    [(selection)]="selectedNodes" 
-    dataKey="name" 
-    [metaKeySelection]="metaKeySelection" 
-    [scrollable]="true" 
+<p-treeTable
+    [value]="files"
+    [columns]="cols"
+    selectionMode="multiple"
+    [(selection)]="selectedNodes"
+    dataKey="name"
+    [metaKeySelection]="metaKeySelection"
+    [scrollable]="true"
     [tableStyle]="{'min-width':'50rem'}">
         <ng-template pTemplate="header" let-columns>
             <tr>
@@ -101,14 +101,14 @@ export class SelectionMultipleDoc {
         <p-inputSwitch [(ngModel)]="metaKeySelection" />
         <span>Metakey</span>
     </div>
-    <p-treeTable 
-        [value]="files" 
-        [columns]="cols" 
-        selectionMode="multiple" 
-        [(selection)]="selectedNodes" 
-        dataKey="name" 
-        [metaKeySelection]="metaKeySelection" 
-        [scrollable]="true" 
+    <p-treeTable
+        [value]="files"
+        [columns]="cols"
+        selectionMode="multiple"
+        [(selection)]="selectedNodes"
+        dataKey="name"
+        [metaKeySelection]="metaKeySelection"
+        [scrollable]="true"
         [tableStyle]="{'min-width':'50rem'}">
             <ng-template pTemplate="header" let-columns>
                 <tr>
@@ -129,10 +129,10 @@ export class SelectionMultipleDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from 'primeng/treetable';
-import { InputSwitchModule } from 'primeng/inputswitch';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
+import { InputSwitchModule } from '@jacobg213/primeng-17/inputswitch';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 

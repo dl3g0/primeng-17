@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, booleanAttribute } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { StyleClassModule } from 'primeng/styleclass';
+import { StyleClassModule } from '@jacobg213/primeng-17/styleclass';
 import { MenuItem } from './app.menu.component';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@jacobg213/primeng-17/tag';
 
 @Component({
     selector: '[app-menuitem]',

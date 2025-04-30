@@ -28,16 +28,16 @@ import {
     signal
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { BlockableUI, Message, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { DomHandler } from 'primeng/dom';
-import { PlusIcon } from 'primeng/icons/plus';
-import { TimesIcon } from 'primeng/icons/times';
-import { UploadIcon } from 'primeng/icons/upload';
-import { MessagesModule } from 'primeng/messages';
-import { ProgressBarModule } from 'primeng/progressbar';
-import { RippleModule } from 'primeng/ripple';
-import { VoidListener } from 'primeng/ts-helpers';
+import { BlockableUI, Message, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { PlusIcon } from '@jacobg213/primeng-17/icons/plus';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { UploadIcon } from '@jacobg213/primeng-17/icons/upload';
+import { MessagesModule } from '@jacobg213/primeng-17/messages';
+import { ProgressBarModule } from '@jacobg213/primeng-17/progressbar';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';
 import { Subscription } from 'rxjs';
 import { FileBeforeUploadEvent, FileProgressEvent, FileRemoveEvent, FileSelectEvent, FileSendEvent, FileUploadErrorEvent, FileUploadEvent, FileUploadHandlerEvent, RemoveUploadedFileEvent } from './fileupload.interface';
 /**

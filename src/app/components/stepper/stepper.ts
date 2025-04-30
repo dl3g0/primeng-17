@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, Component, ContentChildren, EventEmitter, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { PrimeTemplate, SharedModule } from 'primeng/api';
-import { Nullable } from 'primeng/ts-helpers';
-import { UniqueComponentId } from 'primeng/utils';
+import { PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
 @Component({

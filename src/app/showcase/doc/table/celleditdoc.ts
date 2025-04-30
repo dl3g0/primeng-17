@@ -86,8 +86,8 @@ export class CellEditDoc {
     }
 
     code: Code = {
-        basic: `<p-table 
-    [value]="products" dataKey="id" 
+        basic: `<p-table
+    [value]="products" dataKey="id"
     [tableStyle]="{ 'min-width': '50rem' }">
         <ng-template pTemplate="header">
             <tr>
@@ -110,9 +110,9 @@ export class CellEditDoc {
                 <td [pEditableColumn]="product.code" pEditableColumnField="code">
                     <p-cellEditor>
                         <ng-template pTemplate="input">
-                            <input 
-                                pInputText 
-                                type="text" 
+                            <input
+                                pInputText
+                                type="text"
                                 [(ngModel)]="product.code" />
                         </ng-template>
                         <ng-template pTemplate="output">
@@ -123,10 +123,10 @@ export class CellEditDoc {
                 <td [pEditableColumn]="product.name" pEditableColumnField="name">
                     <p-cellEditor>
                         <ng-template pTemplate="input">
-                            <input 
-                                pInputText 
-                                type="text" 
-                                [(ngModel)]="product.name" 
+                            <input
+                                pInputText
+                                type="text"
+                                [(ngModel)]="product.name"
                                 required />
                         </ng-template>
                         <ng-template pTemplate="output">
@@ -137,8 +137,8 @@ export class CellEditDoc {
                 <td [pEditableColumn]="product.inventoryStatus" pEditableColumnField="inventoryStatus">
                     <p-cellEditor>
                         <ng-template pTemplate="input">
-                            <input 
-                                pInputText 
+                            <input
+                                pInputText
                                 [(ngModel)]="product.inventoryStatus" />
                         </ng-template>
                         <ng-template pTemplate="output">
@@ -149,8 +149,8 @@ export class CellEditDoc {
                 <td [pEditableColumn]="product.price" pEditableColumnField="price">
                     <p-cellEditor>
                         <ng-template pTemplate="input">
-                            <input 
-                                pInputText type="text" 
+                            <input
+                                pInputText type="text"
                                 [(ngModel)]="product.price" />
                         </ng-template>
                         <ng-template pTemplate="output">
@@ -162,8 +162,8 @@ export class CellEditDoc {
         </ng-template>
 </p-table>`,
         html: `<div class="card">
-    <p-table 
-        [value]="products" dataKey="id" 
+    <p-table
+        [value]="products" dataKey="id"
         [tableStyle]="{ 'min-width': '50rem' }">
             <ng-template pTemplate="header">
                 <tr>
@@ -186,9 +186,9 @@ export class CellEditDoc {
                     <td [pEditableColumn]="product.code" pEditableColumnField="code">
                         <p-cellEditor>
                             <ng-template pTemplate="input">
-                                <input 
-                                    pInputText 
-                                    type="text" 
+                                <input
+                                    pInputText
+                                    type="text"
                                     [(ngModel)]="product.code" />
                             </ng-template>
                             <ng-template pTemplate="output">
@@ -199,10 +199,10 @@ export class CellEditDoc {
                     <td [pEditableColumn]="product.name" pEditableColumnField="name">
                         <p-cellEditor>
                             <ng-template pTemplate="input">
-                                <input 
-                                    pInputText 
-                                    type="text" 
-                                    [(ngModel)]="product.name" 
+                                <input
+                                    pInputText
+                                    type="text"
+                                    [(ngModel)]="product.name"
                                     required />
                             </ng-template>
                             <ng-template pTemplate="output">
@@ -213,8 +213,8 @@ export class CellEditDoc {
                     <td [pEditableColumn]="product.inventoryStatus" pEditableColumnField="inventoryStatus">
                         <p-cellEditor>
                             <ng-template pTemplate="input">
-                                <input 
-                                    pInputText 
+                                <input
+                                    pInputText
                                     [(ngModel)]="product.inventoryStatus" />
                             </ng-template>
                             <ng-template pTemplate="output">
@@ -225,8 +225,8 @@ export class CellEditDoc {
                     <td [pEditableColumn]="product.price" pEditableColumnField="price">
                         <p-cellEditor>
                             <ng-template pTemplate="input">
-                                <input 
-                                    pInputText type="text" 
+                                <input
+                                    pInputText type="text"
                                     [(ngModel)]="product.price" />
                             </ng-template>
                             <ng-template pTemplate="output">
@@ -241,9 +241,9 @@ export class CellEditDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { CommonModule } from '@angular/common';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
 
 @Component({
     selector: 'table-cell-edit-demo',

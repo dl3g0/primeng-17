@@ -36,10 +36,10 @@ export class DynamicDoc implements OnInit {
     code: Code = {
         basic: `<div class="flex flex-column gap-3">
     <div *ngFor="let category of categories" class="field-checkbox">
-        <p-radioButton 
+        <p-radioButton
             [inputId]="category.key"
-            name="category" 
-            [value]="category" 
+            name="category"
+            [value]="category"
             [(ngModel)]="selectedCategory" />
         <label [for]="category.key" class="ml-2">
             {{ category.name }}
@@ -50,10 +50,10 @@ export class DynamicDoc implements OnInit {
         html: `<div class="card flex justify-content-center">
     <div class="flex flex-column gap-3">
         <div *ngFor="let category of categories" class="field-checkbox">
-            <p-radioButton 
-                [inputId]="category.key" 
-                name="category" 
-                [value]="category" 
+            <p-radioButton
+                [inputId]="category.key"
+                name="category"
+                [value]="category"
                 [(ngModel)]="selectedCategory" />
             <label [for]="category.key" class="ml-2">
                 {{ category.name }}
@@ -63,7 +63,7 @@ export class DynamicDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

@@ -39,7 +39,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { CalendarModule } from 'primeng/calendar';
+import { CalendarModule } from '@jacobg213/primeng-17/calendar';
 
 @Component({
     selector: 'calendar-reactive-forms-demo',
@@ -54,7 +54,7 @@ export class CalendarReactiveFormsDemo {
         this.formGroup = new FormGroup({
             date: new FormControl<Date | null>(null)
         });
-    } 
+    }
 }`
     };
 }

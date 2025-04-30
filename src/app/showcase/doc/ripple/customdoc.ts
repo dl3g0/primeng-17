@@ -33,7 +33,7 @@ export class CustomDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { RippleModule } from 'primeng/ripple';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'ripple-custom-demo',
@@ -51,31 +51,31 @@ import { RippleModule } from 'primeng/ripple';
                 margin-right: 1rem;
                 user-select: none;
                 padding: 0;
-        
+
                 &.primary-box {
                     background-color: var(--primary-color);
                     padding: 0;
                     color: var(--primary-color-text);
                 }
-        
+
                 &.styled-box-green {
                     .p-ink {
                         background: rgba(#4baf50, 0.3);
                     }
                 }
-        
+
                 &.styled-box-orange {
                     .p-ink {
                         background: rgba(#ffc106, 0.3);
                     }
                 }
-        
+
                 &.styled-box-purple {
                     .p-ink {
                         background: rgba(#9c27b0, 0.3);
                     }
                 }
-        
+
                 &:last-child {
                     margin-right: 0;
                 }

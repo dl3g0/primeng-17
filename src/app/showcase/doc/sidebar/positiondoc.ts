@@ -59,25 +59,25 @@ export class PositionDoc {
     <h3>Bottom Sidebar</h3>
 </p-sidebar>
 
-<p-button 
-    type="button" 
-    class="mr-2" 
-    (onClick)="sidebarVisible1 = true" 
+<p-button
+    type="button"
+    class="mr-2"
+    (onClick)="sidebarVisible1 = true"
     icon="pi pi-arrow-right" />
-<p-button 
-    type="button" 
-    class="mr-2" 
-    (onClick)="sidebarVisible2 = true" 
+<p-button
+    type="button"
+    class="mr-2"
+    (onClick)="sidebarVisible2 = true"
     icon="pi pi-arrow-left" />
-<p-button 
-    type="button" 
-    class="mr-2" 
-    (onClick)="sidebarVisible3 = true" 
+<p-button
+    type="button"
+    class="mr-2"
+    (onClick)="sidebarVisible3 = true"
     icon="pi pi-arrow-down" />
-<p-button 
-    type="button" 
-    class="mr-2" 
-    (onClick)="sidebarVisible4 = true" 
+<p-button
+    type="button"
+    class="mr-2"
+    (onClick)="sidebarVisible4 = true"
     icon="pi pi-arrow-up" />`,
 
         html: `<div class="card flex flex-wrap justify-content-center gap-2">
@@ -97,31 +97,31 @@ export class PositionDoc {
         <h3>Bottom Sidebar</h3>
     </p-sidebar>
 
-    <p-button 
+    <p-button
         type="button"
-        class="mr-2" 
-        (onClick)="sidebarVisible1 = true" 
+        class="mr-2"
+        (onClick)="sidebarVisible1 = true"
         icon="pi pi-arrow-right" />
-    <p-button 
-        type="button" 
-        class="mr-2" 
-        (onClick)="sidebarVisible2 = true" 
-        icon="pi pi-arrow-left" />
-    <p-button 
+    <p-button
         type="button"
-        class="mr-2" 
-        (onClick)="sidebarVisible3 = true" 
+        class="mr-2"
+        (onClick)="sidebarVisible2 = true"
+        icon="pi pi-arrow-left" />
+    <p-button
+        type="button"
+        class="mr-2"
+        (onClick)="sidebarVisible3 = true"
         icon="pi pi-arrow-down" />
-    <p-button 
-        type="button" 
-        class="mr-2" 
-        (onClick)="sidebarVisible4 = true" 
+    <p-button
+        type="button"
+        class="mr-2"
+        (onClick)="sidebarVisible4 = true"
         icon="pi pi-arrow-up" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { SidebarModule } from 'primeng/sidebar';
-import { ButtonModule } from 'primeng/button';
+import { SidebarModule } from '@jacobg213/primeng-17/sidebar';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'sidebar-position-demo',
@@ -131,11 +131,11 @@ import { ButtonModule } from 'primeng/button';
 })
 export class SidebarPositionDemo {
     sidebarVisible1: boolean = false;
-    
+
     sidebarVisible2: boolean = false;
-    
+
     sidebarVisible3: boolean = false;
-    
+
     sidebarVisible4: boolean = false;
 }`
     };

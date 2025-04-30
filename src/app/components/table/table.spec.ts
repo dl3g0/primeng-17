@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
-import { SharedModule } from 'primeng/api';
-import { ContextMenu, ContextMenuModule } from 'primeng/contextmenu';
-import { DropdownModule } from 'primeng/dropdown';
+import { SharedModule } from '@jacobg213/primeng-17/api';
+import { ContextMenu, ContextMenuModule } from '@jacobg213/primeng-17/contextmenu';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
 import { EditableColumn, Table, TableModule } from './table';
 import type { Paginator } from '../paginator/paginator';
 

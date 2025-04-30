@@ -18,21 +18,21 @@ export class MultipleDoc {
     dates: Date[] | undefined;
 
     code: Code = {
-        basic: `<p-calendar 
-    [(ngModel)]="dates" 
-    selectionMode="multiple" 
+        basic: `<p-calendar
+    [(ngModel)]="dates"
+    selectionMode="multiple"
     [readonlyInput]="true" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-calendar 
-        [(ngModel)]="dates" 
-        selectionMode="multiple" 
+    <p-calendar
+        [(ngModel)]="dates"
+        selectionMode="multiple"
         [readonlyInput]="true" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CalendarModule } from 'primeng/calendar';
+import { CalendarModule } from '@jacobg213/primeng-17/calendar';
 
 @Component({
     selector: 'calendar-multiple-demo',

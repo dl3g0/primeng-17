@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { Table } from 'primeng/table';
+import { Table } from '@jacobg213/primeng-17/table';
 import { Code } from '../../domain/code';
 import { Customer, Representative } from '../../domain/customer';
 import { CustomerService } from '../../service/customerservice';
@@ -503,7 +503,7 @@ export class FilterAdvancedDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Table } from 'primeng/table';
+import { Table } from '@jacobg213/primeng-17/table';
 import { Customer, Representative } from '../domain/customer';
 import { CustomerService } from '../service/customerservice';
 
@@ -511,7 +511,7 @@ import { CustomerService } from '../service/customerservice';
     selector: 'table-filter-advanced-demo',
     templateUrl: 'table-filter-advanced-demo.html',
     standalone: true,
-    imports: [TableModule, HttpClientModule, CommonModule, InputTextModule, TagModule, 
+    imports: [TableModule, HttpClientModule, CommonModule, InputTextModule, TagModule,
     DropdownModule, MultiSelectModule, ProgressBarModule, ButtonModule ],
     providers: [CustomerService]
 })
@@ -590,7 +590,7 @@ export class TableFilterAdvancedDemo implements OnInit {
     .p-progressbar {
         height: .5rem;
         background-color: #D8DADC;
-    
+
         .p-progressbar-value {
             background-color: #607D8B;
         }

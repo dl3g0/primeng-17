@@ -110,15 +110,15 @@ export class DataTableDoc implements OnInit {
         basic: `<div class="card grid grid-nogutter">
     <div class="col-12 md:col-6 drag-column">
         <div *ngFor="let product of availableProducts">
-            <div 
-                class="product-item" 
-                pDraggable="products" 
-                (onDragStart)="dragStart(product)" 
+            <div
+                class="product-item"
+                pDraggable="products"
+                (onDragStart)="dragStart(product)"
                 (onDragEnd)="dragEnd()">
                     <div class="image-container">
-                        <img 
-                            src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" 
-                            [alt]="product.name" 
+                        <img
+                            src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"
+                            [alt]="product.name"
                             class="product-image" />
                     </div>
                     <div class="product-list-detail">
@@ -134,8 +134,8 @@ export class DataTableDoc implements OnInit {
                         <h6 class="mb-2">
                             {{product.price}}
                         </h6>
-                        <p-tag 
-                            [value]="product.inventoryStatus" 
+                        <p-tag
+                            [value]="product.inventoryStatus"
                             [severity]="getSeverity(product.inventoryStatus)" />
                     </div>
             </div>
@@ -181,15 +181,15 @@ export class DataTableDoc implements OnInit {
         html: `<div class="card grid grid-nogutter">
     <div class="col-12 md:col-6 drag-column">
         <div *ngFor="let product of availableProducts">
-            <div 
-                class="product-item" 
-                pDraggable="products" 
-                (onDragStart)="dragStart(product)" 
+            <div
+                class="product-item"
+                pDraggable="products"
+                (onDragStart)="dragStart(product)"
                 (onDragEnd)="dragEnd()">
                     <div class="image-container">
-                        <img 
-                            src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" 
-                            [alt]="product.name" 
+                        <img
+                            src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}"
+                            [alt]="product.name"
                             class="product-image" />
                     </div>
                     <div class="product-list-detail">
@@ -205,8 +205,8 @@ export class DataTableDoc implements OnInit {
                         <h6 class="mb-2">
                             {{product.price}}
                         </h6>
-                        <p-tag 
-                            [value]="product.inventoryStatus" 
+                        <p-tag
+                            [value]="product.inventoryStatus"
                             [severity]="getSeverity(product.inventoryStatus)" />
                     </div>
             </div>
@@ -252,10 +252,10 @@ export class DataTableDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DragDropModule } from 'primeng/dragdrop';
-import { TableModule } from 'primeng/table';
+import { DragDropModule } from '@jacobg213/primeng-17/dragdrop';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { CommonModule } from '@angular/common';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@jacobg213/primeng-17/tag';
 
 @Component({
     selector: 'drag-drop-data-table-demo',
@@ -265,63 +265,63 @@ import { TagModule } from 'primeng/tag';
             .drag-column {
                 padding-right: .5em;
             }
-            
+
             .drop-column {
                 border: 1px solid transparent;
                 transition: border-color .2s;
-            
+
                 &.p-draggable-enter {
-                    border-color: var(--primary-color); 
+                    border-color: var(--primary-color);
                 }
             }
-            
+
             .product-item {
                 display: flex;
                 align-items: center;
                 padding: 1rem;
                 width: 100%;
                 border-bottom: 1px solid var(--surface-d);
-            
+
                 img {
                     width: 75px;
                     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
                     margin-right: 1rem;
                 }
-            
+
                 .product-list-detail {
                     flex: 1 1 0;
                 }
-            
+
                 .product-list-action {
                     display: flex;
                     flex-direction: column;
                     align-items: flex-end;
                 }
-            
+
                 .product-category-icon {
                     vertical-align: middle;
                     margin-right: .5rem;
                 }
-            
+
                 .product-category {
                     vertical-align: middle;
                     line-height: 1;
                 }
             }
-            
+
             [pDraggable] {
                 cursor: move;
             }
-            
+
             @media screen and (max-width: 576px) {
                 .product-item {
                     flex-wrap: wrap;
-            
+
                     .image-container {
                         width: 100%;
                         text-align: center;
                     }
-            
+
                     img {
                         margin: 0 0 1rem 0;
                         width: 100px;
@@ -374,7 +374,7 @@ export class DragDropDataTableDemo implements OnInit {
             }
         }
         return index;
-    } 
+    }
 
     getSeverity(status: string) {
         switch (status) {

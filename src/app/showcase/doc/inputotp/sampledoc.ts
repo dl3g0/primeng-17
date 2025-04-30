@@ -77,14 +77,14 @@ export class SampleDoc {
     <p class="text-color-secondary block mb-5">Please enter the code sent to your phone.</p>
     <p-inputOtp [(ngModel)]="value" [length]="6" style="gap: 0">
         <ng-template pTemplate="input" let-token let-events="events" let-index="index">
-            <input 
+            <input
                 pInputText
-                type="text" 
-                [maxLength]="1" 
-                (input)="events.input($event)" 
+                type="text"
+                [maxLength]="1"
+                (input)="events.input($event)"
                 (keydown)="events.keydown($event)"
                 (paste)="events.paste($event)"
-                [attr.value]="token" 
+                [attr.value]="token"
                 class="custom-otp-input" />
             <div *ngIf="index === 3" class="px-3">
                 <i class="pi pi-minus"></i>
@@ -103,14 +103,14 @@ export class SampleDoc {
         <p class="text-color-secondary block mb-5">Please enter the code sent to your phone.</p>
         <p-inputOtp [(ngModel)]="value" [length]="6" style="gap: 0">
             <ng-template pTemplate="input" let-token let-events="events" let-index="index">
-                <input 
-                    pInputText 
-                    type="text" 
-                    [maxLength]="1" 
-                    (input)="events.input($event)" 
+                <input
+                    pInputText
+                    type="text"
+                    [maxLength]="1"
+                    (input)="events.input($event)"
                     (keydown)="events.keydown($event)"
                     (paste)="events.paste($event)"
-                    [attr.value]="token" 
+                    [attr.value]="token"
                     class="custom-otp-input" />
                 <div *ngIf="index === 3" class="px-3">
                     <i class="pi pi-minus"></i>
@@ -126,8 +126,8 @@ export class SampleDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
-import { ButtonModule } from 'primeng/button';
+import { InputOtpModule } from '@jacobg213/primeng-17/inputotp';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'input-otp-sample-demo',

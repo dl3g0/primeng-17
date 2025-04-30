@@ -34,8 +34,8 @@ export class ImageDoc {
         </div>
     </ng-template>
     <ng-template pTemplate="content">
-        <img 
-            src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg" 
+        <img
+            src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg"
             alt="Nature" />
     </ng-template>
 </p-inplace>`,
@@ -48,14 +48,14 @@ export class ImageDoc {
             </div>
         </ng-template>
         <ng-template pTemplate="content">
-            <img 
-                src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg" 
+            <img
+                src="https://primefaces.org/cdn/primeng/images/demo/galleria/galleria5.jpg"
                 alt="Nature" />
         </ng-template>
     </p-inplace>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
+import { InplaceModule } from '@jacobg213/primeng-17/inplace';
 
 @Component({
     selector: 'inplace-image-demo',

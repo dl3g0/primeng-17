@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SelectItemGroup } from 'primeng/api';
+import { SelectItemGroup } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -63,14 +63,14 @@ export class GroupDoc {
     }
 
     code: Code = {
-        basic: `<p-dropdown 
-    [options]="groupedCities" 
-    [(ngModel)]="selectedCity" 
-    placeholder="Select a City" 
+        basic: `<p-dropdown
+    [options]="groupedCities"
+    [(ngModel)]="selectedCity"
+    placeholder="Select a City"
     [group]="true">
     <ng-template let-group pTemplate="group">
         <div class="flex align-items-center">
-            <img 
+            <img
                 src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png"
                 [class]="'mr-2 flag flag-' + group.value"
                 style="width: 20px" />
@@ -80,16 +80,16 @@ export class GroupDoc {
 </p-dropdown>`,
 
         html: `<div class="card flex justify-content-center">
-    <p-dropdown 
-        [options]="groupedCities" 
-        [(ngModel)]="selectedCity" 
-        placeholder="Select a City" 
+    <p-dropdown
+        [options]="groupedCities"
+        [(ngModel)]="selectedCity"
+        placeholder="Select a City"
         [group]="true">
             <ng-template let-group pTemplate="group">
                 <div class="flex align-items-center">
-                    <img 
+                    <img
                         src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png"
-                        [class]="'mr-2 flag flag-' + group.value" 
+                        [class]="'mr-2 flag flag-' + group.value"
                         style="width: 20px" />
                     <span>{{ group.label }}</span>
                 </div>
@@ -97,10 +97,10 @@ export class GroupDoc {
     </p-dropdown>
 </div>`,
 
-        typescript: `import { SelectItemGroup } from 'primeng/api';
+        typescript: `import { SelectItemGroup } from '@jacobg213/primeng-17/api';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
 
 @Component({
     selector: 'dropdown-group-demo',

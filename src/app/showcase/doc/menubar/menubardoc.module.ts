@@ -1,20 +1,20 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MenubarModule } from 'primeng/menubar';
+import { MenubarModule } from '@jacobg213/primeng-17/menubar';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { TemplateDoc } from './templatedoc';
 import { BasicDoc } from './basicdoc';
 import { ImportDoc } from './importdoc';
 import { StyleDoc } from './styledoc';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
 import { AccessibilityDoc } from './accessibilitydoc';
-import { BadgeModule } from 'primeng/badge';
-import { RippleModule } from 'primeng/ripple';
-import { AvatarModule } from 'primeng/avatar';
+import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { AvatarModule } from '@jacobg213/primeng-17/avatar';
 import { CommandDoc } from './commanddoc';
-import { ToastModule } from 'primeng/toast';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 import { RouterDoc } from './routerdoc';
 
 @NgModule({

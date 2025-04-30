@@ -50,10 +50,10 @@ export class BasicDoc implements OnInit {
     }
 
     code: Code = {
-        basic: `<p-galleria 
-    [(value)]="images" 
-    [responsiveOptions]="responsiveOptions" 
-    [containerStyle]="{ 'max-width': '640px' }" 
+        basic: `<p-galleria
+    [(value)]="images"
+    [responsiveOptions]="responsiveOptions"
+    [containerStyle]="{ 'max-width': '640px' }"
     [numVisible]="5">
         <ng-template pTemplate="item" let-item>
             <img [src]="item.itemImageSrc" style="width: 100%;" />
@@ -65,10 +65,10 @@ export class BasicDoc implements OnInit {
         </ng-template>
 </p-galleria>`,
         html: `<div class="card">
-    <p-galleria 
-        [(value)]="images" 
-        [responsiveOptions]="responsiveOptions" 
-        [containerStyle]="{ 'max-width': '640px' }" 
+    <p-galleria
+        [(value)]="images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '640px' }"
         [numVisible]="5">
             <ng-template pTemplate="item" let-item>
                 <img [src]="item.itemImageSrc" style="width: 100%;" />
@@ -82,7 +82,7 @@ export class BasicDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
 
 @Component({
     selector: 'galleria-basic-demo',
@@ -93,7 +93,7 @@ import { GalleriaModule } from 'primeng/galleria';
 })
 export class GalleriaBasicDemo implements OnInit {
     images: any[] | undefined;
-    
+
     responsiveOptions: any[] | undefined;
 
     constructor(private photoService: PhotoService) {}

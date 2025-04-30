@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -32,21 +32,21 @@ export class MultipleDoc {
     code: Code = {
         basic: `<p-toast />
 <p-button
-    (onClick)="show()" 
-    label="Multiple" 
+    (onClick)="show()"
+    label="Multiple"
     severity="warning" />`,
         html: `<div class="card flex justify-content-center">
     <p-toast />
-    <p-button 
-        (onClick)="show()" 
-        label="Multiple" 
+    <p-button
+        (onClick)="show()"
+        label="Multiple"
         severity="warning" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { MessageService } from '@jacobg213/primeng-17/api';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'toast-multiple-demo',

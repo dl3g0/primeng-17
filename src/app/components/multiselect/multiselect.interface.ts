@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { ScrollerOptions } from 'primeng/api';
+import { ScrollerOptions } from '@jacobg213/primeng-17/api';
 import { MultiSelect, MultiSelectItem } from './multiselect';
 /**
  * Callbacks to invoke on filter or reset.

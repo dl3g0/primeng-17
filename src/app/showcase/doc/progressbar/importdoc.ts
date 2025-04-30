@@ -8,8 +8,8 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { ProgressBarModule } from 'primeng/progressbar';
+        typescript: `import { ProgressBarModule } from '@jacobg213/primeng-17/progressbar';
 // For dynamic progressbar demo
-import { ToastModule } from 'primeng/toast';`
+import { ToastModule } from '@jacobg213/primeng-17/toast';`
     };
 }

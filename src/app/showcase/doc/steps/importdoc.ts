@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { StepsModule } from 'primeng/steps';`
+        typescript: `import { StepsModule } from '@jacobg213/primeng-17/steps';`
     };
 }

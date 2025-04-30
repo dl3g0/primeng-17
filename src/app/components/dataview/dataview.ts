@@ -21,15 +21,15 @@ import {
     numberAttribute
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ObjectUtils } from 'primeng/utils';
-import { Header, Footer, PrimeTemplate, SharedModule, FilterService, TranslationKeys, PrimeNGConfig } from 'primeng/api';
-import { PaginatorModule } from 'primeng/paginator';
-import { BlockableUI } from 'primeng/api';
+import { ObjectUtils } from '@jacobg213/primeng-17/utils';
+import { Header, Footer, PrimeTemplate, SharedModule, FilterService, TranslationKeys, PrimeNGConfig } from '@jacobg213/primeng-17/api';
+import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
+import { BlockableUI } from '@jacobg213/primeng-17/api';
 import { Subscription } from 'rxjs';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { ThLargeIcon } from 'primeng/icons/thlarge';
-import { BarsIcon } from 'primeng/icons/bars';
-import { Nullable } from 'primeng/ts-helpers';
+import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
+import { ThLargeIcon } from '@jacobg213/primeng-17/icons/thlarge';
+import { BarsIcon } from '@jacobg213/primeng-17/icons/bars';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
 import { DataViewLayoutChangeEvent, DataViewLazyLoadEvent, DataViewPageEvent, DataViewPaginatorState, DataViewSortEvent } from './dataview.interface';
 /**
  * DataView displays data in grid or list layout with pagination and sorting features.

@@ -25,7 +25,7 @@ export class DefaultDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { RippleModule } from 'primeng/ripple';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'ripple-default-demo',
@@ -41,7 +41,7 @@ import { RippleModule } from 'primeng/ripple';
                 margin-right: 1rem;
                 user-select: none;
                 padding: 0;
-        
+
                 &:last-child {
                     margin-right: 0;
                 }

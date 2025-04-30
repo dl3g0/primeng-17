@@ -6,7 +6,7 @@ import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
 import { EditableDoc } from './editabledoc';
 import { GroupDoc } from './groupdoc';
 import { TemplateDoc } from './templatedoc';
@@ -20,13 +20,13 @@ import { FloatLabelDoc } from './floatlabeldoc';
 import { StyleDoc } from './styledoc';
 import { AccessibilityDoc } from './accessibilitydoc';
 import { ReactiveFormsDoc } from './reactiveformsdoc';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
 import { CheckmarkDoc } from './checkmarkdoc';
 import { ClearIconDoc } from './clearicondoc';
 import { LoadingStateDoc } from './loadingstatedoc';
 import { FilledDoc } from './filleddoc';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
 @NgModule({
     imports: [CommonModule, RouterModule, AppCodeModule, AppDocModule, FormsModule, ReactiveFormsModule, DropdownModule, ButtonModule, InputTextModule, FloatLabelModule],
     exports: [AppDocModule],

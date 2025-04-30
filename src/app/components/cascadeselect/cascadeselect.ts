@@ -26,17 +26,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { AngleRightIcon } from 'primeng/icons/angleright';
-import { AutoFocusModule } from 'primeng/autofocus';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
+import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
 
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { TimesIcon } from 'primeng/icons/times';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable } from 'primeng/ts-helpers';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
+import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { Overlay, OverlayModule } from '@jacobg213/primeng-17/overlay';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
 import { CascadeSelectBeforeHideEvent, CascadeSelectBeforeShowEvent, CascadeSelectChangeEvent, CascadeSelectHideEvent, CascadeSelectShowEvent } from './cascadeselect.interface';
 
 export const CASCADESELECT_VALUE_ACCESSOR: any = {

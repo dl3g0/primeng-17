@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -288,31 +288,31 @@ export class ProductsDoc {
         basic: `<p-toast />
 <p-toolbar styleClass="mb-4 gap-2">
     <ng-template pTemplate="left">
-        <p-button 
-            severity="success" 
-            label="New" 
-            icon="pi pi-plus" 
-            class="mr-2" 
+        <p-button
+            severity="success"
+            label="New"
+            icon="pi pi-plus"
+            class="mr-2"
             (onClick)="openNew()" />
-        <p-button 
-            severity="danger" 
-            label="Delete" 
-            icon="pi pi-trash" 
-            (onClick)="deleteSelectedProducts()" 
+        <p-button
+            severity="danger"
+            label="Delete"
+            icon="pi pi-trash"
+            (onClick)="deleteSelectedProducts()"
             [disabled]="!selectedProducts || !selectedProducts.length" />
     </ng-template>
 
     <ng-template pTemplate="right">
-        <p-fileUpload 
-            mode="basic" 
-            accept="image/*" 
-            [maxFileSize]="1000000" 
-            label="Import" 
-            chooseLabel="Import" 
+        <p-fileUpload
+            mode="basic"
+            accept="image/*"
+            [maxFileSize]="1000000"
+            label="Import"
+            chooseLabel="Import"
             class="mr-2 inline-block" />
-        <p-button 
-            severity="help" 
-            label="Export" 
+        <p-button
+            severity="help"
+            label="Export"
             icon="pi pi-upload" />
     </ng-template>
 </p-toolbar>
@@ -335,10 +335,10 @@ export class ProductsDoc {
             <h5 class="m-0">Manage Products</h5>
             <span class="p-input-icon-left">
                 <i class="pi pi-search"></i>
-                <input 
-                    pInputText 
-                    type="text" 
-                    (input)="dt.filterGlobal($event.target.value, 'contains')" 
+                <input
+                    pInputText
+                    type="text"
+                    (input)="dt.filterGlobal($event.target.value, 'contains')"
                     placeholder="Search..." />
             </span>
         </div>
@@ -378,10 +378,10 @@ export class ProductsDoc {
                 {{ product.name }}
             </td>
             <td>
-                <img 
-                    [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" 
-                    [alt]="product.name" 
-                    width="50" 
+                <img
+                    [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image"
+                    [alt]="product.name"
+                    width="50"
                     class="shadow-4" />
             </td>
             <td>
@@ -397,20 +397,20 @@ export class ProductsDoc {
                 <p-tag [value]="product.inventoryStatus" [severity]="getSeverity(product.inventoryStatus)" />
             </td>
             <td>
-                <p-button 
-                 
-                    icon="pi pi-pencil" 
-                    class="mr-2" 
-                    [rounded]="true" 
-                    [outlined]="true" 
-                    severity="success" 
+                <p-button
+
+                    icon="pi pi-pencil"
+                    class="mr-2"
+                    [rounded]="true"
+                    [outlined]="true"
+                    severity="success"
                     (onClick)="editProduct(product)" />
-                <p-button 
-                 
-                    icon="pi pi-trash" 
-                    severity="danger" 
-                    [rounded]="true" 
-                    [outlined]="true" 
+                <p-button
+
+                    icon="pi pi-trash"
+                    severity="danger"
+                    [rounded]="true"
+                    [outlined]="true"
                     (onClick)="deleteProduct(product)" />
             </td>
         </tr>
@@ -426,30 +426,30 @@ export class ProductsDoc {
     <p-toolbar styleClass="mb-4 gap-2">
         <ng-template pTemplate="left">
             <p-button
-                severity="success" 
-                label="New" 
-                icon="pi pi-plus" 
-                class="mr-2" 
+                severity="success"
+                label="New"
+                icon="pi pi-plus"
+                class="mr-2"
                 (onClick)="openNew()" />
             <p-button
-                severity="danger" 
-                label="Delete" 
-                icon="pi pi-trash" 
-                (onClick)="deleteSelectedProducts()" 
+                severity="danger"
+                label="Delete"
+                icon="pi pi-trash"
+                (onClick)="deleteSelectedProducts()"
                 [disabled]="!selectedProducts || !selectedProducts.length" />
         </ng-template>
 
         <ng-template pTemplate="right">
-            <p-fileUpload 
-                mode="basic" 
-                accept="image/*" 
-                [maxFileSize]="1000000" 
-                label="Import" 
-                chooseLabel="Import" 
+            <p-fileUpload
+                mode="basic"
+                accept="image/*"
+                [maxFileSize]="1000000"
+                label="Import"
+                chooseLabel="Import"
                 class="mr-2 inline-block" />
             <p-button
-                severity="help" 
-                label="Export" 
+                severity="help"
+                label="Export"
                 icon="pi pi-upload" />
         </ng-template>
     </p-toolbar>
@@ -472,10 +472,10 @@ export class ProductsDoc {
                 <h5 class="m-0">Manage Products</h5>
                 <span class="p-input-icon-left">
                     <i class="pi pi-search"></i>
-                    <input 
-                        pInputText 
-                        type="text" 
-                        (input)="dt.filterGlobal($event.target.value, 'contains')" 
+                    <input
+                        pInputText
+                        type="text"
+                        (input)="dt.filterGlobal($event.target.value, 'contains')"
                         placeholder="Search..." />
                 </span>
             </div>
@@ -515,10 +515,10 @@ export class ProductsDoc {
                     {{ product.name }}
                 </td>
                 <td>
-                <img 
-                    [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" 
-                    [alt]="product.name" 
-                    width="50" 
+                <img
+                    [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image"
+                    [alt]="product.name"
+                    width="50"
                     class="shadow-4" />
                 </td>
                 <td>
@@ -528,29 +528,29 @@ export class ProductsDoc {
                     {{ product.category }}
                 </td>
                 <td>
-                    <p-rating 
-                        [(ngModel)]="product.rating" 
-                        [readonly]="true" 
+                    <p-rating
+                        [(ngModel)]="product.rating"
+                        [readonly]="true"
                         [cancel]="false" />
                 </td>
                 <td>
-                    <p-tag 
-                        [value]="product.inventoryStatus" 
+                    <p-tag
+                        [value]="product.inventoryStatus"
                         [severity]="getSeverity(product.inventoryStatus)" />
                 </td>
                 <td>
-                    <p-button 
-                        icon="pi pi-pencil" 
-                        class="mr-2" 
-                        [rounded]="true" 
-                        [outlined]="true" 
-                        severity="success" 
+                    <p-button
+                        icon="pi pi-pencil"
+                        class="mr-2"
+                        [rounded]="true"
+                        [outlined]="true"
+                        severity="success"
                         (onClick)="editProduct(product)" />
-                    <p-button 
-                        icon="pi pi-trash" 
-                        severity="danger" 
-                        [rounded]="true" 
-                        [outlined]="true" 
+                    <p-button
+                        icon="pi pi-trash"
+                        severity="danger"
+                        [rounded]="true"
+                        [outlined]="true"
                         (onClick)="deleteProduct(product)" />
                 </td>
             </tr>
@@ -562,26 +562,26 @@ export class ProductsDoc {
         </ng-template>
     </p-table>
 
-    <p-dialog 
-        [(visible)]="productDialog" 
-        [style]="{ width: '450px' }" 
-        header="Product Details" 
-        [modal]="true" 
+    <p-dialog
+        [(visible)]="productDialog"
+        [style]="{ width: '450px' }"
+        header="Product Details"
+        [modal]="true"
         styleClass="p-fluid">
             <ng-template pTemplate="content">
-                <img 
-                    [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" 
-                    [alt]="product.image" 
-                    class="block m-auto pb-3" 
+                <img
+                    [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image"
+                    [alt]="product.image"
+                    class="block m-auto pb-3"
                     *ngIf="product.image" />
                 <div class="field">
                     <label for="name">Name</label>
-                    <input 
-                        type="text" 
-                        pInputText 
-                        id="name" 
-                        [(ngModel)]="product.name" 
-                        required 
+                    <input
+                        type="text"
+                        pInputText
+                        id="name"
+                        [(ngModel)]="product.name"
+                        required
                         autofocus />
                     <small class="p-error" *ngIf="submitted && !product.name">
                         Name is required.
@@ -589,30 +589,30 @@ export class ProductsDoc {
                 </div>
                 <div class="field">
                     <label for="description">Description</label>
-                    <textarea 
-                        id="description" 
-                        pInputTextarea 
-                        [(ngModel)]="product.description" 
-                        required 
-                        rows="3" 
+                    <textarea
+                        id="description"
+                        pInputTextarea
+                        [(ngModel)]="product.description"
+                        required
+                        rows="3"
                         cols="20">
                     </textarea>
                 </div>
 
                 <div class="field">
                     <label for="inventoryStatus">Inventory Status</label>
-                    <p-dropdown 
-                        [(ngModel)]="product.inventoryStatus" 
-                        inputId="inventoryStatus" 
+                    <p-dropdown
+                        [(ngModel)]="product.inventoryStatus"
+                        inputId="inventoryStatus"
                         [options]="statuses">
                             <ng-template pTemplate="selectedItem">
-                                <p-tag 
+                                <p-tag
                                     [value]="product.inventoryStatus.toUpperCase()"
                                     [severity]="getSeverity(product.inventoryStatus.toUpperCase())" />
                             </ng-template>
                             <ng-template let-option pTemplate="item">
-                                <p-tag 
-                                    [value]="option.label" 
+                                <p-tag
+                                    [value]="option.label"
                                     [severity]="getSeverity(option.label)" />
                             </ng-template>
                     </p-dropdown>
@@ -622,34 +622,34 @@ export class ProductsDoc {
                     <label class="mb-3">Category</label>
                     <div class="formgrid grid">
                         <div class="field-radiobutton col-6">
-                            <p-radioButton 
-                                id="category1" 
-                                name="category" 
-                                value="Accessories" 
+                            <p-radioButton
+                                id="category1"
+                                name="category"
+                                value="Accessories"
                                 [(ngModel)]="product.category" />
                             <label for="category1">Accessories</label>
                         </div>
                         <div class="field-radiobutton col-6">
-                            <p-radioButton 
-                                id="category2" 
-                                name="category" 
-                                value="Clothing" 
+                            <p-radioButton
+                                id="category2"
+                                name="category"
+                                value="Clothing"
                                 [(ngModel)]="product.category" />
                             <label for="category2">Clothing</label>
                         </div>
                         <div class="field-radiobutton col-6">
-                            <p-radioButton 
-                                id="category3" 
-                                name="category" 
-                                value="Electronics" 
+                            <p-radioButton
+                                id="category3"
+                                name="category"
+                                value="Electronics"
                                 [(ngModel)]="product.category" />
                             <label for="category3">Electronics</label>
                         </div>
                         <div class="field-radiobutton col-6">
-                            <p-radioButton 
-                                id="category4" 
-                                name="category" 
-                                value="Fitness" 
+                            <p-radioButton
+                                id="category4"
+                                name="category"
+                                value="Fitness"
                                 [(ngModel)]="product.category" />
                             <label for="category4">Fitness</label>
                         </div>
@@ -659,32 +659,32 @@ export class ProductsDoc {
                 <div class="formgrid grid">
                     <div class="field col">
                         <label for="price">Price</label>
-                        <p-inputNumber 
-                            id="price" 
-                            [(ngModel)]="product.price" 
-                            mode="currency" 
-                            currency="USD" 
+                        <p-inputNumber
+                            id="price"
+                            [(ngModel)]="product.price"
+                            mode="currency"
+                            currency="USD"
                             locale="en-US" />
                     </div>
                     <div class="field col">
                         <label for="quantity">Quantity</label>
-                        <p-inputNumber 
-                            id="quantity" 
+                        <p-inputNumber
+                            id="quantity"
                             [(ngModel)]="product.quantity" />
                     </div>
                 </div>
             </ng-template>
 
             <ng-template pTemplate="footer">
-                <p-button 
-                    label="Cancel" 
-                    icon="pi pi-times" 
-                    [text]="true" 
+                <p-button
+                    label="Cancel"
+                    icon="pi pi-times"
+                    [text]="true"
                     (onClick)="hideDialog()" />
                 <p-button
-                    label="Save" 
-                    icon="pi pi-check" 
-                    [text]="true" 
+                    label="Save"
+                    icon="pi pi-check"
+                    [text]="true"
                     (onClick)="saveProduct()" />
             </ng-template>
     </p-dialog>
@@ -692,26 +692,26 @@ export class ProductsDoc {
     <p-confirmDialog [style]="{ width: '450px' }" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { DialogModule } from 'primeng/dialog';
-import { RippleModule } from 'primeng/ripple';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { ToolbarModule } from 'primeng/toolbar';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { TableModule } from '@jacobg213/primeng-17/table';
+import { DialogModule } from '@jacobg213/primeng-17/dialog';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ToolbarModule } from '@jacobg213/primeng-17/toolbar';
+import { ConfirmDialogModule } from '@jacobg213/primeng-17/confirmdialog';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { InputTextareaModule } from '@jacobg213/primeng-17/inputtextarea';
 import { CommonModule } from '@angular/common';
-import { FileUploadModule } from 'primeng/fileupload';
-import { DropdownModule } from 'primeng/dropdown';
-import { TagModule } from 'primeng/tag';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { RatingModule } from 'primeng/rating';
+import { FileUploadModule } from '@jacobg213/primeng-17/fileupload';
+import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { TagModule } from '@jacobg213/primeng-17/tag';
+import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
+import { RatingModule } from '@jacobg213/primeng-17/rating';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
 
 @Component({
     selector: 'table-products-demo',

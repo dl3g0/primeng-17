@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -59,97 +59,97 @@ export class TextDoc {
     }
 
     code: Code = {
-        basic: `<p-splitButton 
-    label="Primary" 
-    [model]="items" 
-    (onClick)="save('info')" 
-    text />
-<p-splitButton 
-    label="Secondary" 
-    [model]="items" 
-    (onClick)="save('info')" 
-    text 
-    severity="secondary" />
-<p-splitButton 
-    label="Success" 
-    [model]="items" 
-    (onClick)="save('info')" 
-    text 
-    severity="success" />
-<p-splitButton 
-    label="Info" 
-    [model]="items" 
-    (onClick)="save('info')"
-    text 
-    severity="info" />
-<p-splitButton 
-    label="Warning" 
-    [model]="items" 
-    (onClick)="save('info')" 
-    text 
-    severity="warning" />
-<p-splitButton 
-    label="Help" 
-    [model]="items" 
-    (onClick)="save('info')" 
-    text 
-    severity="help" />
-<p-splitButton 
-    label="Danger" 
+        basic: `<p-splitButton
+    label="Primary"
     [model]="items"
-    (onClick)="save('info')" 
-    text 
+    (onClick)="save('info')"
+    text />
+<p-splitButton
+    label="Secondary"
+    [model]="items"
+    (onClick)="save('info')"
+    text
+    severity="secondary" />
+<p-splitButton
+    label="Success"
+    [model]="items"
+    (onClick)="save('info')"
+    text
+    severity="success" />
+<p-splitButton
+    label="Info"
+    [model]="items"
+    (onClick)="save('info')"
+    text
+    severity="info" />
+<p-splitButton
+    label="Warning"
+    [model]="items"
+    (onClick)="save('info')"
+    text
+    severity="warning" />
+<p-splitButton
+    label="Help"
+    [model]="items"
+    (onClick)="save('info')"
+    text
+    severity="help" />
+<p-splitButton
+    label="Danger"
+    [model]="items"
+    (onClick)="save('info')"
+    text
     severity="danger" />`,
 
         html: `<div class="card flex justify-content-center flex-wrap gap-3">
     <p-toast />
-    <p-splitButton 
-        label="Primary" 
-        [model]="items" 
-        (onClick)="save('info')" 
-        text />
-    <p-splitButton 
-        label="Secondary" 
-        [model]="items" 
+    <p-splitButton
+        label="Primary"
+        [model]="items"
         (onClick)="save('info')"
-        text 
+        text />
+    <p-splitButton
+        label="Secondary"
+        [model]="items"
+        (onClick)="save('info')"
+        text
         severity="secondary" />
-    <p-splitButton 
-        label="Success" 
-        [model]="items" 
-        (onClick)="save('info')" 
-        text 
+    <p-splitButton
+        label="Success"
+        [model]="items"
+        (onClick)="save('info')"
+        text
         severity="success" />
-    <p-splitButton 
-        label="Info" 
-        [model]="items" 
-        (onClick)="save('info')" 
-        text 
+    <p-splitButton
+        label="Info"
+        [model]="items"
+        (onClick)="save('info')"
+        text
         severity="info" />
-    <p-splitButton 
-        label="Warning" 
-        [model]="items" 
-        (onClick)="save('info')" 
-        text 
+    <p-splitButton
+        label="Warning"
+        [model]="items"
+        (onClick)="save('info')"
+        text
         severity="warning" />
-    <p-splitButton 
+    <p-splitButton
         label="Help"
-        [model]="items" 
-        (onClick)="save('info')" 
-        text 
+        [model]="items"
+        (onClick)="save('info')"
+        text
         severity="help" />
-    <p-splitButton 
-        label="Danger" 
-        [model]="items" 
-        (onClick)="save('info')" 
-        text 
+    <p-splitButton
+        label="Danger"
+        [model]="items"
+        (onClick)="save('info')"
+        text
         severity="danger" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { SplitButtonModule } from '@jacobg213/primeng-17/splitbutton';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
 
 @Component({
     selector: 'split-button-text-demo',

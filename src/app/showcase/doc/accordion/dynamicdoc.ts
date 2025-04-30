@@ -46,7 +46,7 @@ export class DynamicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';
+import { AccordionModule } from '@jacobg213/primeng-17/accordion';
 import { CommonModule } from '@angular/common';
 
 @Component({

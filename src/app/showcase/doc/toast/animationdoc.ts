@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -25,25 +25,25 @@ export class AnimationDoc {
     }
 
     code: Code = {
-        basic: `<p-toast 
-    [showTransformOptions]="'translateY(100%)'" 
-    [showTransitionOptions]="'1000ms'" 
-    [hideTransitionOptions]="'1000ms'" 
+        basic: `<p-toast
+    [showTransformOptions]="'translateY(100%)'"
+    [showTransitionOptions]="'1000ms'"
+    [hideTransitionOptions]="'1000ms'"
     [showTransformOptions]="'translateX(100%)'" />
 <p-button (onClick)="show()" label="Show" />`,
         html: `<div class="card flex justify-content-center">
-    <p-toast 
-        [showTransformOptions]="'translateY(100%)'" 
-        [showTransitionOptions]="'1000ms'" 
-        [hideTransitionOptions]="'1000ms'" 
+    <p-toast
+        [showTransformOptions]="'translateY(100%)'"
+        [showTransitionOptions]="'1000ms'"
+        [hideTransitionOptions]="'1000ms'"
         [showTransformOptions]="'translateX(100%)'" />
     <p-button (onClick)="show()" label="Show" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { MessageService } from '@jacobg213/primeng-17/api';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
 
 @Component({
     selector: 'toast-animation-demo',

@@ -24,15 +24,15 @@ import {
     numberAttribute
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, NgControl } from '@angular/forms';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { ButtonModule } from 'primeng/button';
-import { DomHandler } from 'primeng/dom';
-import { AngleDownIcon } from 'primeng/icons/angledown';
-import { AngleUpIcon } from 'primeng/icons/angleup';
-import { TimesIcon } from 'primeng/icons/times';
-import { InputTextModule } from 'primeng/inputtext';
-import { Nullable } from 'primeng/ts-helpers';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { AngleDownIcon } from '@jacobg213/primeng-17/icons/angledown';
+import { AngleUpIcon } from '@jacobg213/primeng-17/icons/angleup';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
 import { InputNumberInputEvent } from './inputnumber.interface';
 
 export const INPUTNUMBER_VALUE_ACCESSOR: any = {

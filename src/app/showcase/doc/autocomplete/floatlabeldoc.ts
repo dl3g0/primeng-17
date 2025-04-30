@@ -33,20 +33,20 @@ export class FloatLabelDoc {
 
     code: Code = {
         basic: `<p-floatLabel>
-    <p-autoComplete 
-        [(ngModel)]="selectedItem" 
-        [suggestions]="suggestions" 
-        (completeMethod)="search($event)" 
+    <p-autoComplete
+        [(ngModel)]="selectedItem"
+        [suggestions]="suggestions"
+        (completeMethod)="search($event)"
         inputId="float-label" />
     <label for="float-label">Float Label</label>
 </p-floatLabel>`,
 
         html: `<div class="card flex justify-content-center">
     <p-floatLabel>
-        <p-autoComplete 
-            [(ngModel)]="selectedItem" 
-            [suggestions]="suggestions" 
-            (completeMethod)="search($event)" 
+        <p-autoComplete
+            [(ngModel)]="selectedItem"
+            [suggestions]="suggestions"
+            (completeMethod)="search($event)"
             inputId="float-label" />
         <label for="float-label">Float Label</label>
     </p-floatLabel>
@@ -54,8 +54,8 @@ export class FloatLabelDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';
+import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;

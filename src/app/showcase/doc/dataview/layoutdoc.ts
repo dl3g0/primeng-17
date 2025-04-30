@@ -278,10 +278,10 @@ export class LayoutDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DataViewModule } from 'primeng/dataview';
-import { TagModule } from 'primeng/tag';
-import { RatingModule } from 'primeng/rating';
-import { ButtonModule } from 'primeng/button';
+import { DataViewModule } from '@jacobg213/primeng-17/dataview';
+import { TagModule } from '@jacobg213/primeng-17/tag';
+import { RatingModule } from '@jacobg213/primeng-17/rating';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -326,7 +326,7 @@ export class DataViewLayoutDemo {
 }`,
 
         data: `
-/* ProductService */        
+/* ProductService */
 {
     id: '1000',
     code: 'f230fh0g3',

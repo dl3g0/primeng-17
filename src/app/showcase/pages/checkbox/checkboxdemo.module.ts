@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@jacobg213/primeng-17/checkbox';
 import { CheckboxDocModule } from '@doc/checkbox/checkboxdoc.module';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { CheckboxDemo } from './checkboxdemo';

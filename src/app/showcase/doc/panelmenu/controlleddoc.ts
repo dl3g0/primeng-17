@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -116,9 +116,9 @@ export class ControlledDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { PanelMenuModule } from 'primeng/panelmenu';
-import { ButtonModule } from 'primeng/button';
+import { MenuItem } from '@jacobg213/primeng-17/api';
+import { PanelMenuModule } from '@jacobg213/primeng-17/panelmenu';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
 
 @Component({
     selector: 'panel-menu-controlled-demo',

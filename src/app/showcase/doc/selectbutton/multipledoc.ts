@@ -24,25 +24,25 @@ export class MultipleDoc {
     value!: number;
 
     code: Code = {
-        basic: `<p-selectButton 
-    [options]="paymentOptions" 
-    [(ngModel)]="value" 
-    [multiple]="true" 
-    optionLabel="name" 
+        basic: `<p-selectButton
+    [options]="paymentOptions"
+    [(ngModel)]="value"
+    [multiple]="true"
+    optionLabel="name"
     optionValue="value" />`,
 
         html: `<div class="card flex justify-content-center">
-    <p-selectButton 
-        [options]="paymentOptions" 
-        [(ngModel)]="value" 
-        [multiple]="true" 
-        optionLabel="name" 
+    <p-selectButton
+        [options]="paymentOptions"
+        [(ngModel)]="value"
+        [multiple]="true"
+        optionLabel="name"
         optionValue="value" />
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
 
 @Component({
     selector: 'select-button-multiple-demo',
@@ -52,7 +52,7 @@ import { SelectButtonModule } from 'primeng/selectbutton';
 })
 export class SelectButtonMultipleDemo {
     value!: number;
-    
+
     paymentOptions: any[] = [
         { name: 'Option 1', value: 1 },
         { name: 'Option 2', value: 2 },

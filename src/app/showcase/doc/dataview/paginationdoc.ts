@@ -153,9 +153,9 @@ export class PaginationDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DataViewModule } from 'primeng/dataview';
-import { ButtonModule } from 'primeng/button';
-import { TagModule } from 'primeng/tag';
+import { DataViewModule } from '@jacobg213/primeng-17/dataview';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { TagModule } from '@jacobg213/primeng-17/tag';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -192,7 +192,7 @@ export class DataViewPaginationDemo {
 }`,
 
         data: `
-/* ProductService */        
+/* ProductService */
 {
     id: '1000',
     code: 'f230fh0g3',

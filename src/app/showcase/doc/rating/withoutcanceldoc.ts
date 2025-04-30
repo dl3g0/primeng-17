@@ -26,7 +26,7 @@ export class WithoutCancelDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@jacobg213/primeng-17/rating';
 
 @Component({
     selector: 'rating-without-cancel-demo',

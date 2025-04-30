@@ -63,7 +63,7 @@ export class OppositeDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TimelineModule } from 'primeng/timeline';
+import { TimelineModule } from '@jacobg213/primeng-17/timeline';
 
 interface EventItem {
     status?: string;

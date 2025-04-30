@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -61,17 +61,17 @@ export class SizeDoc {
 
     code: Code = {
         basic: `<div class="flex justify-content-center mb-3">
-    <p-selectButton 
-        [options]="sizes" 
-        [(ngModel)]="selectedSize" 
-        [multiple]="false" 
-        optionLabel="name" 
+    <p-selectButton
+        [options]="sizes"
+        [(ngModel)]="selectedSize"
+        [multiple]="false"
+        optionLabel="name"
         optionValue="class" />
 </div>
-<p-treeTable 
-    [value]="files" 
-    [scrollable]="true" 
-    [tableStyle]="{'min-width':'50rem'}" 
+<p-treeTable
+    [value]="files"
+    [scrollable]="true"
+    [tableStyle]="{'min-width':'50rem'}"
     [styleClass]="selectedSize">
         <ng-template pTemplate="header">
             <tr>
@@ -94,17 +94,17 @@ export class SizeDoc {
 
         html: `<div class="card">
     <div class="flex justify-content-center mb-3">
-        <p-selectButton 
-            [options]="sizes" 
-            [(ngModel)]="selectedSize" 
-            [multiple]="false" 
-            optionLabel="name" 
+        <p-selectButton
+            [options]="sizes"
+            [(ngModel)]="selectedSize"
+            [multiple]="false"
+            optionLabel="name"
             optionValue="class" />
     </div>
-    <p-treeTable 
-        [value]="files" 
-        [scrollable]="true" 
-        [tableStyle]="{'min-width':'50rem'}" 
+    <p-treeTable
+        [value]="files"
+        [scrollable]="true"
+        [tableStyle]="{'min-width':'50rem'}"
         [styleClass]="selectedSize">
             <ng-template pTemplate="header">
                 <tr>
@@ -127,10 +127,10 @@ export class SizeDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@jacobg213/primeng-17/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from 'primeng/treetable';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
+import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

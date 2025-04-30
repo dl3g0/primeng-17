@@ -27,7 +27,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
+import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
 import { FormsModule } from '@angular/forms';
 
 @Component({

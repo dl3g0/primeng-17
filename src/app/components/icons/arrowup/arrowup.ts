@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BaseIcon } from 'primeng/baseicon';
-import { UniqueComponentId } from 'primeng/utils';
+import { BaseIcon } from '@jacobg213/primeng-17/baseicon';
+import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
 
 @Component({
     selector: 'ArrowUpIcon',

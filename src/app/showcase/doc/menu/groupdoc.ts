@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -60,10 +60,10 @@ export class GroupDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { MenuModule } from 'primeng/menu';
-import { ToastModule } from 'primeng/toast';
-        
+import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuModule } from '@jacobg213/primeng-17/menu';
+import { ToastModule } from '@jacobg213/primeng-17/toast';
+
 @Component({
     selector: 'menu-group-demo',
     templateUrl: './menu-group-demo.html',
@@ -72,7 +72,7 @@ import { ToastModule } from 'primeng/toast';
 })
 export class MenuGroupDemo implements OnInit {
     items: MenuItem[] | undefined;
-    
+
     ngOnInit() {
         this.items = [
             {

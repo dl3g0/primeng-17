@@ -28,20 +28,20 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from 'primeng/api';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { ButtonModule } from 'primeng/button';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { InputTextModule } from 'primeng/inputtext';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { TimesCircleIcon } from 'primeng/icons/timescircle';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { TimesIcon } from 'primeng/icons/times';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { Nullable } from 'primeng/ts-helpers';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
+import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { Overlay, OverlayModule } from '@jacobg213/primeng-17/overlay';
+import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { TimesCircleIcon } from '@jacobg213/primeng-17/icons/timescircle';
+import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
 import { AutoCompleteCompleteEvent, AutoCompleteDropdownClickEvent, AutoCompleteLazyLoadEvent, AutoCompleteSelectEvent, AutoCompleteUnselectEvent } from './autocomplete.interface';
 
 export const AUTOCOMPLETE_VALUE_ACCESSOR: any = {

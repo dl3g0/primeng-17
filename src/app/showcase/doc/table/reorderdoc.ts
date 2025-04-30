@@ -70,10 +70,10 @@ export class ReorderDoc {
     }
 
     code: Code = {
-        basic: `<p-table 
-    [value]="products" 
-    [columns]="cols" 
-    [reorderableColumns]="true" 
+        basic: `<p-table
+    [value]="products"
+    [columns]="cols"
+    [reorderableColumns]="true"
     [tableStyle]="{'min-width': '50rem'}">
         <ng-template pTemplate="header" let-columns>
             <tr>
@@ -83,10 +83,10 @@ export class ReorderDoc {
                 </th>
             </tr>
         </ng-template>
-        <ng-template 
-            pTemplate="body" 
-            let-rowData 
-            let-columns="columns" 
+        <ng-template
+            pTemplate="body"
+            let-rowData
+            let-columns="columns"
             let-index="rowIndex">
                 <tr [pReorderableRow]="index">
                     <td>
@@ -99,10 +99,10 @@ export class ReorderDoc {
         </ng-template>
 </p-table>`,
         html: `<div class="card">
-    <p-table 
-        [value]="products" 
-        [columns]="cols" 
-        [reorderableColumns]="true" 
+    <p-table
+        [value]="products"
+        [columns]="cols"
+        [reorderableColumns]="true"
         [tableStyle]="{'min-width': '50rem'}">
             <ng-template pTemplate="header" let-columns>
                 <tr>
@@ -112,10 +112,10 @@ export class ReorderDoc {
                     </th>
                 </tr>
             </ng-template>
-            <ng-template 
-                pTemplate="body" 
-                let-rowData 
-                let-columns="columns" 
+            <ng-template
+                pTemplate="body"
+                let-rowData
+                let-columns="columns"
                 let-index="rowIndex">
                     <tr [pReorderableRow]="index">
                         <td>
@@ -131,7 +131,7 @@ export class ReorderDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { CommonModule } from '@angular/common';
 
 interface Column {

@@ -20,17 +20,17 @@ import {
     booleanAttribute
 } from '@angular/core';
 import { SafeUrl } from '@angular/platform-browser';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { EyeIcon } from 'primeng/icons/eye';
-import { RefreshIcon } from 'primeng/icons/refresh';
-import { SearchMinusIcon } from 'primeng/icons/searchminus';
-import { SearchPlusIcon } from 'primeng/icons/searchplus';
-import { TimesIcon } from 'primeng/icons/times';
-import { UndoIcon } from 'primeng/icons/undo';
-import { ZIndexUtils } from 'primeng/utils';
-import { Nullable } from 'primeng/ts-helpers';
-import { FocusTrapModule } from 'primeng/focustrap';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { EyeIcon } from '@jacobg213/primeng-17/icons/eye';
+import { RefreshIcon } from '@jacobg213/primeng-17/icons/refresh';
+import { SearchMinusIcon } from '@jacobg213/primeng-17/icons/searchminus';
+import { SearchPlusIcon } from '@jacobg213/primeng-17/icons/searchplus';
+import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { UndoIcon } from '@jacobg213/primeng-17/icons/undo';
+import { ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { FocusTrapModule } from '@jacobg213/primeng-17/focustrap';
 
 /**
  * Displays an image with preview and tranformation options. For multiple image, see Galleria.

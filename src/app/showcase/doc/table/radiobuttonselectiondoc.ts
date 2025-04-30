@@ -56,10 +56,10 @@ export class RadioButtonSelectionDoc {
     }
 
     code: Code = {
-        basic: `<p-table 
-    [value]="products" 
+        basic: `<p-table
+    [value]="products"
     [(selection)]="selectedProduct"
-    dataKey="code" 
+    dataKey="code"
     [tableStyle]="{'min-width': '50rem'}">
         <ng-template pTemplate="header">
             <tr>
@@ -83,10 +83,10 @@ export class RadioButtonSelectionDoc {
         </ng-template>
 </p-table>`,
         html: `<div class="card">
-    <p-table 
-        [value]="products" 
-        [(selection)]="selectedProduct" 
-        dataKey="code" 
+    <p-table
+        [value]="products"
+        [(selection)]="selectedProduct"
+        dataKey="code"
         [tableStyle]="{'min-width': '50rem'}">
             <ng-template pTemplate="header">
                 <tr>
@@ -113,7 +113,7 @@ export class RadioButtonSelectionDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -135,7 +135,7 @@ export class TableRadioButtonSelectionDemo implements OnInit{
         this.productService.getProductsMini().then((data) => {
             this.products = data;
         });
-    } 
+    }
 }`,
         data: `{
     id: '1000',

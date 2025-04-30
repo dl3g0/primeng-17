@@ -4,8 +4,8 @@ import { TreeTable, TreeTableModule, TTScrollableView } from './treetable';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
-import { ContextMenuModule, ContextMenu } from 'primeng/contextmenu';
-import { MinusIcon } from 'primeng/icons/minus';
+import { ContextMenuModule, ContextMenu } from '@jacobg213/primeng-17/contextmenu';
+import { MinusIcon } from '@jacobg213/primeng-17/icons/minus';
 
 @Component({
     template: `

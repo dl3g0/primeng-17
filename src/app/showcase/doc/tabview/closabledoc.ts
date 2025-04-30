@@ -77,7 +77,7 @@ export class ClosableDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TabViewModule } from 'primeng/tabview';
+import { TabViewModule } from '@jacobg213/primeng-17/tabview';
 
 @Component({
     selector: 'tab-view-closable-demo',

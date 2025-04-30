@@ -16,25 +16,25 @@ import { Code } from '@domain/code';
 })
 export class EventDoc {
     code: Code = {
-        basic: `<input 
-    type="text" 
+        basic: `<input
+    type="text"
     pInputText
-    pTooltip="Enter your username" 
-    tooltipEvent="focus" 
+    pTooltip="Enter your username"
+    tooltipEvent="focus"
     placeholder="focus to display tooltip" />`,
 
         html: `<div class="card flex justify-content-center">
-    <input 
-        type="text" 
-        pInputText 
-        pTooltip="Enter your username" 
-        tooltipEvent="focus" 
+    <input
+        type="text"
+        pInputText
+        pTooltip="Enter your username"
+        tooltipEvent="focus"
         placeholder="focus to display tooltip">
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TooltipModule } from 'primeng/tooltip';
-import { InputTextModule } from 'primeng/inputtext';
+import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
 
 @Component({
     selector: 'tooltip-event-demo',

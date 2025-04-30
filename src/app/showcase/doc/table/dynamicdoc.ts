@@ -98,7 +98,7 @@ export class DynamicDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@jacobg213/primeng-17/table';
 import { CommonModule } from '@angular/common';
 
 interface Column {

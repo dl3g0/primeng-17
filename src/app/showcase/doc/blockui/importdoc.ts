@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { BlockUIModule } from 'primeng/blockui';`
+        typescript: `import { BlockUIModule } from '@jacobg213/primeng-17/blockui';`
     };
 }
