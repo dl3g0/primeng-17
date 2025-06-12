@@ -6,7 +6,7 @@ import { AppCodeModule } from '@layout/doc/app.code.component';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
 import { AccessibilityDoc } from './accessibilitydoc';
-import { AnimateOnScrollModule } from '@jacobg213/primeng-17/animateonscroll';
+import { AnimateOnScrollModule } from '@dl3g0/primeng/animateonscroll';
 
 @NgModule({
     imports: [CommonModule, RouterModule, AppCodeModule, AppDocModule, AnimateOnScrollModule],

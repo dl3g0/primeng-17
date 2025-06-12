@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';`
+        typescript: `import { AutoFocusModule } from '@dl3g0/primeng/autofocus';`
     };
 }

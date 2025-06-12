@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Breadcrumb } from './breadcrumb';
 /**
  * Defines valid templates in Breadcumb.

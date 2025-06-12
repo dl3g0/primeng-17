@@ -85,7 +85,7 @@ export class PolarAreaDoc implements OnInit {
     <p-chart type="polarArea" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from '@jacobg213/primeng-17/chart';
+import { ChartModule } from '@dl3g0/primeng/chart';
 
 @Component({
     selector: 'chart-polar-area-demo',

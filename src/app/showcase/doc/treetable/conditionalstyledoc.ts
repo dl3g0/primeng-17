@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -108,9 +108,9 @@ export class ConditionalStyleDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
+import { TreeTableModule } from '@dl3g0/primeng/treetable';
 import { CommonModule } from '@angular/common';
 
 interface Column {

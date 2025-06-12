@@ -48,7 +48,7 @@ export class TemplateDoc {
     </p-tag>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { TagModule } from '@jacobg213/primeng-17/tag';
+import { TagModule } from '@dl3g0/primeng/tag';
 
 @Component({
     selector: 'tag-template-demo',

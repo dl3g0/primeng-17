@@ -100,11 +100,11 @@ export class BasicDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { FocusTrapModule } from '@jacobg213/primeng-17/focustrap';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { FocusTrapModule } from '@dl3g0/primeng/focustrap';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @Component({
     selector: 'focus-trap-basic-demo',

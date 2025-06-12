@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { KeyFilterModule } from '@jacobg213/primeng-17/keyfilter';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { KeyFilterModule } from '@dl3g0/primeng/keyfilter';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

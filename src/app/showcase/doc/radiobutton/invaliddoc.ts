@@ -25,7 +25,7 @@ export class InvalidDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
+import { RadioButtonModule } from '@dl3g0/primeng/radiobutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

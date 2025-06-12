@@ -157,9 +157,9 @@ export class ResponsiveScrollDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { TagModule } from '@jacobg213/primeng-17/tag';
-import { RatingModule } from '@jacobg213/primeng-17/rating';
+import { TableModule } from '@dl3g0/primeng/table';
+import { TagModule } from '@dl3g0/primeng/tag';
+import { RatingModule } from '@dl3g0/primeng/rating';
 import { CommonModule } from '@angular/common';
 
 interface Column {

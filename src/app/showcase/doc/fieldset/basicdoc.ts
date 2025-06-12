@@ -37,7 +37,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { FieldsetModule } from '@jacobg213/primeng-17/fieldset';
+import { FieldsetModule } from '@dl3g0/primeng/fieldset';
 
 @Component({
     selector: 'fieldset-basic-demo',

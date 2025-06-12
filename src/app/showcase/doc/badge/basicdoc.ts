@@ -21,7 +21,7 @@ export class BasicDoc {
     <p-badge [value]="2" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { BadgeModule } from '@dl3g0/primeng/badge';
 
 @Component({
     selector: 'badge-basic-demo',

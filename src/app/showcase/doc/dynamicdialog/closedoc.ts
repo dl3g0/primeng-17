@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { DialogService, DynamicDialogRef } from '@jacobg213/primeng-17/dynamicdialog';
+import { MessageService } from '@dl3g0/primeng/api';
+import { DialogService, DynamicDialogRef } from '@dl3g0/primeng/dynamicdialog';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductListDemo } from './productlistdemo';
@@ -46,8 +46,8 @@ export class CloseDoc {
     code: Code = {
         typescript: `
 import { Component, Input } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { DialogService, DynamicDialogRef } from '@jacobg213/primeng-17/dynamicdialog';
+import { MessageService } from '@dl3g0/primeng/api';
+import { DialogService, DynamicDialogRef } from '@dl3g0/primeng/dynamicdialog';
 import { Product } from '@domain/product';
 import { ProductListDemo } from './productlistdemo';
 

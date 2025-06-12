@@ -39,7 +39,7 @@ export class BasicDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
+import { SelectButtonModule } from '@dl3g0/primeng/selectbutton';
 
 @Component({
     selector: 'select-button-basic-demo',

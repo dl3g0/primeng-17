@@ -30,23 +30,23 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { BlockableUI, FilterMetadata, FilterService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ArrowDownIcon } from '@jacobg213/primeng-17/icons/arrowdown';
-import { ArrowUpIcon } from '@jacobg213/primeng-17/icons/arrowup';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
-import { MinusIcon } from '@jacobg213/primeng-17/icons/minus';
-import { SortAltIcon } from '@jacobg213/primeng-17/icons/sortalt';
-import { SortAmountDownIcon } from '@jacobg213/primeng-17/icons/sortamountdown';
-import { SortAmountUpAltIcon } from '@jacobg213/primeng-17/icons/sortamountupalt';
-import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
-import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
+import { BlockableUI, FilterMetadata, FilterService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ArrowDownIcon } from '@dl3g0/primeng/icons/arrowdown';
+import { ArrowUpIcon } from '@dl3g0/primeng/icons/arrowup';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { ChevronRightIcon } from '@dl3g0/primeng/icons/chevronright';
+import { MinusIcon } from '@dl3g0/primeng/icons/minus';
+import { SortAltIcon } from '@dl3g0/primeng/icons/sortalt';
+import { SortAmountDownIcon } from '@dl3g0/primeng/icons/sortamountdown';
+import { SortAmountUpAltIcon } from '@dl3g0/primeng/icons/sortamountupalt';
+import { SpinnerIcon } from '@dl3g0/primeng/icons/spinner';
+import { PaginatorModule } from '@dl3g0/primeng/paginator';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Scroller, ScrollerModule } from '@dl3g0/primeng/scroller';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
 import { Subject, Subscription } from 'rxjs';
 import {
     TreeTableColResizeEvent,

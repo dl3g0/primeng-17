@@ -45,7 +45,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ToggleButtonModule } from '@jacobg213/primeng-17/togglebutton';
+import { ToggleButtonModule } from '@dl3g0/primeng/togglebutton';
 
 @Component({
     selector: 'toggle-button-reactive-forms-demo',

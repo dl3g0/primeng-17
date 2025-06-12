@@ -111,8 +111,8 @@ export class DataDoc {
         typescript: `import { Component } from '@angular/core';
 import { Car } from '@domain/car';
 import { CarService } from '@service/carservice';
-import { InplaceModule } from '@jacobg213/primeng-17/inplace';
-import { TableModule } from '@jacobg213/primeng-17/table';
+import { InplaceModule } from '@dl3g0/primeng/inplace';
+import { TableModule } from '@dl3g0/primeng/table';
 
 @Component({
     selector: 'inplace-data-demo',

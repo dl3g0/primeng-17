@@ -27,14 +27,14 @@ import {
   DOCUMENT
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MegaMenuItem, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { AngleDownIcon } from '@jacobg213/primeng-17/icons/angledown';
-import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { MegaMenuItem, PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { AngleDownIcon } from '@dl3g0/primeng/icons/angledown';
+import { AngleRightIcon } from '@dl3g0/primeng/icons/angleright';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils, UniqueComponentId } from '@dl3g0/primeng/utils';
 
 @Component({
     selector: 'p-megaMenuSub',

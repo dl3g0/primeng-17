@@ -59,7 +59,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ScrollPanelModule } from '@jacobg213/primeng-17/scrollpanel';
+import { ScrollPanelModule } from '@dl3g0/primeng/scrollpanel';
 
 @Component({
     selector: 'scroll-panel-basic-demo',

@@ -50,7 +50,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
+import { TriStateCheckboxModule } from '@dl3g0/primeng/tristatecheckbox';
 
 @Component({
     selector: 'tri-state-checkbox-reactive-forms-demo',

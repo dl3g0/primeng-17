@@ -1,6 +1,6 @@
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@jacobg213/primeng-17/api';
+import { SharedModule } from '@dl3g0/primeng/api';
 
 @Component({
     selector: 'template-hero-light',

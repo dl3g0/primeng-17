@@ -143,8 +143,8 @@ export class ColumnToggleDoc {
         typescript: `import { Component, OnInit, ChangeDetectorRef} from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { MultiSelectModule } from '@jacobg213/primeng-17/multiselect';
+import { TableModule } from '@dl3g0/primeng/table';
+import { MultiSelectModule } from '@dl3g0/primeng/multiselect';
 import { CommonModule } from '@angular/common';
 
 interface Column {

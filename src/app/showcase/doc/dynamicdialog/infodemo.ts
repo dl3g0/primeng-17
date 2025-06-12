@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DialogService, DynamicDialogComponent, DynamicDialogRef } from '@jacobg213/primeng-17/dynamicdialog';
+import { DialogService, DynamicDialogComponent, DynamicDialogRef } from '@dl3g0/primeng/dynamicdialog';
 
 @Component({
     template: `

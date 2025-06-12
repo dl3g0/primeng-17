@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
 
 @Injectable({ providedIn: 'root' })
 export class FilterService {

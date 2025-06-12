@@ -35,9 +35,9 @@ export class DocumentDoc {
     <p-button label="Block" (onClick)="blockDocument()" />
 </div>`,
         typescript: `import { Component, ChangeDetectorRef } from '@angular/core';
-import { BlockUIModule } from '@jacobg213/primeng-17/blockui';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { BlockUIModule } from '@dl3g0/primeng/blockui';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 
 @Component({
     selector: 'block-ui-document-demo',

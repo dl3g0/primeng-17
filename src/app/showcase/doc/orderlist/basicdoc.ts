@@ -114,7 +114,7 @@ export class BasicDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { OrderListModule } from '@jacobg213/primeng-17/orderlist';
+import { OrderListModule } from '@dl3g0/primeng/orderlist';
 
 @Component({
     selector: 'orderlist-basic-demo',

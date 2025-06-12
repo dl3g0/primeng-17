@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
 import { ButtonModule } from '../button/button';
 import { Inplace } from './inplace';
 

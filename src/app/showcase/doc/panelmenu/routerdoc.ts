@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { Router } from '@angular/router';
 
@@ -144,8 +144,8 @@ export class RouterDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
-import { PanelMenuModule } from '@jacobg213/primeng-17/panelmenu';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
+import { PanelMenuModule } from '@dl3g0/primeng/panelmenu';
 import { Router } from '@angular/router';
 
 @Component({

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MenuItem, MessageService, TreeNode } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService, TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -143,11 +143,11 @@ export class ContextMenuDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService, TreeNode } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService, TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
-import { ContextMenuModule } from '@jacobg213/primeng-17/contextmenu';
+import { TreeTableModule } from '@dl3g0/primeng/treetable';
+import { ToastModule } from '@dl3g0/primeng/toast';
+import { ContextMenuModule } from '@dl3g0/primeng/contextmenu';
 import { CommonModule } from '@angular/common';
 
 interface Column {

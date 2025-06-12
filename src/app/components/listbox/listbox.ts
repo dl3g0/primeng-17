@@ -24,17 +24,17 @@ import {
     numberAttribute
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule, PrimeTemplate, Footer, Header, FilterService, TranslationKeys, PrimeNGConfig, ScrollerOptions } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { SharedModule, PrimeTemplate, Footer, Header, FilterService, TranslationKeys, PrimeNGConfig, ScrollerOptions } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ObjectUtils, UniqueComponentId } from '@dl3g0/primeng/utils';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 import { Subscription } from 'rxjs';
-import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { SearchIcon } from '@dl3g0/primeng/icons/search';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
 import { ListboxChangeEvent, ListboxClickEvent, ListboxDoubleClickEvent, ListboxFilterEvent, ListboxFilterOptions, ListboxSelectAllChangeEvent } from './listbox.interface';
-import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { Scroller, ScrollerModule } from '@dl3g0/primeng/scroller';
 
 export const LISTBOX_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

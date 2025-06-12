@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -128,11 +128,11 @@ export class ContextMenuDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MessageService, MenuItem } from '@jacobg213/primeng-17/api';
+import { MessageService, MenuItem } from '@dl3g0/primeng/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { ContextMenuModule } from '@jacobg213/primeng-17/contextmenu';
+import { TableModule } from '@dl3g0/primeng/table';
+import { ContextMenuModule } from '@dl3g0/primeng/contextmenu';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 

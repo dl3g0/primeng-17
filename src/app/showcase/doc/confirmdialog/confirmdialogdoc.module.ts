@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ConfirmDialogModule } from '@jacobg213/primeng-17/confirmdialog';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ConfirmDialogModule } from '@dl3g0/primeng/confirmdialog';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { ToastModule } from '@dl3g0/primeng/toast';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { BasicDoc } from './basicdoc';

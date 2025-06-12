@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -151,11 +151,11 @@ export class ScrollFlexibleDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { DialogModule } from '@jacobg213/primeng-17/dialog';
+import { TreeTableModule } from '@dl3g0/primeng/treetable';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { DialogModule } from '@dl3g0/primeng/dialog';
 
 @Component({
     selector: 'tree-table-flexible-scroll-demo',

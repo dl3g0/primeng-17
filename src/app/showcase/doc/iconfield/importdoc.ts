@@ -8,8 +8,8 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { IconFieldModule } from '@jacobg213/primeng-17/iconfield';
-import { InputIconModule } from '@jacobg213/primeng-17/inputicon';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';`
+        typescript: `import { IconFieldModule } from '@dl3g0/primeng/iconfield';
+import { InputIconModule } from '@dl3g0/primeng/inputicon';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';`
     };
 }

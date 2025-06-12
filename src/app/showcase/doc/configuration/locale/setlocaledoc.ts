@@ -18,7 +18,7 @@ export class SetLocaleDoc {
     code: Code = {
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { PrimeNGConfig } from '@jacobg213/primeng-17/api';
+import { PrimeNGConfig } from '@dl3g0/primeng/api';
 
 @Component({
     selector: 'app-root',

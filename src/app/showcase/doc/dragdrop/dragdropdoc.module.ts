@@ -5,12 +5,12 @@ import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { ImportDoc } from './importdoc';
 import { DataTableDoc } from './datatabledoc';
-import { DragDropModule } from '@jacobg213/primeng-17/dragdrop';
-import { TagModule } from '@jacobg213/primeng-17/tag';
-import { TableModule } from '@jacobg213/primeng-17/table';
+import { DragDropModule } from '@dl3g0/primeng/dragdrop';
+import { TagModule } from '@dl3g0/primeng/tag';
+import { TableModule } from '@dl3g0/primeng/table';
 import { BasicDoc } from './basicdoc';
 import { DropIndicatorDoc } from './dropindicatordoc';
-import { PanelModule } from '@jacobg213/primeng-17/panel';
+import { PanelModule } from '@dl3g0/primeng/panel';
 import { DragHandleDoc } from './draghandledoc';
 
 @NgModule({

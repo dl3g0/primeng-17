@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { CascadeSelectModule } from '@jacobg213/primeng-17/cascadeselect';`
+        typescript: `import { CascadeSelectModule } from '@dl3g0/primeng/cascadeselect';`
     };
 }

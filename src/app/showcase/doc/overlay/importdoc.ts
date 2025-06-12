@@ -12,6 +12,6 @@ export class ImportDoc {
     @Input() title: string;
 
     code: Code = {
-        typescript: `import { OverlayModule } from '@jacobg213/primeng-17/overlay';`
+        typescript: `import { OverlayModule } from '@dl3g0/primeng/overlay';`
     };
 }

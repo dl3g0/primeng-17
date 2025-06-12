@@ -33,7 +33,7 @@ export class AutoResizeDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputTextareaModule } from '@jacobg213/primeng-17/inputtextarea';
+import { InputTextareaModule } from '@dl3g0/primeng/inputtextarea';
 import { FormsModule } from '@angular/forms';
 
 @Component({

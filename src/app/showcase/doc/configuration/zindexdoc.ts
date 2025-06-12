@@ -18,7 +18,7 @@ import { Code } from '@domain/code';
 })
 export class ZIndexDoc {
     code: Code = {
-        typescript: `import { PrimeNGConfig } from '@jacobg213/primeng-17/api';
+        typescript: `import { PrimeNGConfig } from '@dl3g0/primeng/api';
 
 @Component({
     selector: 'app-root',

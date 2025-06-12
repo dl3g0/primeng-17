@@ -26,7 +26,7 @@ export class DisabledDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from '@jacobg213/primeng-17/rating';
+import { RatingModule } from '@dl3g0/primeng/rating';
 
 @Component({
     selector: 'rating-disabled-demo',

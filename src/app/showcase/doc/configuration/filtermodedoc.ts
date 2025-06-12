@@ -13,7 +13,7 @@ import { Code } from '@domain/code';
 })
 export class FilterModeDoc {
     code: Code = {
-        typescript: `import { FilterMatchMode, PrimeNGConfig } from '@jacobg213/primeng-17/api';
+        typescript: `import { FilterMatchMode, PrimeNGConfig } from '@dl3g0/primeng/api';
 
 @Component({
     selector: 'app-root',

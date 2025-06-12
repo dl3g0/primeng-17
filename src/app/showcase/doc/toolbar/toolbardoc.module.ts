@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { SplitButtonModule } from '@jacobg213/primeng-17/splitbutton';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
-import { ToolbarModule } from '@jacobg213/primeng-17/toolbar';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { SplitButtonModule } from '@dl3g0/primeng/splitbutton';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
+import { ToolbarModule } from '@dl3g0/primeng/toolbar';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

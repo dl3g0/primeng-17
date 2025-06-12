@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ChipsModule } from '@jacobg213/primeng-17/chips';
+import { ChipsModule } from '@dl3g0/primeng/chips';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';
@@ -16,7 +16,7 @@ import { MaxValuesDoc } from './maxvaluesdoc';
 import { FilledDoc } from './filleddoc';
 import { FloatLabelDoc } from './floatlabeldoc';
 import { RouterModule } from '@angular/router';
-import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
+import { FloatLabelModule } from '@dl3g0/primeng/floatlabel';
 import { InvalidDoc } from './invaliddoc';
 import { DisabledDoc } from './disableddoc';
 @NgModule({

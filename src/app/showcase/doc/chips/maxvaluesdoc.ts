@@ -33,7 +33,7 @@ export class MaxValuesDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { ChipsModule } from '@jacobg213/primeng-17/chips';
+import { ChipsModule } from '@dl3g0/primeng/chips';
 
 @Component({
     selector: 'chips-max-values-demo',

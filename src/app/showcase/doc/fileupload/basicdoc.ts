@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
+import { MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 interface UploadEvent {
@@ -52,9 +52,9 @@ export class BasicDoc {
         (onUpload)="onUpload($event)" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { FileUploadModule } from '@jacobg213/primeng-17/fileupload';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { MessageService } from '@dl3g0/primeng/api';
+import { FileUploadModule } from '@dl3g0/primeng/fileupload';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 interface UploadEvent {
     originalEvent: Event;

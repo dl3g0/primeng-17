@@ -40,7 +40,7 @@ export class ToggleableDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { PanelModule } from '@jacobg213/primeng-17/panel';
+import { PanelModule } from '@dl3g0/primeng/panel';
 
 @Component({
     selector: 'panel-toggleable-demo',

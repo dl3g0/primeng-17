@@ -31,8 +31,8 @@ export class BasicDoc {
         placeholder="Automatically focused" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @Component({
     selector: 'auto-focus-basic-demo',

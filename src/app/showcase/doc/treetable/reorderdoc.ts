@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -98,7 +98,7 @@ export class ReorderDoc {
 
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
 
 interface Column {

@@ -83,7 +83,7 @@ export class PresetsDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @Component({
     selector: 'key-filter-presets-demo',

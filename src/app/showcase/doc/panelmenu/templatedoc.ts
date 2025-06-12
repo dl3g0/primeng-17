@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -148,10 +148,10 @@ export class TemplateDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
-import { PanelMenuModule } from '@jacobg213/primeng-17/panelmenu';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { MenuItem } from '@dl3g0/primeng/api';
+import { PanelMenuModule } from '@dl3g0/primeng/panelmenu';
+import { BadgeModule } from '@dl3g0/primeng/badge';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 import { CommonModule } from '@angular/common';
 
 @Component({

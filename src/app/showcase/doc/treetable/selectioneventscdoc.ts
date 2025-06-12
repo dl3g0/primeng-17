@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MessageService, TreeNode } from '@jacobg213/primeng-17/api';
+import { MessageService, TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -146,10 +146,10 @@ export class SelectionEventsDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MessageService, TreeNode } from '@jacobg213/primeng-17/api';
+import { MessageService, TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { TreeTableModule } from '@dl3g0/primeng/treetable';
+import { ToastModule } from '@dl3g0/primeng/toast';
 import { CommonModule } from '@angular/common';
 
 interface Column {

@@ -96,7 +96,7 @@ export class RadarDoc implements OnInit {
     <p-chart type="radar" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from '@jacobg213/primeng-17/chart';
+import { ChartModule } from '@dl3g0/primeng/chart';
 
 @Component({
     selector: 'chart-radar-demo',

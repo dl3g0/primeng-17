@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
-import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
+import { GalleriaModule } from '@dl3g0/primeng/galleria';
 import { FormsModule } from '@angular/forms';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { ButtonModule } from '@dl3g0/primeng/button';
 import { AdvancedDoc } from './advanceddoc';
 import { AutoPlayDoc } from './autoplaydoc';
 import { BasicDoc } from './basicdoc';
@@ -26,8 +26,8 @@ import { ItemWithoutThumbnailsDoc } from './navigator/itemwithoutthumbnailsdoc';
 import { ResponsiveDoc } from './responsivedoc';
 import { StyleDoc } from './styledoc';
 import { ThumbnailDoc } from './thumbnaildoc';
-import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
-import { CheckboxModule } from '@jacobg213/primeng-17/checkbox';
+import { RadioButtonModule } from '@dl3g0/primeng/radiobutton';
+import { CheckboxModule } from '@dl3g0/primeng/checkbox';
 import { AccessibilityDoc } from './accessibilitydoc';
 
 @NgModule({

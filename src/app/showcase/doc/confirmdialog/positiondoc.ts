@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
+import { ConfirmationService, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -169,10 +169,10 @@ export class PositionDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
-import { ConfirmDialogModule } from '@jacobg213/primeng-17/confirmdialog';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ConfirmationService, MessageService } from '@dl3g0/primeng/api';
+import { ConfirmDialogModule } from '@dl3g0/primeng/confirmdialog';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'confirm-dialog-position-demo',

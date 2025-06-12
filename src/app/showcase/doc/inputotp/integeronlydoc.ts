@@ -25,7 +25,7 @@ export class IntegerOnlyDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputOtpModule } from '@jacobg213/primeng-17/inputotp';
+import { InputOtpModule } from '@dl3g0/primeng/inputotp';
 import { FormsModule } from '@angular/forms';
 
 @Component({

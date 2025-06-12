@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ChipsModule } from '@jacobg213/primeng-17/chips';
+import { ChipsModule } from '@dl3g0/primeng/chips';
 import { ChipsDocModule } from '@doc/chips/chipsdoc.module';
 import { ChipsDemo } from './chipsdemo';
 import { ChipsDemoRoutingModule } from './chipsdemo-routing.module';

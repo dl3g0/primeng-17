@@ -76,7 +76,7 @@ export class ReactiveFormsDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { CountryService } from '@service/countryservice';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';
+import { AutoCompleteModule } from '@dl3g0/primeng/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;

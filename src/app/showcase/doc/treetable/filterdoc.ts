@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -202,11 +202,11 @@ export class FilterDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
+import { SelectButtonModule } from '@dl3g0/primeng/selectbutton';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 import { CommonModule } from '@angular/common';
 
 interface Column {

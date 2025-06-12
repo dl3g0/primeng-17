@@ -30,7 +30,7 @@ export class IconDoc {
     <p-tag icon="pi pi-times" severity="danger" value="Danger" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { TagModule } from '@jacobg213/primeng-17/tag';
+import { TagModule } from '@dl3g0/primeng/tag';
 
 @Component({
     selector: 'tag-icon-demo',

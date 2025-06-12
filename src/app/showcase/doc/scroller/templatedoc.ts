@@ -168,8 +168,8 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ScrollerModule } from '@jacobg213/primeng-17/scroller';
-import { SkeletonModule } from '@jacobg213/primeng-17/skeleton';
+import { ScrollerModule } from '@dl3g0/primeng/scroller';
+import { SkeletonModule } from '@dl3g0/primeng/skeleton';
 
 @Component({
     selector: 'scroller-template-demo',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SelectItem } from '@jacobg213/primeng-17/api';
+import { SelectItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -190,14 +190,14 @@ export class SortingDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { SelectItem } from '@jacobg213/primeng-17/api';
+import { SelectItem } from '@dl3g0/primeng/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DataViewModule } from '@jacobg213/primeng-17/dataview';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { TagModule } from '@jacobg213/primeng-17/tag';
+import { DataViewModule } from '@dl3g0/primeng/dataview';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { TagModule } from '@dl3g0/primeng/tag';
 import { CommonModule } from '@angular/common';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
 
 @Component({
     selector: 'data-view-sorting-demo',

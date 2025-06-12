@@ -121,7 +121,7 @@ export class FilledDoc {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CascadeSelectModule } from '@jacobg213/primeng-17/cascadeselect';
+import { CascadeSelectModule } from '@dl3g0/primeng/cascadeselect';
 
 @Component({
     selector: 'cascade-select-filled-demo',

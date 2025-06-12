@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/
 import { Code } from '@domain/code';
 import { Customer, Representative } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { Table } from '@jacobg213/primeng-17/table';
+import { Table } from '@dl3g0/primeng/table';
 
 @Component({
     selector: 'customers-doc',
@@ -582,18 +582,18 @@ export class CustomersDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Customer, Representative } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { TagModule } from '@jacobg213/primeng-17/tag';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { InputIconModule } from '@jacobg213/primeng-17/inputicon';
-import { IconFieldModule } from '@jacobg213/primeng-17/iconfield';
+import { TableModule } from '@dl3g0/primeng/table';
+import { TagModule } from '@dl3g0/primeng/tag';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { InputIconModule } from '@dl3g0/primeng/inputicon';
+import { IconFieldModule } from '@dl3g0/primeng/iconfield';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { MultiSelectModule } from '@jacobg213/primeng-17/multiselect';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
-import { SliderModule } from '@jacobg213/primeng-17/slider';
-import { ProgressBarModule } from '@jacobg213/primeng-17/progressbar';
+import { MultiSelectModule } from '@dl3g0/primeng/multiselect';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
+import { SliderModule } from '@dl3g0/primeng/slider';
+import { ProgressBarModule } from '@dl3g0/primeng/progressbar';
 
 @Component({
     selector: 'table-customers-demo',

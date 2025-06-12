@@ -21,15 +21,15 @@ import {
     numberAttribute
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
-import { Header, Footer, PrimeTemplate, SharedModule, FilterService, TranslationKeys, PrimeNGConfig } from '@jacobg213/primeng-17/api';
-import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
-import { BlockableUI } from '@jacobg213/primeng-17/api';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
+import { Header, Footer, PrimeTemplate, SharedModule, FilterService, TranslationKeys, PrimeNGConfig } from '@dl3g0/primeng/api';
+import { PaginatorModule } from '@dl3g0/primeng/paginator';
+import { BlockableUI } from '@dl3g0/primeng/api';
 import { Subscription } from 'rxjs';
-import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
-import { ThLargeIcon } from '@jacobg213/primeng-17/icons/thlarge';
-import { BarsIcon } from '@jacobg213/primeng-17/icons/bars';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { SpinnerIcon } from '@dl3g0/primeng/icons/spinner';
+import { ThLargeIcon } from '@dl3g0/primeng/icons/thlarge';
+import { BarsIcon } from '@dl3g0/primeng/icons/bars';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
 import { DataViewLayoutChangeEvent, DataViewLazyLoadEvent, DataViewPageEvent, DataViewPaginatorState, DataViewSortEvent } from './dataview.interface';
 /**
  * DataView displays data in grid or list layout with pagination and sorting features.

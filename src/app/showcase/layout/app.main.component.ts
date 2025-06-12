@@ -1,7 +1,7 @@
 import { CommonModule, IMAGE_CONFIG } from '@angular/common';
 import { Component, Inject, DOCUMENT } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { DomHandler } from '@dl3g0/primeng/dom';
 import { AppConfigService } from '@service/appconfigservice';
 import { AppConfigComponent } from './config/app.config.component';
 import { AppFooterComponent } from './footer/app.footer.component';

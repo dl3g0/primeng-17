@@ -141,7 +141,7 @@ export class FilterDoc {
         typescript: `import { Component, ChangeDetectorRef } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { PickListModule } from '@jacobg213/primeng-17/picklist';
+import { PickListModule } from '@dl3g0/primeng/picklist';
 
 @Component({
     selector: 'picklist-filter-demo',

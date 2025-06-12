@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, OnDestroy, afterNextRender } from '@angular/core';
 import { NavigationEnd, Router, RouterModule } from '@angular/router';
-import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { StyleClassModule } from '@jacobg213/primeng-17/styleclass';
+import { AutoCompleteModule } from '@dl3g0/primeng/autocomplete';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { StyleClassModule } from '@dl3g0/primeng/styleclass';
 import { Subscription } from 'rxjs';
 import { default as MenuData } from 'src/assets/showcase/data/menu.json';
 import { AppConfigService } from '@service/appconfigservice';

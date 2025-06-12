@@ -207,9 +207,9 @@ export class LoadingDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DataViewModule } from '@jacobg213/primeng-17/dataview';
+import { DataViewModule } from '@dl3g0/primeng/dataview';
 import { CommonModule } from '@angular/common';
-import { SkeletonModule } from '@jacobg213/primeng-17/skeleton';
+import { SkeletonModule } from '@dl3g0/primeng/skeleton';
 
 @Component({
     selector: 'data-view-loading-demo',

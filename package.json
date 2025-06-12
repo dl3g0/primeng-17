@@ -2,8 +2,8 @@
   "dependencies": {
     "@angular/ssr": "^20.0.2"
   },
-  "name": "@jacobg213/primeng-17",
-  "version": "17.19.1",
+  "name": "@dl3g0/primeng",
+  "version": "17.17.0-20.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
     "setup": "npm run clean && npm run init",

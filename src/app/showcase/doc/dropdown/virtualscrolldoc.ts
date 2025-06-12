@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SelectItem } from '@jacobg213/primeng-17/api';
+import { SelectItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -47,10 +47,10 @@ export class VirtualScrollDoc {
         [virtualScrollItemSize]="38" />
 </div>`,
 
-        typescript: `import { SelectItem } from '@jacobg213/primeng-17/api';
+        typescript: `import { SelectItem } from '@dl3g0/primeng/api';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
 
 @Component({
     selector: 'dropdown-virtualscroll-demo',

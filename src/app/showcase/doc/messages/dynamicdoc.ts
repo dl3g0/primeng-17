@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Message } from '@jacobg213/primeng-17/api';
+import { Message } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -62,10 +62,10 @@ export class DynamicDoc {
     <p-messages [(value)]="messages" [enableService]="false" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Message } from '@jacobg213/primeng-17/api';
-import { MessagesModule } from '@jacobg213/primeng-17/messages';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { Message } from '@dl3g0/primeng/api';
+import { MessagesModule } from '@dl3g0/primeng/messages';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 
 @Component({
     selector: 'messages-dynamic-demo',

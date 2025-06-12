@@ -3,7 +3,7 @@ import { By } from '@angular/platform-browser';
 import { BlockUI } from './blockui';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { Component } from '@angular/core';
-import { Panel } from '@jacobg213/primeng-17/panel';
+import { Panel } from '@dl3g0/primeng/panel';
 
 @Component({
     template: `

@@ -25,7 +25,7 @@ export class PositionDoc {
     <i class="pi pi-envelope p-text-secondary" pBadge style="font-size: 2rem" severity="danger"></i>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { BadgeModule } from '@dl3g0/primeng/badge';
 
 @Component({
     selector: 'badge-position-demo',

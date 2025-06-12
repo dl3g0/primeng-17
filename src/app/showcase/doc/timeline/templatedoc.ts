@@ -104,9 +104,9 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TimelineModule } from '@jacobg213/primeng-17/timeline';
-import { CardModule } from '@jacobg213/primeng-17/card';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { TimelineModule } from '@dl3g0/primeng/timeline';
+import { CardModule } from '@dl3g0/primeng/card';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 interface EventItem {
     status?: string;

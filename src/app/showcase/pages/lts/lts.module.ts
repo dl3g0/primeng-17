@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { TagModule } from '@jacobg213/primeng-17/tag';
+import { TagModule } from '@dl3g0/primeng/tag';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { LTSRoutingModule } from './lts-routing.module';
 import { LTSComponent } from './lts.component';

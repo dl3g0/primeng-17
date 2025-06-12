@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { DynamicDialogModule } from '@jacobg213/primeng-17/dynamicdialog';`
+        typescript: `import { DynamicDialogModule } from '@dl3g0/primeng/dynamicdialog';`
     };
 }

@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { Code } from '@domain/code';
-import { MultiSelect } from '@jacobg213/primeng-17/multiselect';
+import { MultiSelect } from '@dl3g0/primeng/multiselect';
 
 @Component({
     selector: 'virtual-scroll-doc',
@@ -92,8 +92,8 @@ export class VirtualScrollDoc {
 
         typescript: `import { Component, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MultiSelectModule } from '@jacobg213/primeng-17/multiselect';
-import { MultiSelect } from '@jacobg213/primeng-17/multiselect';
+import { MultiSelectModule } from '@dl3g0/primeng/multiselect';
+import { MultiSelect } from '@dl3g0/primeng/multiselect';
 
 @Component({
     selector: 'multi-select-virtual-scroll-demo',

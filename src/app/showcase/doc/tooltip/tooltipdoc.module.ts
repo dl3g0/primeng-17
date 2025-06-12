@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { ImportDoc } from './importdoc';

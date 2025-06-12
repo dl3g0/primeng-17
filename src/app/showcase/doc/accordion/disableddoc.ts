@@ -80,7 +80,7 @@ export class DisabledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { AccordionModule } from '@jacobg213/primeng-17/accordion';
+import { AccordionModule } from '@dl3g0/primeng/accordion';
 
 @Component({
     selector: 'accordion-disabled-demo',

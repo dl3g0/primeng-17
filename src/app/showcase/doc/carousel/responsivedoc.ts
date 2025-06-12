@@ -160,9 +160,9 @@ export class ResponsiveDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { CarouselModule } from '@jacobg213/primeng-17/carousel';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { TagModule } from '@jacobg213/primeng-17/tag';
+import { CarouselModule } from '@dl3g0/primeng/carousel';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { TagModule } from '@dl3g0/primeng/tag';
 
 @Component({
     selector: 'carousel-responsive-demo',

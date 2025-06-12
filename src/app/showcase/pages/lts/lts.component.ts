@@ -17,7 +17,7 @@ export class LTSComponent {
 
     code: Code = {
         typescript: `import { Component } from '@angular/core';
-import { LicenseManager } from '@jacobg213/primeng-17/api';
+import { LicenseManager } from '@dl3g0/primeng/api';
 
 @Component({
     selector: 'app-root',

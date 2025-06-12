@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { Scroller } from '@jacobg213/primeng-17/scroller';
+import { Scroller } from '@dl3g0/primeng/scroller';
 import { Code } from '@domain/code';
 
 @Component({
@@ -72,8 +72,8 @@ export class ProgrammaticDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit, ViewChild } from '@angular/core';
-import { Scroller } from '@jacobg213/primeng-17/scroller';
-import { ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { Scroller } from '@dl3g0/primeng/scroller';
+import { ScrollerModule } from '@dl3g0/primeng/scroller';
 
 @Component({
     selector: 'scroller-programmatic-demo',

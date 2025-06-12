@@ -163,8 +163,8 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { StepperModule } from '@jacobg213/primeng-17/stepper';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { StepperModule } from '@dl3g0/primeng/stepper';
 
 @Component({
     selector: 'stepper-basic-demo',

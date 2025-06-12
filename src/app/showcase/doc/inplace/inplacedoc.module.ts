@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { InplaceModule } from '@jacobg213/primeng-17/inplace';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { TableModule } from '@jacobg213/primeng-17/table';
+import { InplaceModule } from '@dl3g0/primeng/inplace';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { TableModule } from '@dl3g0/primeng/table';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

@@ -98,8 +98,8 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ToolbarModule } from '@jacobg213/primeng-17/toolbar';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
+import { ToolbarModule } from '@dl3g0/primeng/toolbar';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
 
 @Component({
     selector: 'toolbar-template-demo',

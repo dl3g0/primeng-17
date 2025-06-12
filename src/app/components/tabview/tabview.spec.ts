@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { PrimeTemplate } from '@jacobg213/primeng-17/api';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { Tooltip } from '@jacobg213/primeng-17/tooltip';
+import { PrimeTemplate } from '@dl3g0/primeng/api';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { Tooltip } from '@dl3g0/primeng/tooltip';
 import { TabPanel, TabView } from './tabview';
 
 @Component({

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -127,10 +127,10 @@ export class SizeDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
-import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
+import { TreeTableModule } from '@dl3g0/primeng/treetable';
+import { SelectButtonModule } from '@dl3g0/primeng/selectbutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

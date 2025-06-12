@@ -20,9 +20,9 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { PrimeNGConfig, PrimeTemplate } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ZIndexUtils } from '@dl3g0/primeng/utils';
 /**
  * BlockUI can either block other components or the whole page.
  * @group Components

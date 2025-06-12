@@ -25,7 +25,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputSwitchModule } from '@jacobg213/primeng-17/inputswitch';
+import { InputSwitchModule } from '@dl3g0/primeng/inputswitch';
 import { FormsModule } from '@angular/forms';
 
 @Component({

@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { KeyFilterModule } from '@jacobg213/primeng-17/keyfilter';`
+        typescript: `import { KeyFilterModule } from '@dl3g0/primeng/keyfilter';`
     };
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BaseIcon } from '@jacobg213/primeng-17/baseicon';
+import { BaseIcon } from '@dl3g0/primeng/baseicon';
 
 @Component({
     selector: 'AngleRightIcon',

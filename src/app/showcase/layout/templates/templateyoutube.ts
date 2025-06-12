@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@jacobg213/primeng-17/api';
-import { DialogModule } from '@jacobg213/primeng-17/dialog';
+import { SharedModule } from '@dl3g0/primeng/api';
+import { DialogModule } from '@dl3g0/primeng/dialog';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({

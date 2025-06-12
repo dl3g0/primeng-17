@@ -25,14 +25,14 @@ import {
     signal
 } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ChevronLeftIcon } from '@jacobg213/primeng-17/icons/chevronleft';
-import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
+import { MenuItem, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ChevronLeftIcon } from '@dl3g0/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@dl3g0/primeng/icons/chevronright';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
 import { filter } from 'rxjs/operators';
 
 /**

@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { TabMenuModule } from '@jacobg213/primeng-17/tabmenu';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { TabMenuModule } from '@dl3g0/primeng/tabmenu';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { ActiveDoc } from './activedoc';
@@ -15,7 +15,7 @@ import { ScrollableDoc } from './scrollabledoc';
 import { TemplateDoc } from './templatedoc';
 import { AccessibilityDoc } from './accessibilitydoc';
 import { CommandDoc } from './commanddoc';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { ToastModule } from '@dl3g0/primeng/toast';
 import { RouterDoc } from './routerdoc';
 
 @NgModule({

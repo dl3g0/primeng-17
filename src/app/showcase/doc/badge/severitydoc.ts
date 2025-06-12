@@ -30,7 +30,7 @@ export class SeverityDoc {
     <p-badge [value]="12" severity="danger" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { BadgeModule } from '@dl3g0/primeng/badge';
 
 @Component({
     selector: 'badge-severity-demo',

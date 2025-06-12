@@ -70,7 +70,7 @@ export class ClickEventDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
+import { GalleriaModule } from '@dl3g0/primeng/galleria';
 
 @Component({
     selector: 'galleria-indicator-click-event-demo',

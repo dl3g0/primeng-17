@@ -67,8 +67,8 @@ export class AnimationDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { StyleClassModule } from '@jacobg213/primeng-17/styleclass';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { StyleClassModule } from '@dl3g0/primeng/styleclass';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: './style-class-animation-demo',

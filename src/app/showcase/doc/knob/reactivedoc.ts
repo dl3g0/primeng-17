@@ -50,8 +50,8 @@ export class ReactiveDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from '@jacobg213/primeng-17/knob';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { KnobModule } from '@dl3g0/primeng/knob';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'knob-reactive-demo',

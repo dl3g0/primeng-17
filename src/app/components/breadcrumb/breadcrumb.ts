@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, Component, ContentChildren, EventEmitter, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
-import { HomeIcon } from '@jacobg213/primeng-17/icons/home';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { MenuItem, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { ChevronRightIcon } from '@dl3g0/primeng/icons/chevronright';
+import { HomeIcon } from '@dl3g0/primeng/icons/home';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
 import { BreadcrumbItemClickEvent } from './breadcrumb.interface';
 /**
  * Breadcrumb provides contextual information about page hierarchy.

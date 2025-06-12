@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';`
+        typescript: `import { AutoCompleteModule } from '@dl3g0/primeng/autocomplete';`
     };
 }

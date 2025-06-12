@@ -134,7 +134,7 @@ export class TemplateDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MultiSelectModule } from '@jacobg213/primeng-17/multiselect';
+import { MultiSelectModule } from '@dl3g0/primeng/multiselect';
 
 interface Country {
     name: string;

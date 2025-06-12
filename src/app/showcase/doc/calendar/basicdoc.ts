@@ -25,7 +25,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { CalendarModule } from '@jacobg213/primeng-17/calendar';
+import { CalendarModule } from '@dl3g0/primeng/calendar';
 import { FormsModule } from '@angular/forms';
 
 @Component({

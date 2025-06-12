@@ -32,15 +32,15 @@ import {
   DOCUMENT
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
-import { EyeIcon } from '@jacobg213/primeng-17/icons/eye';
-import { EyeSlashIcon } from '@jacobg213/primeng-17/icons/eyeslash';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { ZIndexUtils } from '@jacobg213/primeng-17/utils';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@dl3g0/primeng/dom';
+import { EyeIcon } from '@dl3g0/primeng/icons/eye';
+import { EyeSlashIcon } from '@dl3g0/primeng/icons/eyeslash';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { ZIndexUtils } from '@dl3g0/primeng/utils';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
 import { Subscription } from 'rxjs';
 
 type Meter = {

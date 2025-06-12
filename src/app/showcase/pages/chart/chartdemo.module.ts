@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ChartModule } from '@jacobg213/primeng-17/chart';
+import { ChartModule } from '@dl3g0/primeng/chart';
 import { ChartDocModule } from '@doc/chart/chartdoc.module';
 import { ChartDemo } from './chartdemo';
 import { ChartDemoRoutingModule } from './chartdemo-routing.module';

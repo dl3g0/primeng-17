@@ -59,8 +59,8 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { FieldsetModule } from '@jacobg213/primeng-17/fieldset';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
+import { FieldsetModule } from '@dl3g0/primeng/fieldset';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
 
 @Component({
     selector: 'fieldset-template-demo',

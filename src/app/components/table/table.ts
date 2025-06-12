@@ -50,30 +50,30 @@ import {
     SortMeta,
     TableState,
     TranslationKeys
-} from '@jacobg213/primeng-17/api';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { CalendarModule } from '@jacobg213/primeng-17/calendar';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
-import { ArrowDownIcon } from '@jacobg213/primeng-17/icons/arrowdown';
-import { ArrowUpIcon } from '@jacobg213/primeng-17/icons/arrowup';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { FilterIcon } from '@jacobg213/primeng-17/icons/filter';
-import { FilterSlashIcon } from '@jacobg213/primeng-17/icons/filterslash';
-import { PlusIcon } from '@jacobg213/primeng-17/icons/plus';
-import { SortAltIcon } from '@jacobg213/primeng-17/icons/sortalt';
-import { SortAmountDownIcon } from '@jacobg213/primeng-17/icons/sortamountdown';
-import { SortAmountUpAltIcon } from '@jacobg213/primeng-17/icons/sortamountupalt';
-import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
-import { TrashIcon } from '@jacobg213/primeng-17/icons/trash';
-import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
-import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
-import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
-import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+} from '@dl3g0/primeng/api';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { CalendarModule } from '@dl3g0/primeng/calendar';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@dl3g0/primeng/dom';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
+import { ArrowDownIcon } from '@dl3g0/primeng/icons/arrowdown';
+import { ArrowUpIcon } from '@dl3g0/primeng/icons/arrowup';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { FilterIcon } from '@dl3g0/primeng/icons/filter';
+import { FilterSlashIcon } from '@dl3g0/primeng/icons/filterslash';
+import { PlusIcon } from '@dl3g0/primeng/icons/plus';
+import { SortAltIcon } from '@dl3g0/primeng/icons/sortalt';
+import { SortAmountDownIcon } from '@dl3g0/primeng/icons/sortamountdown';
+import { SortAmountUpAltIcon } from '@dl3g0/primeng/icons/sortamountupalt';
+import { SpinnerIcon } from '@dl3g0/primeng/icons/spinner';
+import { TrashIcon } from '@dl3g0/primeng/icons/trash';
+import { InputNumberModule } from '@dl3g0/primeng/inputnumber';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { PaginatorModule } from '@dl3g0/primeng/paginator';
+import { Scroller, ScrollerModule } from '@dl3g0/primeng/scroller';
+import { SelectButtonModule } from '@dl3g0/primeng/selectbutton';
+import { TriStateCheckboxModule } from '@dl3g0/primeng/tristatecheckbox';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
 import { Subject, Subscription } from 'rxjs';
 import {
     ExportCSVOptions,

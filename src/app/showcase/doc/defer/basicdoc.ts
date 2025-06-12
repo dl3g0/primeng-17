@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
+import { MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -53,9 +53,9 @@ export class BasicDoc {
     </div>
 </div>`,
         typescript: `import { Component, Input } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { DeferModule } from '@jacobg213/primeng-17/defer';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { MessageService } from '@dl3g0/primeng/api';
+import { DeferModule } from '@dl3g0/primeng/defer';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'defer-basic-demo',

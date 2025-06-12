@@ -3,7 +3,7 @@ import { By } from '@angular/platform-browser';
 import { SlideMenu, SlideMenuModule, SlideMenuSub } from './slidemenu';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
 import { ButtonModule } from '../button/button';
 

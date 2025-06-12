@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -75,9 +75,9 @@ export class CircleDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
-import { SpeedDialModule } from '@jacobg213/primeng-17/speeddial';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
+import { SpeedDialModule } from '@dl3g0/primeng/speeddial';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'speed-dial-circle-demo',

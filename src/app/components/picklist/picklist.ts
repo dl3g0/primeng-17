@@ -23,22 +23,22 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { AngleDoubleDownIcon } from '@jacobg213/primeng-17/icons/angledoubledown';
-import { AngleDoubleLeftIcon } from '@jacobg213/primeng-17/icons/angledoubleleft';
-import { AngleDoubleRightIcon } from '@jacobg213/primeng-17/icons/angledoubleright';
-import { AngleDoubleUpIcon } from '@jacobg213/primeng-17/icons/angledoubleup';
-import { AngleDownIcon } from '@jacobg213/primeng-17/icons/angledown';
-import { AngleLeftIcon } from '@jacobg213/primeng-17/icons/angleleft';
-import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
-import { AngleUpIcon } from '@jacobg213/primeng-17/icons/angleup';
-import { HomeIcon } from '@jacobg213/primeng-17/icons/home';
-import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { AngleDoubleDownIcon } from '@dl3g0/primeng/icons/angledoubledown';
+import { AngleDoubleLeftIcon } from '@dl3g0/primeng/icons/angledoubleleft';
+import { AngleDoubleRightIcon } from '@dl3g0/primeng/icons/angledoubleright';
+import { AngleDoubleUpIcon } from '@dl3g0/primeng/icons/angledoubleup';
+import { AngleDownIcon } from '@dl3g0/primeng/icons/angledown';
+import { AngleLeftIcon } from '@dl3g0/primeng/icons/angleleft';
+import { AngleRightIcon } from '@dl3g0/primeng/icons/angleright';
+import { AngleUpIcon } from '@dl3g0/primeng/icons/angleup';
+import { HomeIcon } from '@dl3g0/primeng/icons/home';
+import { SearchIcon } from '@dl3g0/primeng/icons/search';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils, UniqueComponentId } from '@dl3g0/primeng/utils';
 import {
     PickListFilterOptions,
     PickListMoveAllToSourceEvent,

@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, EventEmitter, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation, booleanAttribute, forwardRef, numberAttribute } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
 import { TriStateCheckboxChangeEvent } from './tristatecheckbox.interface';
 
 export const TRISTATECHECKBOX_VALUE_ACCESSOR: any = {

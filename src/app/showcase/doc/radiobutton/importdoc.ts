@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';`
+        typescript: `import { RadioButtonModule } from '@dl3g0/primeng/radiobutton';`
     };
 }

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, Input, NgModule, QueryList, TemplateRef, ViewEncapsulation, booleanAttribute } from '@angular/core';
-import { PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
+import { PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
 /**
  * Tag component is used to categorize content.
  * @group Components

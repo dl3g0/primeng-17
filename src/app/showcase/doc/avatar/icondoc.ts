@@ -112,8 +112,8 @@ export class IconDoc {
             badgeSize="large" />
     </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
+import { BadgeModule } from '@dl3g0/primeng/badge';
 
 @Component({
     selector: 'avatar-icon-demo',

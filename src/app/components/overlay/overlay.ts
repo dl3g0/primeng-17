@@ -36,10 +36,10 @@ import {
     PrimeTemplate,
     ResponsiveOverlayOptions,
     SharedModule
-} from '@jacobg213/primeng-17/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
-import { ObjectUtils, ZIndexUtils } from '@jacobg213/primeng-17/utils';
-import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';
+} from '@dl3g0/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@dl3g0/primeng/dom';
+import { ObjectUtils, ZIndexUtils } from '@dl3g0/primeng/utils';
+import { VoidListener } from '@dl3g0/primeng/ts-helpers';
 
 export const OVERLAY_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

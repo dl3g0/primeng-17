@@ -1,5 +1,5 @@
 import { Component, OnDestroy } from '@angular/core';
-import { TerminalService } from '@jacobg213/primeng-17/terminal';
+import { TerminalService } from '@dl3g0/primeng/terminal';
 import { Subscription } from 'rxjs';
 import { Code } from '@domain/code';
 
@@ -46,8 +46,8 @@ to get a random number.</p>
     <p-terminal welcomeMessage="Welcome to PrimeNG" prompt="primeng $" />
 </div>`,
         typescript: `import { Component, OnDestroy } from '@angular/core';
-import { TerminalService } from '@jacobg213/primeng-17/terminal';
-import { TerminalModule } from '@jacobg213/primeng-17/terminal';
+import { TerminalService } from '@dl3g0/primeng/terminal';
+import { TerminalModule } from '@dl3g0/primeng/terminal';
 import { Subscription } from 'rxjs';
 
 @Component({

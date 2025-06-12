@@ -26,17 +26,17 @@ import {
     numberAttribute,
     signal
 } from '@angular/core';
-import { BlockableUI, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ChevronLeftIcon } from '@jacobg213/primeng-17/icons/chevronleft';
-import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { BlockableUI, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ChevronLeftIcon } from '@dl3g0/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@dl3g0/primeng/icons/chevronright';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
 import { Subscription } from 'rxjs';
 import { TabViewChangeEvent, TabViewCloseEvent } from './tabview.interface';
-import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { UniqueComponentId } from '@dl3g0/primeng/utils';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
 
 /**
  * TabPanel is a helper component for TabView component.

@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import docsearch from '@docsearch/js';
 import { AppConfigService } from '@service/appconfigservice';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { StyleClassModule } from '@jacobg213/primeng-17/styleclass';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { StyleClassModule } from '@dl3g0/primeng/styleclass';
 import Versions from '../../data/versions.json';
 
 @Component({

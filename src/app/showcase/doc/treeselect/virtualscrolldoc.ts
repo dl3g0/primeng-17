@@ -68,7 +68,7 @@ export class VirtualScrollDoc {
         typescript: `import { Component } from '@angular/core';
 import { NodeService } from '@service/nodeservice';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from '@jacobg213/primeng-17/treeselect';
+import { TreeSelectModule } from '@dl3g0/primeng/treeselect';
 
 @Component({
     selector: 'tree-select-virtual-scroll-demo',

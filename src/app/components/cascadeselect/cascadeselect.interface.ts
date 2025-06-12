@@ -1,5 +1,5 @@
 import { ElementRef, TemplateRef } from '@angular/core';
-import { Overlay } from '@jacobg213/primeng-17/overlay';
+import { Overlay } from '@dl3g0/primeng/overlay';
 import { CascadeSelect } from './cascadeselect';
 
 /**

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { MessageService, SelectItem } from '@jacobg213/primeng-17/api';
+import { MessageService, SelectItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -358,16 +358,16 @@ export class RowEditDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MessageService, SelectItem } from '@jacobg213/primeng-17/api';
+import { MessageService, SelectItem } from '@dl3g0/primeng/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { TableModule } from '@dl3g0/primeng/table';
+import { ToastModule } from '@dl3g0/primeng/toast';
 import { CommonModule } from '@angular/common';
-import { TagModule } from '@jacobg213/primeng-17/tag';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { TagModule } from '@dl3g0/primeng/tag';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @Component({
     selector: 'table-row-edit-demo',

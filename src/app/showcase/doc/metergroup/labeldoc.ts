@@ -38,7 +38,7 @@ export class LabelDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MeterGroupModule } from '@jacobg213/primeng-17/metergroup';
+import { MeterGroupModule } from '@dl3g0/primeng/metergroup';
 
 @Component({
     selector: 'meter-group-label-demo',

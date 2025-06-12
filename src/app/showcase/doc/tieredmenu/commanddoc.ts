@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
-import { MessageService } from '@jacobg213/primeng-17/api';
+import { MessageService } from '@dl3g0/primeng/api';
 
 @Component({
     selector: 'command-doc',
@@ -87,10 +87,10 @@ export class CommandDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { TieredMenuModule } from '@jacobg213/primeng-17/tieredmenu';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { MenuItem } from '@dl3g0/primeng/api';
+import { MessageService } from '@dl3g0/primeng/api';
+import { TieredMenuModule } from '@dl3g0/primeng/tieredmenu';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'tiered-menu-command-demo',

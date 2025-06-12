@@ -136,9 +136,9 @@ export class TemplateDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { PanelModule } from '@jacobg213/primeng-17/panel';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { PanelModule } from '@dl3g0/primeng/panel';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'panel-template-demo',

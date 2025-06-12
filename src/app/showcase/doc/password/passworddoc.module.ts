@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { DividerModule } from '@jacobg213/primeng-17/divider';
-import { PasswordModule } from '@jacobg213/primeng-17/password';
+import { DividerModule } from '@dl3g0/primeng/divider';
+import { PasswordModule } from '@dl3g0/primeng/password';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';
@@ -18,7 +18,7 @@ import { ReactiveFormsDoc } from './reactiveformsdoc';
 import { StyleDoc } from './styledoc';
 import { TemplateDoc } from './templatedoc';
 import { ToggleMaskDoc } from './togglemaskdoc';
-import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
+import { FloatLabelModule } from '@dl3g0/primeng/floatlabel';
 import { FilledDoc } from './filleddoc';
 
 @NgModule({

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FilterService, SelectItemGroup } from '@jacobg213/primeng-17/api';
+import { FilterService, SelectItemGroup } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 interface AutoCompleteCompleteEvent {
@@ -125,8 +125,8 @@ export class GroupDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { FilterService, SelectItemGroup } from '@jacobg213/primeng-17/api';
-import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';
+import { FilterService, SelectItemGroup } from '@dl3g0/primeng/api';
+import { AutoCompleteModule } from '@dl3g0/primeng/autocomplete';
 import { FormsModule } from '@angular/forms';
 
 interface AutoCompleteCompleteEvent {

@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -166,8 +166,8 @@ export class LazyDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
-import { TreeModule } from '@jacobg213/primeng-17/tree';
+import { TreeNode } from '@dl3g0/primeng/api';
+import { TreeModule } from '@dl3g0/primeng/tree';
 
 @Component({
     selector: 'tree-lazy-demo',

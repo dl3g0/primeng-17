@@ -32,7 +32,7 @@ export class FilledDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from '@jacobg213/primeng-17/checkbox';
+import { CheckboxModule } from '@dl3g0/primeng/checkbox';
 
 @Component({
     selector: 'checkbox-filled-demo',

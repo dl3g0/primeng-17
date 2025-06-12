@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CascadeSelectModule } from '@jacobg213/primeng-17/cascadeselect';
+import { CascadeSelectModule } from '@dl3g0/primeng/cascadeselect';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';
@@ -16,7 +16,7 @@ import { TemplateDoc } from './templatedoc';
 import { DisabledDoc } from './disableddoc';
 import { FilledDoc } from './filleddoc';
 import { LoadingDoc } from './loadingdoc';
-import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
+import { FloatLabelModule } from '@dl3g0/primeng/floatlabel';
 @NgModule({
     imports: [CommonModule, RouterModule, CascadeSelectModule, FormsModule, AppCodeModule, AppDocModule, ReactiveFormsModule, FloatLabelModule],
     exports: [AppDocModule],

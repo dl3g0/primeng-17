@@ -34,9 +34,9 @@ export class FloatlabelDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
+import { InputNumberModule } from '@dl3g0/primeng/inputnumber';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
+import { FloatLabelModule } from '@dl3g0/primeng/floatlabel';
 
 @Component({
     selector: 'input-number-float-label-demo',

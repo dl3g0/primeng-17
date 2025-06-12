@@ -31,7 +31,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputMaskModule } from '@jacobg213/primeng-17/inputmask';
+import { InputMaskModule } from '@dl3g0/primeng/inputmask';
 import { FormsModule } from '@angular/forms';
 
 @Component({

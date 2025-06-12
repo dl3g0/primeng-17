@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, ChangeDetectionStrategy, Component, ContentChildren, EventEmitter, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation, inject, booleanAttribute } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { TimesCircleIcon } from '@jacobg213/primeng-17/icons/timescircle';
+import { PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
+import { TimesCircleIcon } from '@dl3g0/primeng/icons/timescircle';
 /**
  * Chip represents people using icons, labels and images.
  * @group Components

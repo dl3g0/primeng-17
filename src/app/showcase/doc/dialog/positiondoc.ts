@@ -202,9 +202,9 @@ export class PositionDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DialogModule } from '@jacobg213/primeng-17/dialog';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { DialogModule } from '@dl3g0/primeng/dialog';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @Component({
     selector: 'dialog-position-demo',

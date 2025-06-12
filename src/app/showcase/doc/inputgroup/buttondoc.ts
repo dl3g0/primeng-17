@@ -60,10 +60,10 @@ export class ButtonDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputGroupModule } from '@jacobg213/primeng-17/inputgroup';
-import { InputGroupAddonModule } from '@jacobg213/primeng-17/inputgroupaddon';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { InputGroupModule } from '@dl3g0/primeng/inputgroup';
+import { InputGroupAddonModule } from '@dl3g0/primeng/inputgroupaddon';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'input-group-button-demo',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
+import { ConfirmationService, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -77,10 +77,10 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
-import { ConfirmPopupModule } from '@jacobg213/primeng-17/confirmpopup';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { ConfirmationService, MessageService } from '@dl3g0/primeng/api';
+import { ConfirmPopupModule } from '@dl3g0/primeng/confirmpopup';
+import { ToastModule } from '@dl3g0/primeng/toast';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'confirm-popup-template-demo',

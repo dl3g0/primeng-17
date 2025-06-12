@@ -14,7 +14,7 @@
         "skipLibCheck": true,
         "types": ["resize-observer-browser"],
         "paths": {
-            "@jacobg213/primeng-17/*": ["src/app/components/*/public_api"]
+            "@dl3g0/primeng/*": ["src/app/components/*/public_api"]
         }
     },
     "angularCompilerOptions": {

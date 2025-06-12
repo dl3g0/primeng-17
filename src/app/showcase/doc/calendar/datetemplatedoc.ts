@@ -42,7 +42,7 @@ export class DateTemplateDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CalendarModule } from '@jacobg213/primeng-17/calendar';
+import { CalendarModule } from '@dl3g0/primeng/calendar';
 
 @Component({
     selector: 'calendar-datetemplate-demo',

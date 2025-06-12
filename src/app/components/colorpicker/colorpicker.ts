@@ -22,11 +22,11 @@ import {
   DOCUMENT
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayService, PrimeNGConfig, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { OverlayService, PrimeNGConfig, TranslationKeys } from '@dl3g0/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@dl3g0/primeng/dom';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { ZIndexUtils } from '@dl3g0/primeng/utils';
 import { ColorPickerChangeEvent } from './colorpicker.interface';
 
 export const COLORPICKER_VALUE_ACCESSOR: any = {

@@ -30,7 +30,7 @@ export class InlineDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ColorPickerModule } from '@jacobg213/primeng-17/colorpicker';
+import { ColorPickerModule } from '@dl3g0/primeng/colorpicker';
 
 @Component({
     selector: 'color-picker-inline-demo',

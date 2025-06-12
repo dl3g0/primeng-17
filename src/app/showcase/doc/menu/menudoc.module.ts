@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { MenuModule } from '@jacobg213/primeng-17/menu';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
+import { BadgeModule } from '@dl3g0/primeng/badge';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { MenuModule } from '@dl3g0/primeng/menu';
+import { ToastModule } from '@dl3g0/primeng/toast';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';
@@ -17,7 +17,7 @@ import { ImportDoc } from './importdoc';
 import { RouterDoc } from './routerdoc';
 import { PopupDoc } from './popupdoc';
 import { StyleDoc } from './styledoc';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 
 @NgModule({
     imports: [CommonModule, AppCodeModule, RouterModule, MenuModule, ToastModule, ButtonModule, RippleModule, AvatarModule, AppDocModule, BadgeModule],

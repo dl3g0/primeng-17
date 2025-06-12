@@ -159,10 +159,10 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { PaginatorModule } from '@jacobg213/primeng-17/paginator';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { DividerModule } from '@jacobg213/primeng-17/divider';
-import { SliderModule } from '@jacobg213/primeng-17/slider';
+import { PaginatorModule } from '@dl3g0/primeng/paginator';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { DividerModule } from '@dl3g0/primeng/divider';
+import { SliderModule } from '@dl3g0/primeng/slider';
 import { FormsModule } from '@angular/forms';
 
 interface PageEvent {

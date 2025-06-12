@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -75,8 +75,8 @@ export class BasicDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
-import { MenubarModule } from '@jacobg213/primeng-17/menubar';
+import { MenuItem } from '@dl3g0/primeng/api';
+import { MenubarModule } from '@dl3g0/primeng/menubar';
 
 @Component({
     selector: 'menubar-basic-demo',

@@ -47,9 +47,9 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputIconModule } from '@jacobg213/primeng-17/inputicon';
-import { IconFieldModule } from '@jacobg213/primeng-17/iconfield';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { InputIconModule } from '@dl3g0/primeng/inputicon';
+import { IconFieldModule } from '@dl3g0/primeng/iconfield';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 
 @Component({

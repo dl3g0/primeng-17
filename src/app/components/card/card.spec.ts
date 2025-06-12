@@ -2,7 +2,7 @@ import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { Footer, Header } from '@jacobg213/primeng-17/api';
+import { Footer, Header } from '@dl3g0/primeng/api';
 import { ButtonModule } from '../button/button';
 import { Card } from './card';
 

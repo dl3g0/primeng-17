@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { Table } from '@jacobg213/primeng-17/table';
+import { Table } from '@dl3g0/primeng/table';
 import { Code } from '@domain/code';
 import { Customer, Representative } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
@@ -459,16 +459,16 @@ export class FilterBasicDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Table } from '@jacobg213/primeng-17/table';
+import { Table } from '@dl3g0/primeng/table';
 import { Customer, Representative } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { TagModule } from '@jacobg213/primeng-17/tag';
-import { IconFieldModule } from '@jacobg213/primeng-17/iconfield';
-import { InputIconModule } from '@jacobg213/primeng-17/inputicon';
+import { TagModule } from '@dl3g0/primeng/tag';
+import { IconFieldModule } from '@dl3g0/primeng/iconfield';
+import { InputIconModule } from '@dl3g0/primeng/inputicon';
 import { HttpClientModule } from '@angular/common/http';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { MultiSelectModule } from '@jacobg213/primeng-17/multiselect';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { MultiSelectModule } from '@dl3g0/primeng/multiselect';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
 import { CommonModule } from '@angular/common';
 
 @Component({

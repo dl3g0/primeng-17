@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BaseIcon } from '@jacobg213/primeng-17/baseicon';
-import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { BaseIcon } from '@dl3g0/primeng/baseicon';
+import { UniqueComponentId } from '@dl3g0/primeng/utils';
 
 @Component({
     selector: 'SortAmountDownIcon',

@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { CardModule } from '@jacobg213/primeng-17/card';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { CardModule } from '@dl3g0/primeng/card';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

@@ -31,12 +31,12 @@ import {
 } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { MenuItem, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { MenuItem, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@dl3g0/primeng/dom';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
 
 @Pipe({
     name: 'safeHtml',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SelectItemGroup } from '@jacobg213/primeng-17/api';
+import { SelectItemGroup } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 interface City {
@@ -107,9 +107,9 @@ export class GroupDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { SelectItemGroup } from '@jacobg213/primeng-17/api';
+import { SelectItemGroup } from '@dl3g0/primeng/api';
 import { FormsModule } from '@angular/forms';
-import { MultiSelectModule } from '@jacobg213/primeng-17/multiselect';
+import { MultiSelectModule } from '@dl3g0/primeng/multiselect';
 
 interface City {
     name: string,

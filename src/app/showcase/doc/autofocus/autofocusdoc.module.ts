@@ -5,8 +5,8 @@ import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @NgModule({
     imports: [CommonModule, RouterModule, AppCodeModule, AppDocModule, AutoFocusModule, InputTextModule],

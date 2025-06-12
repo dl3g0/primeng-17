@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component, OnInit, OnDestroy, NgZone } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
+import { MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -57,9 +57,9 @@ export class DynamicDoc implements OnInit, OnDestroy {
     <p-progressBar [value]="value" />
 </div>`,
         typescript: `import { Component, NgZone, OnInit } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { ProgressBarModule } from '@jacobg213/primeng-17/progressbar';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { MessageService } from '@dl3g0/primeng/api';
+import { ProgressBarModule } from '@dl3g0/primeng/progressbar';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'progress-bar-dynamic-demo',

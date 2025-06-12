@@ -64,7 +64,7 @@ export class HorizontalDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ScrollerModule } from '@jacobg213/primeng-17/scroller';
+import { ScrollerModule } from '@dl3g0/primeng/scroller';
 
 @Component({
     selector: 'scroller-horizontal-demo',

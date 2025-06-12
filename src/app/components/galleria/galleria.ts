@@ -30,18 +30,18 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ChevronLeftIcon } from '@jacobg213/primeng-17/icons/chevronleft';
-import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { WindowMaximizeIcon } from '@jacobg213/primeng-17/icons/windowmaximize';
-import { WindowMinimizeIcon } from '@jacobg213/primeng-17/icons/windowminimize';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ChevronLeftIcon } from '@dl3g0/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@dl3g0/primeng/icons/chevronright';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { WindowMaximizeIcon } from '@dl3g0/primeng/icons/windowmaximize';
+import { WindowMinimizeIcon } from '@dl3g0/primeng/icons/windowminimize';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
 import { GalleriaResponsiveOptions } from './galleria.interface';
-import { FocusTrapModule } from '@jacobg213/primeng-17/focustrap';
+import { FocusTrapModule } from '@dl3g0/primeng/focustrap';
 /**
  * Galleria is an advanced content gallery component.
  * @group Components

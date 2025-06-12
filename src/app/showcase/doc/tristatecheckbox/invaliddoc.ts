@@ -38,7 +38,7 @@ export class InvalidDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
+import { TriStateCheckboxModule } from '@dl3g0/primeng/tristatecheckbox';
 import { FormsModule } from '@angular/forms';
 
 @Component({

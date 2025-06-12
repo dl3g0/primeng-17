@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -67,9 +67,9 @@ export class InteractiveDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
-import { StepsModule } from '@jacobg213/primeng-17/steps';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
+import { StepsModule } from '@dl3g0/primeng/steps';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'steps-interactive-demo',

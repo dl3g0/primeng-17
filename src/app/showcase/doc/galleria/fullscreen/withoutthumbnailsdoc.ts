@@ -101,8 +101,8 @@ export class WithoutThumbnailsDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { GalleriaModule } from '@dl3g0/primeng/galleria';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'galleria-full-screen-without-thumbnails-demo',

@@ -117,8 +117,8 @@ export class SingleSelectionDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { InputSwitchModule } from '@jacobg213/primeng-17/inputswitch';
+import { TableModule } from '@dl3g0/primeng/table';
+import { InputSwitchModule } from '@dl3g0/primeng/inputswitch';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 

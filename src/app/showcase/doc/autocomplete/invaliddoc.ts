@@ -45,7 +45,7 @@ export class InvalidDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from '@jacobg213/primeng-17/autocomplete';
+import { AutoCompleteModule } from '@dl3g0/primeng/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;

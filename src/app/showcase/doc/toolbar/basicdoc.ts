@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -84,11 +84,11 @@ export class BasicDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
-import { ToolbarModule } from '@jacobg213/primeng-17/toolbar';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { SplitButtonModule } from '@jacobg213/primeng-17/splitbutton';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
+import { MenuItem } from '@dl3g0/primeng/api';
+import { ToolbarModule } from '@dl3g0/primeng/toolbar';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { SplitButtonModule } from '@dl3g0/primeng/splitbutton';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
 
 @Component({
     selector: 'toolbar-basic-demo',

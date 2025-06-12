@@ -124,8 +124,8 @@ export class ControlledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { TabViewModule } from '@jacobg213/primeng-17/tabview';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { TabViewModule } from '@dl3g0/primeng/tabview';
 
 @Component({
     selector: 'tab-view-controlled-demo',

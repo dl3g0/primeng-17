@@ -139,8 +139,8 @@ export class FloatLabelDoc {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CascadeSelectModule } from '@jacobg213/primeng-17/cascadeselect';
-import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';
+import { CascadeSelectModule } from '@dl3g0/primeng/cascadeselect';
+import { FloatLabelModule } from '@dl3g0/primeng/floatlabel';
 
 @Component({
     selector: 'cascade-select-float-label-demo',

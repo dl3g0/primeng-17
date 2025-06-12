@@ -52,7 +52,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { SelectButtonModule } from '@jacobg213/primeng-17/selectbutton';
+import { SelectButtonModule } from '@dl3g0/primeng/selectbutton';
 
 @Component({
     selector: 'select-button-reactive-forms-demo',

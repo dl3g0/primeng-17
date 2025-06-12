@@ -8,6 +8,6 @@ import { Code } from '@domain/code';
 })
 export class ImportDoc {
     code: Code = {
-        typescript: `import { FloatLabelModule } from '@jacobg213/primeng-17/floatlabel';`
+        typescript: `import { FloatLabelModule } from '@dl3g0/primeng/floatlabel';`
     };
 }

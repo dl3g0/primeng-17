@@ -29,14 +29,14 @@ import {
   DOCUMENT
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MenuItem, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { CaretLeftIcon } from '@jacobg213/primeng-17/icons/caretleft';
+import { MenuItem, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { AngleRightIcon } from '@dl3g0/primeng/icons/angleright';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { CaretLeftIcon } from '@dl3g0/primeng/icons/caretleft';
 
 @Component({
     selector: 'p-slideMenuSub',

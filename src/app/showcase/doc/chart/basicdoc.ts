@@ -103,7 +103,7 @@ export class BasicDoc implements OnInit {
     <p-chart type="bar" [data]="basicData" [options]="basicOptions" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from '@jacobg213/primeng-17/chart';
+import { ChartModule } from '@dl3g0/primeng/chart';
 
 @Component({
     selector: 'chart-basic-demo',

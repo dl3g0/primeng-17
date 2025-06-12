@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChild, ElementRef, EventEmitter, Input, NgModule, Output, TemplateRef, ViewChild, ViewEncapsulation, booleanAttribute, forwardRef, numberAttribute } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
 import { SelectButtonChangeEvent, SelectButtonOptionClickEvent } from './selectbutton.interface';
 
 export const SELECTBUTTON_VALUE_ACCESSOR: any = {

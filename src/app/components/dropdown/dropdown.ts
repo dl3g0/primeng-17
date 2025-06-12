@@ -31,22 +31,22 @@ import {
     ViewRef
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { FilterService, OverlayOptions, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { Overlay, OverlayModule } from '@jacobg213/primeng-17/overlay';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Scroller, ScrollerModule } from '@jacobg213/primeng-17/scroller';
-import { ScrollerOptions } from '@jacobg213/primeng-17/api';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { BlankIcon } from '@jacobg213/primeng-17/icons/blank';
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
+import { FilterService, OverlayOptions, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { Overlay, OverlayModule } from '@dl3g0/primeng/overlay';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Scroller, ScrollerModule } from '@dl3g0/primeng/scroller';
+import { ScrollerOptions } from '@dl3g0/primeng/api';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { ObjectUtils, UniqueComponentId } from '@dl3g0/primeng/utils';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { BlankIcon } from '@dl3g0/primeng/icons/blank';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { SearchIcon } from '@dl3g0/primeng/icons/search';
 import { DropdownChangeEvent, DropdownFilterEvent, DropdownFilterOptions, DropdownLazyLoadEvent } from './dropdown.interface';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
 
 export const DROPDOWN_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

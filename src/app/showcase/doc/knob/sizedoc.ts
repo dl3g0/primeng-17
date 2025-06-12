@@ -26,7 +26,7 @@ export class SizeDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from '@jacobg213/primeng-17/knob';
+import { KnobModule } from '@dl3g0/primeng/knob';
 
 @Component({
     selector: 'knob-size-demo',

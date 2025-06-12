@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { TabViewModule } from '@jacobg213/primeng-17/tabview';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { TabViewModule } from '@dl3g0/primeng/tabview';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { BasicDoc } from './basicdoc';
@@ -16,8 +16,8 @@ import { ScrollableDoc } from './scrollabledoc';
 import { LazyDoc } from './lazydoc';
 import { StyleDoc } from './styledoc';
 import { AccessibilityDoc } from './accessibilitydoc';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
-import { BadgeModule } from '@jacobg213/primeng-17/badge';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
+import { BadgeModule } from '@dl3g0/primeng/badge';
 
 @NgModule({
     imports: [CommonModule, AppCodeModule, AppDocModule, TabViewModule, RouterModule, ButtonModule, AvatarModule, BadgeModule],

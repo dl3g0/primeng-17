@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
+import { MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -58,9 +58,9 @@ export class ServiceDoc {
     <p-messages />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { MessagesModule } from '@jacobg213/primeng-17/messages';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { MessageService } from '@dl3g0/primeng/api';
+import { MessagesModule } from '@dl3g0/primeng/messages';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'messages-service-demo',

@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { SkeletonModule } from '@jacobg213/primeng-17/skeleton';
-import { TableModule } from '@jacobg213/primeng-17/table';
+import { SkeletonModule } from '@dl3g0/primeng/skeleton';
+import { TableModule } from '@dl3g0/primeng/table';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

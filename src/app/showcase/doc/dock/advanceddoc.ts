@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
-import { TerminalService } from '@jacobg213/primeng-17/terminal';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
+import { TerminalService } from '@dl3g0/primeng/terminal';
 import { Subscription } from 'rxjs';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
@@ -497,18 +497,18 @@ export class AdvancedDoc implements OnInit, OnDestroy {
 </div>`,
 
         typescript: `import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from '@jacobg213/primeng-17/api';
-import { TerminalModule } from '@jacobg213/primeng-17/terminal';
-import { TerminalService } from '@jacobg213/primeng-17/terminal';
+import { MenuItem, MessageService } from '@dl3g0/primeng/api';
+import { TerminalModule } from '@dl3g0/primeng/terminal';
+import { TerminalService } from '@dl3g0/primeng/terminal';
 import { Subscription } from 'rxjs';
 import { NodeService } from '@service/nodeservice';
 import { PhotoService } from '@service/photoservice';
-import { DockModule } from '@jacobg213/primeng-17/dock';
-import { MenubarModule } from '@jacobg213/primeng-17/menubar';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
-import { DialogModule } from '@jacobg213/primeng-17/dialog';
-import { TreeModule } from '@jacobg213/primeng-17/tree';
-import { GalleriaModule } from '@jacobg213/primeng-17/galleria';
+import { DockModule } from '@dl3g0/primeng/dock';
+import { MenubarModule } from '@dl3g0/primeng/menubar';
+import { ToastModule } from '@dl3g0/primeng/toast';
+import { DialogModule } from '@dl3g0/primeng/dialog';
+import { TreeModule } from '@dl3g0/primeng/tree';
+import { GalleriaModule } from '@dl3g0/primeng/galleria';
 
 
 @Component({

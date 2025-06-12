@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
+import { MenuItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -92,9 +92,9 @@ export class ControlledDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '@jacobg213/primeng-17/api';
-import { TabMenuModule } from '@jacobg213/primeng-17/tabmenu';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { MenuItem } from '@dl3g0/primeng/api';
+import { TabMenuModule } from '@dl3g0/primeng/tabmenu';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'tab-menu-controlled-demo',
@@ -125,10 +125,10 @@ export class TabMenuControlledDemo implements OnInit {
         module: `
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { TabMenuModule } from '@jacobg213/primeng-17/tabmenu';
-import { TabMenuModule } from '@jacobg213/primeng-17/tabmenu';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
+import { TabMenuModule } from '@dl3g0/primeng/tabmenu';
+import { TabMenuModule } from '@dl3g0/primeng/tabmenu';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { RippleModule } from '@dl3g0/primeng/ripple';
 import { TabMenuDemo } from './tabmenudemo';
 
 @NgModule({

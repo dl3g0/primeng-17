@@ -65,7 +65,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
+import { RadioButtonModule } from '@dl3g0/primeng/radiobutton';
 
 @Component({
     selector: 'radio-button-reactive-forms-demo',

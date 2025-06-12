@@ -39,7 +39,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
+import { InputNumberModule } from '@dl3g0/primeng/inputnumber';
 
 @Component({
     selector: 'input-number-reactive-forms-demo',

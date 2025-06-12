@@ -25,13 +25,13 @@ import {
   DOCUMENT
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { PlusIcon } from '@jacobg213/primeng-17/icons/plus';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { MenuItem, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { PlusIcon } from '@dl3g0/primeng/icons/plus';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { UniqueComponentId } from '@dl3g0/primeng/utils';
 import { asapScheduler } from 'rxjs';
 
 /**

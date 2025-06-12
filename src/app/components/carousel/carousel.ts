@@ -24,16 +24,16 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { Footer, Header, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { ChevronLeftIcon } from '@jacobg213/primeng-17/icons/chevronleft';
-import { ChevronRightIcon } from '@jacobg213/primeng-17/icons/chevronright';
-import { ChevronUpIcon } from '@jacobg213/primeng-17/icons/chevronup';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { Footer, Header, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { ChevronLeftIcon } from '@dl3g0/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@dl3g0/primeng/icons/chevronright';
+import { ChevronUpIcon } from '@dl3g0/primeng/icons/chevronup';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { UniqueComponentId } from '@dl3g0/primeng/utils';
 import { CarouselPageEvent, CarouselResponsiveOptions } from './carousel.interface';
-import { PrimeNGConfig } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { PrimeNGConfig } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
 /**
  * Carousel is a content slider featuring various customization options.
  * @group Components

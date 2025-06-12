@@ -1,7 +1,7 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, ElementRef, Inject, Input, NgModule, PLATFORM_ID, ViewChild, booleanAttribute, DOCUMENT } from '@angular/core';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
 import { Code, ExtFile, RouteFile } from 'src/app/showcase/domain/code';
 import { useCodeSandbox, useStackBlitz } from './codeeditor';
 

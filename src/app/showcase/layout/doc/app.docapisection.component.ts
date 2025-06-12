@@ -3,7 +3,7 @@ import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import APIDoc from 'src/app/showcase/doc/apidoc/index.json';
 import { AppDocApiTable } from './app.docapitable.component';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
 
 @Component({
     selector: 'app-docapisection',

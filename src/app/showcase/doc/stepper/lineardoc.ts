@@ -128,8 +128,8 @@ export class LinearDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { StepperModule } from '@jacobg213/primeng-17/stepper';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { StepperModule } from '@dl3g0/primeng/stepper';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 @Component({
     selector: 'stepper-linear-demo',

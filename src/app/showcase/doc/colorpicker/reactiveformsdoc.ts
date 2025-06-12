@@ -39,7 +39,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ColorPickerModule } from '@jacobg213/primeng-17/colorpicker';
+import { ColorPickerModule } from '@dl3g0/primeng/colorpicker';
 
 @Component({
     selector: 'color-picker-reactive-forms-demo',

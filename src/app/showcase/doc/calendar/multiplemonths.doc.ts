@@ -29,7 +29,7 @@ export class MultipleMonthDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { CalendarModule } from '@jacobg213/primeng-17/calendar';
+import { CalendarModule } from '@dl3g0/primeng/calendar';
 
 @Component({
     selector: 'calendar-multiplemonths-demo',

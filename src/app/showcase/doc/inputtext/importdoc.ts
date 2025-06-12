@@ -10,6 +10,6 @@ export class ImportDoc {
     value1: string;
 
     code: Code = {
-        typescript: `import { InputTextModule } from '@jacobg213/primeng-17/inputtext';`
+        typescript: `import { InputTextModule } from '@dl3g0/primeng/inputtext';`
     };
 }

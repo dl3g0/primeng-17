@@ -21,13 +21,13 @@ import {
   DOCUMENT
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { TimesCircleIcon } from '@jacobg213/primeng-17/icons/timescircle';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { TimesCircleIcon } from '@dl3g0/primeng/icons/timescircle';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { UniqueComponentId } from '@dl3g0/primeng/utils';
 import { ChipsAddEvent, ChipsClickEvent, ChipsContextMenuEvent, ChipsRemoveEvent } from './chips.interface';
 
 export const CHIPS_VALUE_ACCESSOR: any = {

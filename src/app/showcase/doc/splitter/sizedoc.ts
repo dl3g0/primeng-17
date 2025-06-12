@@ -58,7 +58,7 @@ export class SizeDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { SplitterModule } from '@jacobg213/primeng-17/splitter';
+import { SplitterModule } from '@dl3g0/primeng/splitter';
 
 @Component({
     selector: 'splitter-size-demo',

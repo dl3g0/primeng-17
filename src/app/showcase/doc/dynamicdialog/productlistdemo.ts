@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DialogService, DynamicDialogRef } from '@jacobg213/primeng-17/dynamicdialog';
+import { DialogService, DynamicDialogRef } from '@dl3g0/primeng/dynamicdialog';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
 import { InfoDemo } from './infodemo';

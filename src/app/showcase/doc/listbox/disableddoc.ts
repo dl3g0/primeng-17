@@ -55,7 +55,7 @@ export class DisabledDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from '@jacobg213/primeng-17/listbox';
+import { ListboxModule } from '@dl3g0/primeng/listbox';
 
 interface City {
     name: string,

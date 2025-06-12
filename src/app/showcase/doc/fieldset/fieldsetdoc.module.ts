@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { FieldsetModule } from '@jacobg213/primeng-17/fieldset';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
+import { FieldsetModule } from '@dl3g0/primeng/fieldset';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

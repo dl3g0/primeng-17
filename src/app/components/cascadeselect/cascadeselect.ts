@@ -26,17 +26,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { AngleRightIcon } from '@dl3g0/primeng/icons/angleright';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
 
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { Overlay, OverlayModule } from '@jacobg213/primeng-17/overlay';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { Overlay, OverlayModule } from '@dl3g0/primeng/overlay';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { ObjectUtils, UniqueComponentId } from '@dl3g0/primeng/utils';
 import { CascadeSelectBeforeHideEvent, CascadeSelectBeforeShowEvent, CascadeSelectChangeEvent, CascadeSelectHideEvent, CascadeSelectShowEvent } from './cascadeselect.interface';
 
 export const CASCADESELECT_VALUE_ACCESSOR: any = {

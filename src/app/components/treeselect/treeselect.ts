@@ -19,17 +19,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, TreeNode } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { Overlay, OverlayModule } from '@jacobg213/primeng-17/overlay';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Tree, TreeFilterEvent, TreeModule, TreeNodeSelectEvent, TreeNodeUnSelectEvent } from '@jacobg213/primeng-17/tree';
-import { ObjectUtils, UniqueComponentId } from '@jacobg213/primeng-17/utils';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { AutoFocusModule } from '@jacobg213/primeng-17/autofocus';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, TreeNode } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { SearchIcon } from '@dl3g0/primeng/icons/search';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { Overlay, OverlayModule } from '@dl3g0/primeng/overlay';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Tree, TreeFilterEvent, TreeModule, TreeNodeSelectEvent, TreeNodeUnSelectEvent } from '@dl3g0/primeng/tree';
+import { ObjectUtils, UniqueComponentId } from '@dl3g0/primeng/utils';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { AutoFocusModule } from '@dl3g0/primeng/autofocus';
 import { TreeSelectNodeCollapseEvent, TreeSelectNodeExpandEvent } from './treeselect.interface';
 
 export const TREESELECT_VALUE_ACCESSOR: any = {

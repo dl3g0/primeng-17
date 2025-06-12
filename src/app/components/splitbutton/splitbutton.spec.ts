@@ -2,7 +2,7 @@ import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { SplitButton, SplitButtonModule } from './splitbutton';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { ButtonModule } from '@dl3g0/primeng/button';
 import { RouterTestingModule } from '@angular/router/testing';
 
 describe('SplitButton', () => {

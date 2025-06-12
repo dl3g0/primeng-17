@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { OverlayPanel } from '@jacobg213/primeng-17/overlaypanel';
+import { MessageService } from '@dl3g0/primeng/api';
+import { OverlayPanel } from '@dl3g0/primeng/overlaypanel';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -209,13 +209,13 @@ export class DataTableDoc implements OnInit {
 </div>`,
 
         typescript: `import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { MessageService } from '@jacobg213/primeng-17/api';
-import { OverlayPanel } from '@jacobg213/primeng-17/overlaypanel';
+import { MessageService } from '@dl3g0/primeng/api';
+import { OverlayPanel } from '@dl3g0/primeng/overlaypanel';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { ToastModule } from '@dl3g0/primeng/toast';
+import { TableModule } from '@dl3g0/primeng/table';
+import { ButtonModule } from '@dl3g0/primeng/button';
 
 interface TableRowSelectEvent {
     originalEvent?: Event;

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MegaMenuItem } from '@jacobg213/primeng-17/api';
+import { MegaMenuItem } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -242,11 +242,11 @@ export class TemplateDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MegaMenuItem } from '@jacobg213/primeng-17/api';
-import { MegaMenuModule } from '@jacobg213/primeng-17/megamenu';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
+import { MegaMenuItem } from '@dl3g0/primeng/api';
+import { MegaMenuModule } from '@dl3g0/primeng/megamenu';
+import { ButtonModule } from '@dl3g0/primeng/button';
 import { CommonModule } from '@angular/common';
-import { AvatarModule } from '@jacobg213/primeng-17/avatar';
+import { AvatarModule } from '@dl3g0/primeng/avatar';
 
 
 @Component({

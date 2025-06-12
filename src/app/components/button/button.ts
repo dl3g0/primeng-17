@@ -20,12 +20,12 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { AutoFocus } from '@jacobg213/primeng-17/autofocus';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { SpinnerIcon } from '@jacobg213/primeng-17/icons/spinner';
-import { Ripple } from '@jacobg213/primeng-17/ripple';
-import { ObjectUtils } from '@jacobg213/primeng-17/utils';
+import { PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { AutoFocus } from '@dl3g0/primeng/autofocus';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { SpinnerIcon } from '@dl3g0/primeng/icons/spinner';
+import { Ripple } from '@dl3g0/primeng/ripple';
+import { ObjectUtils } from '@dl3g0/primeng/utils';
 
 type ButtonIconPosition = 'left' | 'right' | 'top' | 'bottom';
 

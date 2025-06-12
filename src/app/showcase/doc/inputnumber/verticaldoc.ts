@@ -55,7 +55,7 @@ export class VerticalDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
+import { InputNumberModule } from '@dl3g0/primeng/inputnumber';
 import { FormsModule } from '@angular/forms';
 
 @Component({

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, NgModule } from '@angular/core';
-import { SharedModule } from '@jacobg213/primeng-17/api';
+import { SharedModule } from '@dl3g0/primeng/api';
 /**
  * InputGroup displays text, icon, buttons and other content can be grouped next to an input.
  * @group Components

@@ -26,14 +26,14 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { ConfirmEventType, Confirmation, ConfirmationService, Footer, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { ConfirmEventType, Confirmation, ConfirmationService, Footer, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
 import { Subscription } from 'rxjs';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}', style({ transform: 'none', opacity: 1 }))]);

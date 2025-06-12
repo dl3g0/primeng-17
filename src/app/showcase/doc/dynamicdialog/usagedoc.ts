@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DialogService, DynamicDialogRef } from '@jacobg213/primeng-17/dynamicdialog';
+import { DialogService, DynamicDialogRef } from '@dl3g0/primeng/dynamicdialog';
 import { Code } from '@domain/code';
 
 @Component({
@@ -21,7 +21,7 @@ export class UsageDoc {
     code: Code = {
         typescript: `
 import { Component, OnDestroy } from '@angular/core';
-import { DialogService, DynamicDialogRef } from '@jacobg213/primeng-17/dynamicdialog';
+import { DialogService, DynamicDialogRef } from '@dl3g0/primeng/dynamicdialog';
 import { Product } from '@domain/product';
 import { ProductListDemo } from './productlistdemo';
 

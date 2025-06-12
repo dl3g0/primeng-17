@@ -21,14 +21,14 @@ import {
   ViewRef,
   DOCUMENT
 } from '@angular/core';
-import { PrimeNGConfig, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { FocusTrapModule } from '@jacobg213/primeng-17/focustrap';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { WindowMaximizeIcon } from '@jacobg213/primeng-17/icons/windowmaximize';
-import { WindowMinimizeIcon } from '@jacobg213/primeng-17/icons/windowminimize';
-import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { PrimeNGConfig, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { FocusTrapModule } from '@dl3g0/primeng/focustrap';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { WindowMaximizeIcon } from '@dl3g0/primeng/icons/windowmaximize';
+import { WindowMinimizeIcon } from '@dl3g0/primeng/icons/windowminimize';
+import { Nullable, VoidListener } from '@dl3g0/primeng/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
 import { DynamicDialogConfig } from './dynamicdialog-config';
 import { DynamicDialogRef } from './dynamicdialog-ref';
 import { DynamicDialogContent } from './dynamicdialogcontent';

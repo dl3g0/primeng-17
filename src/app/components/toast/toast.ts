@@ -25,17 +25,17 @@ import {
   numberAttribute,
   DOCUMENT
 } from '@angular/core';
-import { Message, MessageService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { CheckIcon } from '@jacobg213/primeng-17/icons/check';
-import { ExclamationTriangleIcon } from '@jacobg213/primeng-17/icons/exclamationtriangle';
-import { InfoCircleIcon } from '@jacobg213/primeng-17/icons/infocircle';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
-import { TimesCircleIcon } from '@jacobg213/primeng-17/icons/timescircle';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { Message, MessageService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { CheckIcon } from '@dl3g0/primeng/icons/check';
+import { ExclamationTriangleIcon } from '@dl3g0/primeng/icons/exclamationtriangle';
+import { InfoCircleIcon } from '@dl3g0/primeng/icons/infocircle';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
+import { TimesCircleIcon } from '@dl3g0/primeng/icons/timescircle';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@dl3g0/primeng/utils';
 import { Subscription } from 'rxjs';
 import { ToastCloseEvent, ToastItemCloseEvent, ToastPositionType } from './toast.interface';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
+import { DomHandler } from '@dl3g0/primeng/dom';
 
 @Component({
     selector: 'p-toastItem',

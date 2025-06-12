@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { BrowserDynamicTestingModule } from '@angular/platform-browser-dynamic/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { TimesCircleIcon } from '@jacobg213/primeng-17/icons/timescircle';
-import { OverlayModule } from '@jacobg213/primeng-17/overlay';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { TimesCircleIcon } from '@dl3g0/primeng/icons/timescircle';
+import { OverlayModule } from '@dl3g0/primeng/overlay';
 import { AutoComplete } from './autocomplete';
 
 @Component({

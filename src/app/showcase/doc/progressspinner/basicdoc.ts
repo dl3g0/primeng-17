@@ -21,7 +21,7 @@ export class BasicDoc {
     <p-progressSpinner ariaLabel="loading" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ProgressSpinnerModule } from '@jacobg213/primeng-17/progressspinner';
+import { ProgressSpinnerModule } from '@dl3g0/primeng/progressspinner';
 
 @Component({
     selector: 'progress-spinner-basic-demo',

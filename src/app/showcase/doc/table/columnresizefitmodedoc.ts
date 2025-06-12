@@ -99,7 +99,7 @@ export class ColumnResizeFitModeDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
+import { TableModule } from '@dl3g0/primeng/table';
 
 @Component({
     selector: 'table-column-resize-fit-mode-demo',

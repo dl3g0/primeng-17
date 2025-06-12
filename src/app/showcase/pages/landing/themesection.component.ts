@@ -1,9 +1,9 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { ProgressBarModule } from '@jacobg213/primeng-17/progressbar';
-import { Table, TableModule } from '@jacobg213/primeng-17/table';
-import { TagModule } from '@jacobg213/primeng-17/tag';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { ProgressBarModule } from '@dl3g0/primeng/progressbar';
+import { Table, TableModule } from '@dl3g0/primeng/table';
+import { TagModule } from '@dl3g0/primeng/tag';
 import { Customer } from '@domain/customer';
 import { AppComponent } from '../../layout/app.component';
 import { AppConfigService } from '@service/appconfigservice';

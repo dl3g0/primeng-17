@@ -1,10 +1,10 @@
 import { AnimationEvent, animate, state, style, transition, trigger } from '@angular/animations';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, Inject, Input, NgModule, OnDestroy, OnInit, PLATFORM_ID, QueryList, Renderer2, TemplateRef, ViewEncapsulation, numberAttribute, DOCUMENT } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
-import { DomHandler } from '@jacobg213/primeng-17/dom';
-import { ChevronUpIcon } from '@jacobg213/primeng-17/icons/chevronup';
-import { ZIndexUtils } from '@jacobg213/primeng-17/utils';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
+import { DomHandler } from '@dl3g0/primeng/dom';
+import { ChevronUpIcon } from '@dl3g0/primeng/icons/chevronup';
+import { ZIndexUtils } from '@dl3g0/primeng/utils';
 /**
  * ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.
  * @group Components

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { SplitButtonModule } from '@jacobg213/primeng-17/splitbutton';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { SplitButtonModule } from '@dl3g0/primeng/splitbutton';
+import { ToastModule } from '@dl3g0/primeng/toast';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

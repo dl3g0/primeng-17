@@ -5,11 +5,11 @@ import { Dropdown, DropdownItem } from './dropdown';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
-import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
-import { OverlayModule } from '@jacobg213/primeng-17/overlay';
-import { ChevronDownIcon } from '@jacobg213/primeng-17/icons/chevrondown';
-import { SearchIcon } from '@jacobg213/primeng-17/icons/search';
-import { TimesIcon } from '@jacobg213/primeng-17/icons/times';
+import { TooltipModule } from '@dl3g0/primeng/tooltip';
+import { OverlayModule } from '@dl3g0/primeng/overlay';
+import { ChevronDownIcon } from '@dl3g0/primeng/icons/chevrondown';
+import { SearchIcon } from '@dl3g0/primeng/icons/search';
+import { TimesIcon } from '@dl3g0/primeng/icons/times';
 
 @Component({
     template: `

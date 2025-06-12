@@ -20,15 +20,15 @@ import {
     numberAttribute
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Aria, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule } from '@jacobg213/primeng-17/api';
-import { DropdownChangeEvent, DropdownModule } from '@jacobg213/primeng-17/dropdown';
-import { AngleDoubleLeftIcon } from '@jacobg213/primeng-17/icons/angledoubleleft';
-import { AngleDoubleRightIcon } from '@jacobg213/primeng-17/icons/angledoubleright';
-import { AngleLeftIcon } from '@jacobg213/primeng-17/icons/angleleft';
-import { AngleRightIcon } from '@jacobg213/primeng-17/icons/angleright';
-import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { Nullable } from '@jacobg213/primeng-17/ts-helpers';
+import { Aria, PrimeNGConfig, PrimeTemplate, SelectItem, SharedModule } from '@dl3g0/primeng/api';
+import { DropdownChangeEvent, DropdownModule } from '@dl3g0/primeng/dropdown';
+import { AngleDoubleLeftIcon } from '@dl3g0/primeng/icons/angledoubleleft';
+import { AngleDoubleRightIcon } from '@dl3g0/primeng/icons/angledoubleright';
+import { AngleLeftIcon } from '@dl3g0/primeng/icons/angleleft';
+import { AngleRightIcon } from '@dl3g0/primeng/icons/angleright';
+import { InputNumberModule } from '@dl3g0/primeng/inputnumber';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { Nullable } from '@dl3g0/primeng/ts-helpers';
 import { PaginatorState } from './paginator.interface';
 /**
  * Paginator is a generic component to display content in paged format.

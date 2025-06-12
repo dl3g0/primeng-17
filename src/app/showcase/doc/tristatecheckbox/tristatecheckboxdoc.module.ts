@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { TriStateCheckboxModule } from '@jacobg213/primeng-17/tristatecheckbox';
+import { TriStateCheckboxModule } from '@dl3g0/primeng/tristatecheckbox';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { BasicDoc } from './basicdoc';

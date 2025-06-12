@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { InputText } from '@jacobg213/primeng-17/inputtext';
+import { InputText } from '@dl3g0/primeng/inputtext';
 import { Tooltip, TooltipModule } from './tooltip';
 
 @Component({

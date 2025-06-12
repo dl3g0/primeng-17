@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService, TreeNode } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService, TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -70,11 +70,11 @@ export class ContextMenuDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService, TreeNode } from '@jacobg213/primeng-17/api';
+import { MenuItem, MessageService, TreeNode } from '@dl3g0/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeModule } from '@jacobg213/primeng-17/tree';
-import { ContextMenuModule } from '@jacobg213/primeng-17/contextmenu';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
+import { TreeModule } from '@dl3g0/primeng/tree';
+import { ContextMenuModule } from '@dl3g0/primeng/contextmenu';
+import { ToastModule } from '@dl3g0/primeng/toast';
 
 @Component({
     selector: 'tree-context-menu-demo',

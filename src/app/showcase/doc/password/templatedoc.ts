@@ -68,8 +68,8 @@ export class TemplateDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PasswordModule } from '@jacobg213/primeng-17/password';
-import { DividerModule } from '@jacobg213/primeng-17/divider';
+import { PasswordModule } from '@dl3g0/primeng/password';
+import { DividerModule } from '@dl3g0/primeng/divider';
 
 @Component({
     selector: 'password-template-demo',

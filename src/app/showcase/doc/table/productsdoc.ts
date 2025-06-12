@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
+import { ConfirmationService, MessageService } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -692,26 +692,26 @@ export class ProductsDoc {
     <p-confirmDialog [style]="{ width: '450px' }" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ConfirmationService, MessageService } from '@jacobg213/primeng-17/api';
+import { ConfirmationService, MessageService } from '@dl3g0/primeng/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from '@jacobg213/primeng-17/table';
-import { DialogModule } from '@jacobg213/primeng-17/dialog';
-import { RippleModule } from '@jacobg213/primeng-17/ripple';
-import { ButtonModule } from '@jacobg213/primeng-17/button';
-import { ToastModule } from '@jacobg213/primeng-17/toast';
-import { ToolbarModule } from '@jacobg213/primeng-17/toolbar';
-import { ConfirmDialogModule } from '@jacobg213/primeng-17/confirmdialog';
-import { InputTextModule } from '@jacobg213/primeng-17/inputtext';
-import { InputTextareaModule } from '@jacobg213/primeng-17/inputtextarea';
+import { TableModule } from '@dl3g0/primeng/table';
+import { DialogModule } from '@dl3g0/primeng/dialog';
+import { RippleModule } from '@dl3g0/primeng/ripple';
+import { ButtonModule } from '@dl3g0/primeng/button';
+import { ToastModule } from '@dl3g0/primeng/toast';
+import { ToolbarModule } from '@dl3g0/primeng/toolbar';
+import { ConfirmDialogModule } from '@dl3g0/primeng/confirmdialog';
+import { InputTextModule } from '@dl3g0/primeng/inputtext';
+import { InputTextareaModule } from '@dl3g0/primeng/inputtextarea';
 import { CommonModule } from '@angular/common';
-import { FileUploadModule } from '@jacobg213/primeng-17/fileupload';
-import { DropdownModule } from '@jacobg213/primeng-17/dropdown';
-import { TagModule } from '@jacobg213/primeng-17/tag';
-import { RadioButtonModule } from '@jacobg213/primeng-17/radiobutton';
-import { RatingModule } from '@jacobg213/primeng-17/rating';
+import { FileUploadModule } from '@dl3g0/primeng/fileupload';
+import { DropdownModule } from '@dl3g0/primeng/dropdown';
+import { TagModule } from '@dl3g0/primeng/tag';
+import { RadioButtonModule } from '@dl3g0/primeng/radiobutton';
+import { RatingModule } from '@dl3g0/primeng/rating';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from '@jacobg213/primeng-17/inputnumber';
+import { InputNumberModule } from '@dl3g0/primeng/inputnumber';
 
 @Component({
     selector: 'table-products-demo',

@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
+import { TreeNode } from '@dl3g0/primeng/api';
 import { Code } from '@domain/code';
 
 interface Column {
@@ -125,8 +125,8 @@ export class PaginatorBasicDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from '@jacobg213/primeng-17/api';
-import { TreeTableModule } from '@jacobg213/primeng-17/treetable';
+import { TreeNode } from '@dl3g0/primeng/api';
+import { TreeTableModule } from '@dl3g0/primeng/treetable';
 import { CommonModule } from '@angular/common';
 
 interface Column {
