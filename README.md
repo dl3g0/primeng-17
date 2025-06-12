@@ -1,4 +1,4 @@
-# PrimeNG 17 with Angular 19 support
+# PrimeNG 17 with Angular 20 support
 
 The PrimeNG team does not seem to be interested in supporting v17 anymore. This fork was first created to add Angular 19 support to PrimeNG v17 in the official repository. Unfortunately, [the PR](https://github.com/primefaces/primeng/pull/18058) was rejected. That is why this is published as a separate package.
 

@@ -3,7 +3,7 @@
     "@angular/ssr": "^20.0.2"
   },
   "name": "@dl3g0/primeng",
-  "version": "17.17.0-20.0.0",
+  "version": "17.17.0-20.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
     "setup": "npm run clean && npm run init",
