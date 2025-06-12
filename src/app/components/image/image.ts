@@ -1,23 +1,24 @@
 import { AnimationEvent, animate, style, transition, trigger } from '@angular/animations';
-import { CommonModule, DOCUMENT } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import {
-    AfterContentInit,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    EventEmitter,
-    HostListener,
-    Inject,
-    Input,
-    NgModule,
-    Output,
-    QueryList,
-    TemplateRef,
-    ViewChild,
-    ViewEncapsulation,
-    booleanAttribute
+  AfterContentInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  EventEmitter,
+  HostListener,
+  Inject,
+  Input,
+  NgModule,
+  Output,
+  QueryList,
+  TemplateRef,
+  ViewChild,
+  ViewEncapsulation,
+  booleanAttribute,
+  DOCUMENT
 } from '@angular/core';
 import { SafeUrl } from '@angular/platform-browser';
 import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';

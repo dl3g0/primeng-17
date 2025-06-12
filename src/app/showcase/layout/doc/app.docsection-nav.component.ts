@@ -1,5 +1,5 @@
-import { DOCUMENT, Location, isPlatformBrowser } from '@angular/common';
-import { Component, ElementRef, Inject, Input, NgZone, OnDestroy, OnInit, PLATFORM_ID, Renderer2, ViewChild } from '@angular/core';
+import { Location, isPlatformBrowser } from '@angular/common';
+import { Component, ElementRef, Inject, Input, NgZone, OnDestroy, OnInit, PLATFORM_ID, Renderer2, ViewChild, DOCUMENT } from '@angular/core';
 import { Router } from '@angular/router';
 import { DomHandler } from '@jacobg213/primeng-17/dom';
 import { ObjectUtils } from '@jacobg213/primeng-17/utils';

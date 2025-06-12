@@ -1,5 +1,5 @@
-import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { AfterViewInit, Directive, ElementRef, Inject, NgModule, NgZone, OnDestroy, Optional, PLATFORM_ID, Renderer2 } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { AfterViewInit, Directive, ElementRef, Inject, NgModule, NgZone, OnDestroy, Optional, PLATFORM_ID, Renderer2, DOCUMENT } from '@angular/core';
 import { PrimeNGConfig } from '@jacobg213/primeng-17/api';
 import { DomHandler } from '@jacobg213/primeng-17/dom';
 import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';

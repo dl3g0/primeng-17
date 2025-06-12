@@ -25,27 +25,28 @@
     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     OTHER DEALINGS IN THE SOFTWARE.
 */
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    EventEmitter,
-    Inject,
-    Input,
-    NgModule,
-    OnInit,
-    Output,
-    PLATFORM_ID,
-    QueryList,
-    TemplateRef,
-    ViewChild,
-    ViewEncapsulation,
-    booleanAttribute,
-    forwardRef,
-    numberAttribute
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  EventEmitter,
+  Inject,
+  Input,
+  NgModule,
+  OnInit,
+  Output,
+  PLATFORM_ID,
+  QueryList,
+  TemplateRef,
+  ViewChild,
+  ViewEncapsulation,
+  booleanAttribute,
+  forwardRef,
+  numberAttribute,
+  DOCUMENT
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';

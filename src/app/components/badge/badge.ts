@@ -1,5 +1,5 @@
-import { CommonModule, DOCUMENT } from '@angular/common';
-import { AfterViewInit, ChangeDetectionStrategy, Component, Directive, ElementRef, Inject, Input, NgModule, Renderer2, OnChanges, SimpleChanges, ViewEncapsulation, booleanAttribute } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { AfterViewInit, ChangeDetectionStrategy, Component, Directive, ElementRef, Inject, Input, NgModule, Renderer2, OnChanges, SimpleChanges, ViewEncapsulation, booleanAttribute, DOCUMENT } from '@angular/core';
 import { SharedModule } from '@jacobg213/primeng-17/api';
 import { DomHandler } from '@jacobg213/primeng-17/dom';
 import { UniqueComponentId } from '@jacobg213/primeng-17/utils';

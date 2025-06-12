@@ -1,5 +1,5 @@
-import { CommonModule, DOCUMENT } from '@angular/common';
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, Inject, Input, NgModule, Output, Renderer2, ViewEncapsulation, booleanAttribute, forwardRef, numberAttribute } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, Inject, Input, NgModule, Output, Renderer2, ViewEncapsulation, booleanAttribute, forwardRef, numberAttribute, DOCUMENT } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { VoidListener } from '@jacobg213/primeng-17/ts-helpers';
 

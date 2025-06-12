@@ -1,24 +1,25 @@
 import { animate, animation, AnimationEvent, style, transition, trigger, useAnimation } from '@angular/animations';
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-    AfterViewInit,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ComponentRef,
-    ElementRef,
-    Inject,
-    NgModule,
-    NgZone,
-    OnDestroy,
-    Optional,
-    PLATFORM_ID,
-    Renderer2,
-    SkipSelf,
-    Type,
-    ViewChild,
-    ViewEncapsulation,
-    ViewRef
+  AfterViewInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ComponentRef,
+  ElementRef,
+  Inject,
+  NgModule,
+  NgZone,
+  OnDestroy,
+  Optional,
+  PLATFORM_ID,
+  Renderer2,
+  SkipSelf,
+  Type,
+  ViewChild,
+  ViewEncapsulation,
+  ViewRef,
+  DOCUMENT
 } from '@angular/core';
 import { PrimeNGConfig, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';
 import { DomHandler } from '@jacobg213/primeng-17/dom';

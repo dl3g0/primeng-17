@@ -1,3 +1,4 @@
+@import '../mixins'; // ajusta la ruta según sea necesario
 .landing-footer {
     a {
         @include focus-visible();

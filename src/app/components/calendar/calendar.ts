@@ -1,27 +1,28 @@
 import { animate, AnimationEvent, state, style, transition, trigger } from '@angular/animations';
-import { CommonModule, DOCUMENT } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import {
-    booleanAttribute,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    EventEmitter,
-    forwardRef,
-    Inject,
-    Input,
-    NgModule,
-    NgZone,
-    numberAttribute,
-    OnDestroy,
-    OnInit,
-    Output,
-    QueryList,
-    Renderer2,
-    TemplateRef,
-    ViewChild,
-    ViewEncapsulation
+  booleanAttribute,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  EventEmitter,
+  forwardRef,
+  Inject,
+  Input,
+  NgModule,
+  NgZone,
+  numberAttribute,
+  OnDestroy,
+  OnInit,
+  Output,
+  QueryList,
+  Renderer2,
+  TemplateRef,
+  ViewChild,
+  ViewEncapsulation,
+  DOCUMENT
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@jacobg213/primeng-17/api';

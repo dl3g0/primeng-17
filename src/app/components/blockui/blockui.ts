@@ -1,23 +1,24 @@
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-    AfterViewInit,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    Inject,
-    Input,
-    NgModule,
-    OnDestroy,
-    PLATFORM_ID,
-    QueryList,
-    Renderer2,
-    TemplateRef,
-    ViewChild,
-    ViewEncapsulation,
-    booleanAttribute,
-    numberAttribute
+  AfterViewInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  Inject,
+  Input,
+  NgModule,
+  OnDestroy,
+  PLATFORM_ID,
+  QueryList,
+  Renderer2,
+  TemplateRef,
+  ViewChild,
+  ViewEncapsulation,
+  booleanAttribute,
+  numberAttribute,
+  DOCUMENT
 } from '@angular/core';
 import { PrimeNGConfig, PrimeTemplate } from '@jacobg213/primeng-17/api';
 import { DomHandler } from '@jacobg213/primeng-17/dom';

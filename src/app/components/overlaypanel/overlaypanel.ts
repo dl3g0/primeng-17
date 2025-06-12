@@ -1,28 +1,29 @@
 import { animate, AnimationEvent, state, style, transition, trigger } from '@angular/animations';
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-    AfterContentInit,
-    booleanAttribute,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    EventEmitter,
-    HostListener,
-    Inject,
-    Input,
-    NgModule,
-    NgZone,
-    numberAttribute,
-    OnDestroy,
-    Output,
-    PLATFORM_ID,
-    QueryList,
-    Renderer2,
-    TemplateRef,
-    ViewEncapsulation,
-    ViewRef
+  AfterContentInit,
+  booleanAttribute,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  EventEmitter,
+  HostListener,
+  Inject,
+  Input,
+  NgModule,
+  NgZone,
+  numberAttribute,
+  OnDestroy,
+  Output,
+  PLATFORM_ID,
+  QueryList,
+  Renderer2,
+  TemplateRef,
+  ViewEncapsulation,
+  ViewRef,
+  DOCUMENT
 } from '@angular/core';
 import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
 import { ConnectedOverlayScrollHandler, DomHandler } from '@jacobg213/primeng-17/dom';

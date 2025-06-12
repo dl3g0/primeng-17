@@ -1,23 +1,24 @@
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ElementRef,
-    EventEmitter,
-    Inject,
-    Input,
-    NgModule,
-    NgZone,
-    OnDestroy,
-    Output,
-    PLATFORM_ID,
-    Renderer2,
-    ViewChild,
-    ViewEncapsulation,
-    booleanAttribute,
-    forwardRef,
-    numberAttribute
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ElementRef,
+  EventEmitter,
+  Inject,
+  Input,
+  NgModule,
+  NgZone,
+  OnDestroy,
+  Output,
+  PLATFORM_ID,
+  Renderer2,
+  ViewChild,
+  ViewEncapsulation,
+  booleanAttribute,
+  forwardRef,
+  numberAttribute,
+  DOCUMENT
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { DomHandler } from '@jacobg213/primeng-17/dom';

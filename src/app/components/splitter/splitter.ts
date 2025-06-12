@@ -1,5 +1,5 @@
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, EventEmitter, Inject, Input, NgModule, Output, PLATFORM_ID, QueryList, Renderer2, ViewChild, ViewEncapsulation, numberAttribute } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, EventEmitter, Inject, Input, NgModule, Output, PLATFORM_ID, QueryList, Renderer2, ViewChild, ViewEncapsulation, numberAttribute, DOCUMENT } from '@angular/core';
 import { PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
 import { DomHandler } from '@jacobg213/primeng-17/dom';
 import { Nullable, VoidListener } from '@jacobg213/primeng-17/ts-helpers';

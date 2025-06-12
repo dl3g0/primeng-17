@@ -1,26 +1,27 @@
 import { animate, animation, AnimationEvent, style, transition, trigger, useAnimation } from '@angular/animations';
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-    AfterContentInit,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    EventEmitter,
-    forwardRef,
-    Inject,
-    Input,
-    NgModule,
-    NgZone,
-    OnDestroy,
-    Output,
-    PLATFORM_ID,
-    QueryList,
-    Renderer2,
-    TemplateRef,
-    ViewChild,
-    ViewEncapsulation
+  AfterContentInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  EventEmitter,
+  forwardRef,
+  Inject,
+  Input,
+  NgModule,
+  NgZone,
+  OnDestroy,
+  Output,
+  PLATFORM_ID,
+  QueryList,
+  Renderer2,
+  TemplateRef,
+  ViewChild,
+  ViewEncapsulation,
+  DOCUMENT
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import {

@@ -1,28 +1,29 @@
 import { AnimationEvent, animate, animateChild, query, state, style, transition, trigger } from '@angular/animations';
-import { CommonModule, DOCUMENT } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import {
-    AfterContentInit,
-    AfterViewInit,
-    ChangeDetectionStrategy,
-    ChangeDetectorRef,
-    Component,
-    ContentChildren,
-    ElementRef,
-    EventEmitter,
-    Inject,
-    Input,
-    NgModule,
-    NgZone,
-    OnDestroy,
-    OnInit,
-    Output,
-    QueryList,
-    Renderer2,
-    TemplateRef,
-    ViewChild,
-    ViewEncapsulation,
-    booleanAttribute,
-    numberAttribute
+  AfterContentInit,
+  AfterViewInit,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  ContentChildren,
+  ElementRef,
+  EventEmitter,
+  Inject,
+  Input,
+  NgModule,
+  NgZone,
+  OnDestroy,
+  OnInit,
+  Output,
+  QueryList,
+  Renderer2,
+  TemplateRef,
+  ViewChild,
+  ViewEncapsulation,
+  booleanAttribute,
+  numberAttribute,
+  DOCUMENT
 } from '@angular/core';
 import { Message, MessageService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@jacobg213/primeng-17/api';
 import { CheckIcon } from '@jacobg213/primeng-17/icons/check';

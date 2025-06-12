@@ -1,4 +1,4 @@
-import { NgModule, Component, AfterViewInit, AfterViewChecked, OnDestroy, Input, ElementRef, ChangeDetectionStrategy, ViewEncapsulation, ChangeDetectorRef } from '@angular/core';
+import { NgModule, Component, AfterViewInit, AfterViewChecked, OnDestroy, Input, ElementRef, ChangeDetectionStrategy, ViewEncapsulation, ChangeDetectorRef, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { DomHandler } from '@jacobg213/primeng-17/dom';
@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
 @Component({
     selector: 'p-terminal',
     template: `
-        <div [ngClass]="'p-terminal p-component'" [ngStyle]="style" [class]="styleClass" (click)="focus(in)">
+        <div [ngClass]="'p-terminal p-component'" [ngStyle]="style" [class]="styleClass" (click)="focus()">
             <div *ngIf="welcomeMessage">{{ welcomeMessage }}</div>
             <div class="p-terminal-content">
                 <div *ngFor="let command of commands">
@@ -35,6 +35,7 @@ import { Subscription } from 'rxjs';
     standalone: false
 })
 export class Terminal implements AfterViewInit, AfterViewChecked, OnDestroy {
+    @ViewChild('in') inputRef!: ElementRef<HTMLInputElement>;
     /**
      * Initial text to display on terminal.
      * @group Props
@@ -104,8 +105,8 @@ export class Terminal implements AfterViewInit, AfterViewChecked, OnDestroy {
         }
     }
 
-    focus(element: HTMLElement) {
-        element.focus();
+    focus() {
+       this.inputRef.nativeElement.focus();
     }
 
     ngOnDestroy() {

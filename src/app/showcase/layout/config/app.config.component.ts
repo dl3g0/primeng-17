@@ -1,5 +1,5 @@
-import { CommonModule, DOCUMENT } from '@angular/common';
-import { Component, EventEmitter, Inject, Output, Renderer2 } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, EventEmitter, Inject, Output, Renderer2, DOCUMENT } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from '@jacobg213/primeng-17/button';
 import { InputSwitchModule, InputSwitchChangeEvent } from '@jacobg213/primeng-17/inputswitch';

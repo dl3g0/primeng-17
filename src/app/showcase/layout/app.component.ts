@@ -1,6 +1,6 @@
-import { DOCUMENT, IMAGE_CONFIG } from '@angular/common';
+import { IMAGE_CONFIG } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { Component, Inject, OnInit, PLATFORM_ID, Renderer2, afterNextRender } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID, Renderer2, afterNextRender, DOCUMENT } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { PrimeNGConfig } from '@jacobg213/primeng-17/api';

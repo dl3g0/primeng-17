@@ -1,5 +1,5 @@
-import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
-import { Component, ElementRef, Inject, Input, NgModule, PLATFORM_ID, ViewChild, booleanAttribute } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, ElementRef, Inject, Input, NgModule, PLATFORM_ID, ViewChild, booleanAttribute, DOCUMENT } from '@angular/core';
 import { ButtonModule } from '@jacobg213/primeng-17/button';
 import { TooltipModule } from '@jacobg213/primeng-17/tooltip';
 import { Code, ExtFile, RouteFile } from 'src/app/showcase/domain/code';
