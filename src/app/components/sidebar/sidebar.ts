@@ -1,26 +1,26 @@
 import { animate, animation, style, transition, trigger, useAnimation } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import {
-  AfterContentInit,
-  AfterViewInit,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  Component,
-  ContentChildren,
-  ElementRef,
-  EventEmitter,
-  Inject,
-  Input,
-  NgModule,
-  OnDestroy,
-  Output,
-  QueryList,
-  Renderer2,
-  TemplateRef,
-  ViewEncapsulation,
-  booleanAttribute,
-  numberAttribute,
-  DOCUMENT
+    AfterContentInit,
+    AfterViewInit,
+    ChangeDetectionStrategy,
+    ChangeDetectorRef,
+    Component,
+    ContentChildren,
+    ElementRef,
+    EventEmitter,
+    Inject,
+    Input,
+    NgModule,
+    OnDestroy,
+    Output,
+    QueryList,
+    Renderer2,
+    TemplateRef,
+    ViewEncapsulation,
+    booleanAttribute,
+    numberAttribute,
+    DOCUMENT
 } from '@angular/core';
 import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
 import { DomHandler } from '@dl3g0/primeng/dom';

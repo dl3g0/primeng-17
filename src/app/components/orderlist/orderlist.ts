@@ -1,27 +1,27 @@
 import { CdkDragDrop, DragDropModule, moveItemInArray } from '@angular/cdk/drag-drop';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-  AfterContentInit,
-  AfterViewChecked,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  Component,
-  ContentChildren,
-  ElementRef,
-  EventEmitter,
-  Inject,
-  Input,
-  NgModule,
-  Output,
-  PLATFORM_ID,
-  QueryList,
-  Renderer2,
-  TemplateRef,
-  ViewChild,
-  ViewEncapsulation,
-  booleanAttribute,
-  numberAttribute,
-  DOCUMENT
+    AfterContentInit,
+    AfterViewChecked,
+    ChangeDetectionStrategy,
+    ChangeDetectorRef,
+    Component,
+    ContentChildren,
+    ElementRef,
+    EventEmitter,
+    Inject,
+    Input,
+    NgModule,
+    Output,
+    PLATFORM_ID,
+    QueryList,
+    Renderer2,
+    TemplateRef,
+    ViewChild,
+    ViewEncapsulation,
+    booleanAttribute,
+    numberAttribute,
+    DOCUMENT
 } from '@angular/core';
 import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
 import { ButtonModule } from '@dl3g0/primeng/button';

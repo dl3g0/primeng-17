@@ -1,24 +1,24 @@
 import { NgClass, NgIf, NgStyle, NgTemplateOutlet } from '@angular/common';
 import {
-  AfterContentInit,
-  AfterViewInit,
-  ChangeDetectionStrategy,
-  Component,
-  ContentChildren,
-  Directive,
-  ElementRef,
-  EventEmitter,
-  Inject,
-  Input,
-  NgModule,
-  OnDestroy,
-  Output,
-  QueryList,
-  TemplateRef,
-  ViewEncapsulation,
-  booleanAttribute,
-  numberAttribute,
-  DOCUMENT
+    AfterContentInit,
+    AfterViewInit,
+    ChangeDetectionStrategy,
+    Component,
+    ContentChildren,
+    Directive,
+    ElementRef,
+    EventEmitter,
+    Inject,
+    Input,
+    NgModule,
+    OnDestroy,
+    Output,
+    QueryList,
+    TemplateRef,
+    ViewEncapsulation,
+    booleanAttribute,
+    numberAttribute,
+    DOCUMENT
 } from '@angular/core';
 import { PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
 import { AutoFocus } from '@dl3g0/primeng/autofocus';

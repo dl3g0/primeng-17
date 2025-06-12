@@ -1,42 +1,30 @@
 import { animate, animation, AnimationEvent, style, transition, trigger, useAnimation } from '@angular/animations';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import {
-  AfterContentInit,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  Component,
-  ContentChildren,
-  ElementRef,
-  EventEmitter,
-  forwardRef,
-  Inject,
-  Input,
-  NgModule,
-  NgZone,
-  OnDestroy,
-  Output,
-  PLATFORM_ID,
-  QueryList,
-  Renderer2,
-  TemplateRef,
-  ViewChild,
-  ViewEncapsulation,
-  DOCUMENT
+    AfterContentInit,
+    ChangeDetectionStrategy,
+    ChangeDetectorRef,
+    Component,
+    ContentChildren,
+    ElementRef,
+    EventEmitter,
+    forwardRef,
+    Inject,
+    Input,
+    NgModule,
+    NgZone,
+    OnDestroy,
+    Output,
+    PLATFORM_ID,
+    QueryList,
+    Renderer2,
+    TemplateRef,
+    ViewChild,
+    ViewEncapsulation,
+    DOCUMENT
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import {
-    OverlayModeType,
-    OverlayOnBeforeHideEvent,
-    OverlayOnBeforeShowEvent,
-    OverlayOnHideEvent,
-    OverlayOnShowEvent,
-    OverlayOptions,
-    OverlayService,
-    PrimeNGConfig,
-    PrimeTemplate,
-    ResponsiveOverlayOptions,
-    SharedModule
-} from '@dl3g0/primeng/api';
+import { OverlayModeType, OverlayOnBeforeHideEvent, OverlayOnBeforeShowEvent, OverlayOnHideEvent, OverlayOnShowEvent, OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ResponsiveOverlayOptions, SharedModule } from '@dl3g0/primeng/api';
 import { ConnectedOverlayScrollHandler, DomHandler } from '@dl3g0/primeng/dom';
 import { ObjectUtils, ZIndexUtils } from '@dl3g0/primeng/utils';
 import { VoidListener } from '@dl3g0/primeng/ts-helpers';

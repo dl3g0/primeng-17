@@ -3,14 +3,14 @@
     "version": "17.17.0-20.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jacobg213/primeng.git"
+        "url": "https://github.com/dl3g0/primeng-17.git"
     },
     "keywords": [
         "angular"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jacobg213/primeng/issues"
+        "url": "https://github.com/dl3g0/primeng-17/issues"
     },
     "exports": {
         "./resources/": "./resources/"

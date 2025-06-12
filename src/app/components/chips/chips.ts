@@ -1,24 +1,24 @@
 import { CommonModule } from '@angular/common';
 import {
-  AfterContentInit,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  Component,
-  ContentChildren,
-  ElementRef,
-  EventEmitter,
-  Inject,
-  Input,
-  NgModule,
-  Output,
-  QueryList,
-  TemplateRef,
-  ViewChild,
-  ViewEncapsulation,
-  booleanAttribute,
-  forwardRef,
-  numberAttribute,
-  DOCUMENT
+    AfterContentInit,
+    ChangeDetectionStrategy,
+    ChangeDetectorRef,
+    Component,
+    ContentChildren,
+    ElementRef,
+    EventEmitter,
+    Inject,
+    Input,
+    NgModule,
+    Output,
+    QueryList,
+    TemplateRef,
+    ViewChild,
+    ViewEncapsulation,
+    booleanAttribute,
+    forwardRef,
+    numberAttribute,
+    DOCUMENT
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';

@@ -1,6 +1,24 @@
 import { AnimationEvent, animate, state, style, transition, trigger } from '@angular/animations';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, Inject, Input, NgModule, OnDestroy, OnInit, PLATFORM_ID, QueryList, Renderer2, TemplateRef, ViewEncapsulation, numberAttribute, DOCUMENT } from '@angular/core';
+import {
+    ChangeDetectionStrategy,
+    ChangeDetectorRef,
+    Component,
+    ContentChildren,
+    ElementRef,
+    Inject,
+    Input,
+    NgModule,
+    OnDestroy,
+    OnInit,
+    PLATFORM_ID,
+    QueryList,
+    Renderer2,
+    TemplateRef,
+    ViewEncapsulation,
+    numberAttribute,
+    DOCUMENT
+} from '@angular/core';
 import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@dl3g0/primeng/api';
 import { DomHandler } from '@dl3g0/primeng/dom';
 import { ChevronUpIcon } from '@dl3g0/primeng/icons/chevronup';

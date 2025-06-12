@@ -1,25 +1,25 @@
 import { AnimationEvent, animate, state, style, transition, trigger } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import {
-  AfterContentInit,
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  Component,
-  ContentChildren,
-  ElementRef,
-  EventEmitter,
-  HostListener,
-  Inject,
-  Input,
-  NgModule,
-  OnDestroy,
-  QueryList,
-  Renderer2,
-  TemplateRef,
-  ViewEncapsulation,
-  booleanAttribute,
-  numberAttribute,
-  DOCUMENT
+    AfterContentInit,
+    ChangeDetectionStrategy,
+    ChangeDetectorRef,
+    Component,
+    ContentChildren,
+    ElementRef,
+    EventEmitter,
+    HostListener,
+    Inject,
+    Input,
+    NgModule,
+    OnDestroy,
+    QueryList,
+    Renderer2,
+    TemplateRef,
+    ViewEncapsulation,
+    booleanAttribute,
+    numberAttribute,
+    DOCUMENT
 } from '@angular/core';
 import { Confirmation, ConfirmationService, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@dl3g0/primeng/api';
 import { ButtonModule } from '@dl3g0/primeng/button';

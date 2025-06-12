@@ -106,7 +106,7 @@ export class Terminal implements AfterViewInit, AfterViewChecked, OnDestroy {
     }
 
     focus() {
-       this.inputRef.nativeElement.focus();
+        this.inputRef.nativeElement.focus();
     }
 
     ngOnDestroy() {

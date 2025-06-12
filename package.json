@@ -19,14 +19,14 @@
     "build": "ng build",
     "format:check": "prettier --check \"**/*.{js,ts,d.ts}\"",
     "build:lib": "npm run build:check && npm run build:package",
-    "build:package": "BROWSERSLIST_ENV=library ng build primeng-library && gulp build-assets",
+    "build:package": "set BROWSERSLIST_ENV=library && ng build primeng-library && gulp build-assets",
     "build:check": "npm run format:check && npm run security:check",
     "security:check": "npm audit --production --audit-level high",
     "apidoc": "node ./api-generator/build-apidoc.ts"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacobg213/primeng.git"
+    "url": "https://github.com/dl3g0/primeng-17.git"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^20.0.2",
