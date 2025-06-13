@@ -1,4 +1,4 @@
-# PrimeNG 17 with Angular 17, 18, 19, 20 support
+# PrimeNG 17 with Angular 17, 18, 19 and 20 support
 
 The PrimeNG team no longer appears interested in supporting v17. This fork was created to add Angular 20 support to PrimeNG v17.
 
