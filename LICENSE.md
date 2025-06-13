@@ -1,6 +1,6 @@
 # Information about this fork
 
-This fork adds Angular 19 support to the original PrimeNG library (version 17). It is not an official release and is not supported by PrimeTek.
+This fork adds Angular 20 support to the original PrimeNG library (version 17). It is not an official release and is not supported by PrimeTek.
 Please refer to the original license below for more information.
 
 # PRIMENG COMMUNITY VERSIONS LICENSE
