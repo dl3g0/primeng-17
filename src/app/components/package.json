@@ -1,6 +1,6 @@
 {
     "name": "@dl3g0/primeng",
-    "version": "17.17.0-20.0.1",
+    "version": "17.17.0-20.0.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/dl3g0/primeng-17.git"
@@ -18,9 +18,9 @@
     "module": "primeng.js",
     "typings": "primeng.d.ts",
     "peerDependencies": {
-        "@angular/core": "^17.0.0 || ^18.0.0 || ^19.0.0",
-        "@angular/common": "^17.0.0 || ^18.0.0 || ^19.0.0",
-        "@angular/forms": "^17.0.0 || ^18.0.0 || ^19.0.0",
+        "@angular/core": "^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0",
+        "@angular/common": "^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0",
+        "@angular/forms": "^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0",
         "rxjs": "^6.0.0 || ^7.8.1",
         "zone.js": "~0.15.0"
     }
