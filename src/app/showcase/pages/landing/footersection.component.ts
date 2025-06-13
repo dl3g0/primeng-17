@@ -15,23 +15,23 @@ import { RouterModule } from '@angular/router';
                             <li class="mb-4">
                                 <a [routerLink]="['installation']" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150"> Get Started </a>
                             </li>
-                            <li class="mb-4">
+                            <!-- <li class="mb-4">
                                 <a href="https://github.com/primefaces/primeng-examples" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Examples</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="w-6 lg:w-3 flex">
                         <ul class="list-none p-0 m-0">
                             <li class="font-bold mb-5">Support</li>
                             <li class="mb-4">
-                                <a href="https://github.com/orgs/primefaces/discussions" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Forum</a>
+                                <a href="https://github.com/dl3g0/primeng-17/issues" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Forum</a>
                             </li>
-                            <li class="mb-4">
+                            <!-- <li class="mb-4">
                                 <a href="https://discord.gg/gzKFYnpmCY" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Discord</a>
-                            </li>
-                            <li class="mb-4">
+                            </li> -->
+                            <!-- <li class="mb-4">
                                 <a [routerLink]="['support']" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">PRO Support </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="w-6 lg:w-3 flex">
@@ -40,24 +40,24 @@ import { RouterModule } from '@angular/router';
                             <li class="mb-4">
                                 <a href="https://www.youtube.com/channel/UCTgmp69aBOlLnPEqlUyetWw" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">PrimeTV</a>
                             </li>
-                            <li class="mb-4">
+                            <!-- <li class="mb-4">
                                 <a href="https://www.primefaces.org/store/" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Store</a>
-                            </li>
+                            </li> -->
                             <li class="mb-4">
-                                <a href="https://github.com/primefaces/primeng" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Source Code</a>
+                                <a href="https://github.com/dl3g0/primeng-17" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Source Code</a>
                             </li>
-                            <li class="mb-4">
+                            <!-- <li class="mb-4">
                                 <a href="https://twitter.com/prime_ng" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Twitter</a>
-                            </li>
-                            <li class="mb-4">
+                            </li> -->
+                            <!-- <li class="mb-4">
                                 <a href="https://www.primefaces.org/newsletter" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Newsletter</a>
                             </li>
                             <li class="mb-4">
                                 <a href="https://gear.primefaces.org/" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">PrimeGear</a>
-                            </li>
-                            <li class="mb-4">
+                            </li> -->
+                            <!-- <li class="mb-4">
                                 <a href="mailto:contact@primetek.com.tr" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium hover:text-primary transition-colors transition-duration-150">Contact Us</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -109,16 +109,16 @@ import { RouterModule } from '@angular/router';
                         </svg>
                     </span>
                     <div class="flex align-items-center gap-2">
-                        <a href="https://twitter.com/prime_ng" target="_blank" rel="noopener noreferrer" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
+                        <!-- <a href="https://twitter.com/prime_ng" target="_blank" rel="noopener noreferrer" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
                             <i class="pi pi-twitter"></i>
-                        </a>
-                        <a href="https://github.com/primefaces/primeng" target="_blank" rel="noopener noreferrer" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
+                        </a> -->
+                        <a href="https://github.com/dl3g0/primeng-17" target="_blank" rel="noopener noreferrer" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
                             <i class="pi pi-github"></i>
                         </a>
-                        <a href="https://discord.gg/gzKFYnpmCY" target="_blank" rel="noopener noreferrer" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
+                        <!-- <a href="https://discord.gg/gzKFYnpmCY" target="_blank" rel="noopener noreferrer" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
                             <i class="pi pi-discord"></i>
-                        </a>
-                        <a href="https://github.com/orgs/primefaces/discussions" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
+                        </a> -->
+                        <a href="https://github.com/dl3g0/primeng-17/issues" class="linkbox block w-3rem h-3rem flex align-items-center justify-content-center">
                             <i class="pi pi-comments"></i>
                         </a>
                     </div>

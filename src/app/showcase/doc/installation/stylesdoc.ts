@@ -29,15 +29,15 @@ export class StylesDoc {
     code1: Code = {
         typescript: `...
 "styles": [
-    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-    "node_modules/primeng/resources/primeng.min.css",
+    "node_modules/@dl3g0/primeng/resources/themes/lara-light-blue/theme.css",
+    "node_modules/@dl3g0/primeng/resources/primeng.min.css",
     ...
 ]`
     };
 
     code2: Code = {
-        scss: `@import "primeng/resources/themes/lara-light-blue/theme.css";
-@import "primeng/resources/primeng.css";`
+        scss: `@import "@dl3g0/primeng/resources/themes/lara-light-blue/theme.css";
+@import "@dl3g0/primeng/resources/primeng.css";`
     };
 
     code3: Code = {

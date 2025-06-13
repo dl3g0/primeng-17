@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
     selector: 'helpneeded-doc',
     template: `
         <app-docsectiontext>
-            <p>PrimeNG is a community-driven project backed by the expertise and sponsorship of PrimeTek, and we appreciate any help you can provide. Here are some areas where you can contribute:</p>
+            <p>This is an independent community-driven fork of PrimeNG, based on version 17 of the original library developed by PrimeTek. While it is not officially supported or sponsored by PrimeTek, it is maintained through community effort.</p>
+            <p>We welcome any contributions! Here are some ways you can help:</p>
             <h3>Issue Triage</h3>
             <p>Help us manage issues by;</p>
             <ul class="line-height-3 px-10 m-0">
@@ -18,8 +19,7 @@ import { Component } from '@angular/core';
 
             <h3>Community Support</h3>
             <p>
-                Assist other users by participating in the issue tracker, <a href="https://github.com/orgs/primefaces/discussions/categories/primeng" target="_blank" rel="noopener noreferrer">GitHub discussions</a>, and the
-                <a href="https://discord.com/invite/gzKFYnpmCY" target="_blank" rel="noopener noreferrer">PrimeLand Discord</a> server. Your expertise can help others solve problems and improve their experience with PrimeNG.
+                Assist other users by participating in the issue tracker, <a href="https://github.com/dl3g0/primeng-17/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. Your expertise can help others solve problems and improve their experience with PrimeNG.
             </p>
         </app-docsectiontext>
     `,

@@ -6,7 +6,7 @@ import docsearch from '@docsearch/js';
 import { AppConfigService } from '@service/appconfigservice';
 import { DomHandler } from '@dl3g0/primeng/dom';
 import { StyleClassModule } from '@dl3g0/primeng/styleclass';
-import Versions from '../../data/versions.json';
+// import Versions from '../../data/versions.json';
 
 @Component({
     selector: 'app-topbar',
@@ -20,7 +20,7 @@ export class AppTopBarComponent implements OnDestroy {
 
     @Output() onDarkModeSwitch = new EventEmitter<any>();
 
-    versions: any[] = Versions;
+    // versions: any[] = Versions;
 
     version: string = 'v17';
 

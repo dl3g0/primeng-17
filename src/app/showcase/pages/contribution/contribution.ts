@@ -23,30 +23,30 @@ export class ContributionComponent {
             label: 'Help Needed',
             component: HelpNeededDoc
         },
-        {
-            id: 'keypoints',
-            label: 'Key Points',
-            component: KeyPointsDoc
-        },
-        {
-            id: 'communication',
-            label: 'Communication',
-            component: CommunicationDoc
-        },
-        {
-            id: 'pathway',
-            label: 'Pathway',
-            component: PathwayDoc
-        },
-        {
-            id: 'benefits',
-            label: 'Benefits',
-            component: BenefitsDoc
-        },
-        {
-            id: 'cla',
-            label: 'CLA',
-            component: ClaDoc
-        }
+        // {
+        //     id: 'keypoints',
+        //     label: 'Key Points',
+        //     component: KeyPointsDoc
+        // },
+        // {
+        //     id: 'communication',
+        //     label: 'Communication',
+        //     component: CommunicationDoc
+        // },
+        // {
+        //     id: 'pathway',
+        //     label: 'Pathway',
+        //     component: PathwayDoc
+        // },
+        // {
+        //     id: 'benefits',
+        //     label: 'Benefits',
+        //     component: BenefitsDoc
+        // },
+        // {
+        //     id: 'cla',
+        //     label: 'CLA',
+        //     component: ClaDoc
+        // }
     ];
 }

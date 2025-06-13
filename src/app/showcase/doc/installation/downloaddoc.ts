@@ -5,7 +5,7 @@ import { Code } from '@domain/code';
     selector: 'download-doc',
     template: `
         <app-docsectiontext>
-            <p>PrimeNG is available for download at <a href="https://www.npmjs.com/package/primeng">npm</a>.</p>
+            <p>PrimeNG is available for download at <a href="https://www.npmjs.com/package/@dl3g0/primeng">npm</a>.</p>
         </app-docsectiontext>
         <app-code [code]="code" [hideToggleCode]="true"></app-code>
     `,
@@ -13,6 +13,6 @@ import { Code } from '@domain/code';
 })
 export class DownloadDoc {
     code: Code = {
-        command: `npm install primeng`
+        command: `npm i @dl3g0/primeng`
     };
 }

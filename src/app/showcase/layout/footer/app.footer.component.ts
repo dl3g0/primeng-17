@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
         <div class="layout-footer">
             <div>
                 <span>PrimeNG {{ version }} by </span>
-                <a href="https://www.primetek.com.tr">PrimeTek</a>
+                <a href="https://github.com/dl3g0">dl3g0</a>
             </div>
         </div>
     `

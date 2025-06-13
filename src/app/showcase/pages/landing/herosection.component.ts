@@ -24,16 +24,16 @@ import { AppConfigService } from '@service/appconfigservice';
         <section class="landing-hero py-8 px-5 lg:px-8">
             <div class="flex flex-wrap">
                 <div class="w-full xl:w-6 flex flex-column justify-content-center lg:pr-8 align-items-center xl:align-items-stretch">
-                    <h1 class="text-6xl font-bold text-center xl:text-left">The Most Complete UI Suite for <span class="font-bold text-primary">Angular</span></h1>
+                    <h1 class="text-6xl font-bold text-center xl:text-left">A complete UI component suite based on. <span class="font-bold text-primary">PrimeNG 17.</span></h1>
                     <p class="section-detail xl:text-left text-center px-0 mt-0 mb-5">
-                        Elevate your web applications with PrimeNG's comprehensive suite of customizable, feature-rich UI components. With PrimeNG, turning your development vision into reality has never been easier.
+                        This fork of the official PrimeNG has been updated to provide full compatibility with Angular 17, 18, 19, 20, preserving all the features, performance, and flexibility developers expect. Designed to build modern web applications with ease and advanced customization.
                     </p>
                     <div class="flex align-items-center gap-3">
                         <a [routerLink]="'installation'" class="linkbox active font-semibold py-3 px-4">
                             <span>Get Started</span>
                             <i class="pi pi-arrow-right ml-3"></i>
                         </a>
-                        <a href="https://github.com/primefaces/primeng" target="_blank" rel="noopener noreferrer" class="linkbox font-semibold py-3 px-4">
+                        <a href="https://github.com/dl3g0/primeng-17" target="_blank" rel="noopener noreferrer" class="linkbox font-semibold py-3 px-4">
                             <span>Give a Star</span>
                             <i class="pi pi-star-fill ml-3 text-yellow-500"></i>
                         </a>

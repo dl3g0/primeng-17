@@ -233,8 +233,8 @@ const angular_json = `{
               "styles": [
                 "src/styles.scss",
                 "node_modules/primeicons/primeicons.css",
-                "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-                "node_modules/primeng/resources/primeng.min.css"
+                "node_modules/@dl3g0/primeng/resources/themes/lara-light-blue/theme.css",
+                "node_modules/@dl3g0/primeng/resources/primeng.min.css"
               ],
               "stylePreprocessorOptions": {
                 "includePaths": ["node_modules/"]
@@ -301,8 +301,8 @@ const angular_json = `{
               "styles": [
                 "src/styles.scss",
                 "node_modules/primeicons/primeicons.css",
-                "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-                "node_modules/primeng/resources/primeng.min.css"
+                "node_modules/@dl3g0/primeng/resources/themes/lara-light-blue/theme.css",
+                "node_modules/@dl3g0/primeng/resources/primeng.min.css"
               ],
               "scripts": [],
               "allowedCommonJsDependencies": [
